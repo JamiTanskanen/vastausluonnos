@@ -150,6 +150,23 @@ async function aja() {
             `Epäonnistuneita tapauksia: ${kaatui}/${tulokset.length}`
     )
 
+    // Lisäksi yksi ajo hintakoe simuloituna päälle, jotta demo toimii ilman
+    // API-avainta myös siltä osin. Koe on heidän omansa; vain active-lippu on
+    // käännetty. Ks. src/lib/kb/hinnat.ts.
+    const hintaviesti = FIKSTUURIT.find((v) => v.id === 'hinta-ja-tilaus')
+    if (hintaviesti) {
+        const koeAjo = await teeLuonnos(hintaviesti, { simuloiKoe: true })
+        tulokset.push({
+            ...koeAjo,
+            viesti: { ...koeAjo.viesti, id: 'hinta-ja-tilaus+koe' },
+        })
+        const kanta = koeAjo.tarkistus?.lahetyskelpoinen ? 'lähetyskelpoinen' : 'ihmiselle'
+        console.log(
+            `\nSama hintakysymys hintakoe päällä: ${kanta} ` +
+                `(${(koeAjo.tarkistus?.avoimet ?? []).filter((a) => a.laji === 'paatos').length} päätöstä)`
+        )
+    }
+
     mkdirSync(new URL('../src/data/naytokset/', import.meta.url), { recursive: true })
     writeFileSync(
         new URL('../src/data/naytokset/index.json', import.meta.url),

@@ -33,7 +33,9 @@ export default function Sivu() {
     const profiili = useMemo(() => kokoa(PROFIILIPOHJA, SIEMENTAPAHTUMAT), [])
     const luvut = useMemo(() => mittarit(SIEMENTAPAHTUMAT), [])
 
-    const tulos = tulokset[valittu]
+    // Hintakoe-kytkin näyttää valmiiksi ajetun koevariantin, jos sellainen on
+    // tallessa — muuten sen saa "aja uudelleen" -napista livenä.
+    const tulos = (koe && tulokset[`${valittu}+koe`]) || tulokset[valittu]
     const viesti = tulos?.viesti ?? FIKSTUURIT.find((v) => v.id === valittu)!
 
     async function aja(omalla = false) {

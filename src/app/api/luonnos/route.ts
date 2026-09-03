@@ -35,9 +35,13 @@ export async function POST(pyynto: Request) {
         const tulos = await teeLuonnos(viesti, { simuloiKoe })
         return NextResponse.json(tulos)
     } catch (e) {
-        return NextResponse.json(
-            { virhe: (e as Error).message ?? 'tuntematon virhe' },
-            { status: 500 }
-        )
+        // Yleisin vika julkisessa demossa ei ole bugi vaan loppunut saldo tai
+        // puuttuva avain. Sanotaan se suoraan, ettei käyttäjä arvaile.
+        const viesti = (e as Error).message ?? 'tuntematon virhe'
+        const selko = /credit balance|api key|authentication/i.test(viesti)
+            ? 'Elävä ajo ei ole juuri nyt käytettävissä (API-avain tai saldo). ' +
+              'Näytöllä olevat luonnokset ovat valmiiksi ajettuja oikeita tuloksia.'
+            : viesti
+        return NextResponse.json({ virhe: selko }, { status: 500 })
     }
 }
