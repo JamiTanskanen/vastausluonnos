@@ -16,13 +16,13 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "tuki",
-      "syy": "Asiakas riitauttaa oman yrityksensä luokituksen ja vaatii hyvitystä ja korjausta. Tämä kuuluu asiakaspalvelun reklamaatioihin.",
+      "syy": "Asiakas riitauttaa luottoluokituksensa ja pyytää hyvitystä. Luokituksesta, sen perusteista ja mahdollisesta korjauksesta tulee vastata.",
       "hakusanat": [
-        "luokitus",
-        "virheellinen",
+        "luottoluokitus",
+        "riitautus",
         "hyvitys",
         "reklamaatio",
-        "luottoluokitus"
+        "luottotieto"
       ]
     },
     "todisteet": [
@@ -59,18 +59,18 @@
         "laji": "kb"
       },
       {
-        "id": "faq#voiko-korkea-toimialariski-heikentaa-muuten-hyvan-yrityksen",
-        "otsikko": "Voiko korkea toimialariski heikentää muuten hyvän yrityksen luokitusta?",
-        "url": "https://luottoriskit.fi/fi/faq/",
-        "teksti": "Voiko korkea toimialariski heikentää muuten hyvän yrityksen luokitusta?\n\nKyllä voi. Toimialariski on olennainen osa luottoriskin arviointia, koska eri toimialoilla konkurssien ja maksuhäiriöiden määrä vaihtelee selvästi.\nJos toimiala on keskimääräistä riskisempi, yritykseltä vaaditaan yleensä vahvemmat tunnusluvut päästäkseen samaan luottoluokkaan kuin matalariskisemmällä toimialalla toimiva yritys. Tämä ei tarkoita, että toimiala yksin määrää luokituksen, mutta se nostaa rimaa.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "luottoriski#mita-luottoluokitus-kertoo-ja-miten-se-muodostuu",
         "otsikko": "Mitä luottoluokitus kertoo ja miten se muodostuu?",
         "url": "https://luottoriskit.fi/fi/luottoriski/",
         "teksti": "Mitä luottoluokitus kertoo ja miten se muodostuu?\n\nLuottoluokitus on eteenpäin katsova arvio siitä, kuinka todennäköisesti yritys selviää velvoitteistaan lähitulevaisuudessa. Ensisijainen mittari on luottopisteet asteikolla 0–100. Kirjainluokka AAA–C toimii toissijaisena, nopeasti luettavana yhteenvetona riskitasosta.\nLuottoluokitusmalleissa kaksi tekijää vaikuttavat riskiin yleensä eniten: kannattavuus ja vakavaraisuus. Kannattavuus kertoo, pystyykö yritys tekemään tulosta ja hoitamaan velvoitteensa normaalioloissa. Vakavaraisuus puolestaan kuvaa, kuinka paljon yrityksellä on puskuria heikompia aikoja varten: mitä enemmän omaa pääomaa yrityksellä on suhteessa velkoihin, sitä parempi sen selviytymiskyky on.\nKuva havainnollistaa tätä yhteyttä: mitä kannattavampi ja vakavaraisempi yritys on, sitä vahvempi sen luottoluokitus yleensä on. Yksittäisten yritysten riskitasoon vaikuttavat kuitenkin myös muut tekijät. Katso alta, miksi Valuatumin luokitus on yleensä tarkempi.\nLue kuvan tulkinnasta tarkemmin FAQ:sta.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "faq#voiko-korkea-toimialariski-heikentaa-muuten-hyvan-yrityksen",
+        "otsikko": "Voiko korkea toimialariski heikentää muuten hyvän yrityksen luokitusta?",
+        "url": "https://luottoriskit.fi/fi/faq/",
+        "teksti": "Voiko korkea toimialariski heikentää muuten hyvän yrityksen luokitusta?\n\nKyllä voi. Toimialariski on olennainen osa luottoriskin arviointia, koska eri toimialoilla konkurssien ja maksuhäiriöiden määrä vaihtelee selvästi.\nJos toimiala on keskimääräistä riskisempi, yritykseltä vaaditaan yleensä vahvemmat tunnusluvut päästäkseen samaan luottoluokkaan kuin matalariskisemmällä toimialalla toimiva yritys. Tämä ei tarkoita, että toimiala yksin määrää luokituksen, mutta se nostaa rimaa.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -110,8 +110,8 @@
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:17)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:17:57.789Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:27)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:27:44.320Z",
         "laji": "elava"
       },
       {
@@ -131,103 +131,80 @@
       "tervehdys": "Hei Petri,",
       "vaitteet": [
         {
-          "teksti": "Ero Asiakastiedon luokitukseen selittyy usein sillä, että asteikot ovat erilaiset: Valuatumin mallissa ylimpiin luokkiin sijoittuu noin kolmannes yrityksistä, kun Asiakastiedolla A-luokkiin kuuluu noin 90 % yrityksistä.",
+          "teksti": "Eri palveluiden kirjainluokitukset eivät ole suoraan vertailukelpoisia, koska asteikot ja luokkajakaumat poikkeavat toisistaan: sama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat konkurssiriskin täsmälleen samaksi.",
           "lahde": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
-          "sitaatti": "Valuatumin luokitusmallissa ylimpiin luokkiin (AAA–A) sijoittuu noin kolmannes yrityksistä."
+          "sitaatti": "Sama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat yrityksen konkurssiriskin täsmälleen samaksi."
         },
         {
-          "teksti": "Luokitukseen vaikuttaa kannattavuuden lisäksi riskinkantokyky, esimerkiksi oman pääoman ja kassapuskureiden taso sekä toimialan riskitaso.",
+          "teksti": "Luokitukseen vaikuttaa kannattavuuden lisäksi muun muassa vakavaraisuus, kassapuskurit ja toimialariski, joten hyväkin tulos tai myönnetty rahoitus ei yksin nosta luokitusta.",
           "lahde": "faq#miksi-yritykseni-luottoluokitus-voi-olla-heikko-vaikka",
-          "sitaatti": "Luottoluokitus mittaa ennen kaikkea riskinkantokykyä."
+          "sitaatti": "Kannattavuus on tärkeä tekijä, mutta se ei yksin ratkaise luottoluokitusta."
         }
       ],
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Hyvitetäänkö Kivelä Rakennus Oy:n ostama AI-luottotietoraportti?",
-          "miksi": "Asiakas pyytää rahoja takaisin; päätöstä ei voi tehdä luonnoksessa.",
+          "kysymys": "Hyvitetäänkö Petri Kivelän ostama AI-luottotietoraportti?",
+          "miksi": "Asiakas pyytää nimenomaisesti rahoja takaisin, eikä luonnos voi ottaa siihen kantaa.",
           "tarvitsee": "hyvitys_tai_alennus"
         },
         {
-          "kysymys": "Mikä on kantamme luokituksen korjaus- tai uudelleenarviointipyyntöön ja tarjotaanko sellaista?",
-          "miksi": "Asiakas vaatii luokituksen korjaamista, eikä todisteissa ole julkaistua käytäntöä oikaisusta.",
+          "kysymys": "Mikä on kantamme luokituksen uudelleenarviointiin tai korjaamiseen tässä tapauksessa?",
+          "miksi": "Asiakas vaatii luokituksen korjaamista; julkisissa lähteissä ei ole menettelyä yksittäisen luokituksen oikaisulle.",
           "tarvitsee": "liiketoimintalinjaus"
         },
         {
-          "kysymys": "Miten vastataan viittaukseen asian viemisestä eteenpäin ja väitteeseen maineen vahingoittumisesta?",
-          "miksi": "Asiakas esittää oikeudellisen sävyisen uhkauksen.",
+          "kysymys": "Miten vastaamme viittaukseen asian viemisestä eteenpäin ja väitettyyn mainevahinkoon?",
+          "miksi": "Asiakas esittää oikeudellisen sävyisen uhkauksen, johon ei voi vastata julkisen aineiston perusteella.",
           "tarvitsee": "juridinen_kannanotto"
         }
       ],
-      "reititys": "Vaatii ihmisen päätöksen hyvityksestä ja oikaisulinjasta ennen lähetystä."
+      "reititys": "Vaatii ihmisen päätöksen hyvityksestä, luokituksen käsittelystä ja oikeudellisesta sävystä."
     },
     "tarkistus": {
       "vastattavuus": "osittain",
       "hyvaksytyt": [
         {
-          "teksti": "Luokitukseen vaikuttaa kannattavuuden lisäksi riskinkantokyky, esimerkiksi oman pääoman ja kassapuskureiden taso sekä toimialan riskitaso.",
-          "lahde": "faq#miksi-yritykseni-luottoluokitus-voi-olla-heikko-vaikka",
-          "sitaatti": "Luottoluokitus mittaa ennen kaikkea riskinkantokykyä."
+          "teksti": "Eri palveluiden kirjainluokitukset eivät ole suoraan vertailukelpoisia, koska asteikot ja luokkajakaumat poikkeavat toisistaan: sama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat konkurssiriskin täsmälleen samaksi.",
+          "lahde": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
+          "sitaatti": "Sama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat yrityksen konkurssiriskin täsmälleen samaksi."
         },
         {
-          "teksti": "Eri palveluiden kirjainluokitukset eivät ole suoraan vertailukelpoisia, koska asteikot on rakennettu eri tavalla: Asiakastiedon luokituksessa noin 90 % yrityksistä kuuluu A-luokkiin.",
-          "lahde": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
-          "sitaatti": "Suomen Asiakastiedon luokituksessa puolestaan noin 90 % yrityksistä kuuluu A-luokkiin."
+          "teksti": "Luokitukseen vaikuttaa kannattavuuden lisäksi muun muassa vakavaraisuus, kassapuskurit ja toimialariski, joten hyväkin tulos tai myönnetty rahoitus ei yksin nosta luokitusta.",
+          "lahde": "faq#miksi-yritykseni-luottoluokitus-voi-olla-heikko-vaikka",
+          "sitaatti": "Kannattavuus on tärkeä tekijä, mutta se ei yksin ratkaise luottoluokitusta."
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Petri,\n\nLuokitukseen vaikuttaa kannattavuuden lisäksi riskinkantokyky, esimerkiksi oman pääoman ja kassapuskureiden taso sekä toimialan riskitaso.\nEri palveluiden kirjainluokitukset eivät ole suoraan vertailukelpoisia, koska asteikot on rakennettu eri tavalla: Asiakastiedon luokituksessa noin 90 % yrityksistä kuuluu A-luokkiin.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hei Petri,\n\nEri palveluiden kirjainluokitukset eivät ole suoraan vertailukelpoisia, koska asteikot ja luokkajakaumat poikkeavat toisistaan: sama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat konkurssiriskin täsmälleen samaksi.\nLuokitukseen vaikuttaa kannattavuuden lisäksi muun muassa vakavaraisuus, kassapuskurit ja toimialariski, joten hyväkin tulos tai myönnetty rahoitus ei yksin nosta luokitusta.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Hyvitetäänkö Kivelä Rakennus Oy:n ostama AI-luottotietoraportti?",
-          "miksi": "Asiakas pyytää rahoja takaisin; päätöstä ei voi tehdä luonnoksessa.",
+          "kysymys": "Hyvitetäänkö Petri Kivelän ostama AI-luottotietoraportti?",
+          "miksi": "Asiakas pyytää nimenomaisesti rahoja takaisin, eikä luonnos voi ottaa siihen kantaa.",
           "tarvitsee": "hyvitys_tai_alennus",
           "laji": "paatos",
           "lahde": "malli"
         },
         {
-          "kysymys": "Mikä on kantamme luokituksen korjaus- tai uudelleenarviointipyyntöön ja tarjotaanko sellaista?",
-          "miksi": "Asiakas vaatii luokituksen korjaamista, eikä todisteissa ole julkaistua käytäntöä oikaisusta.",
+          "kysymys": "Mikä on kantamme luokituksen uudelleenarviointiin tai korjaamiseen tässä tapauksessa?",
+          "miksi": "Asiakas vaatii luokituksen korjaamista; julkisissa lähteissä ei ole menettelyä yksittäisen luokituksen oikaisulle.",
           "tarvitsee": "liiketoimintalinjaus",
           "laji": "paatos",
           "lahde": "malli"
         },
         {
-          "kysymys": "Miten vastataan viittaukseen asian viemisestä eteenpäin ja väitteeseen maineen vahingoittumisesta?",
-          "miksi": "Asiakas esittää oikeudellisen sävyisen uhkauksen.",
-          "tarvitsee": "juridinen_kannanotto",
-          "laji": "paatos",
-          "lahde": "malli"
-        },
-        {
-          "kysymys": "Hyvitetäänkö Petri Kivelän ostama AI-luottotietoraportti?",
-          "miksi": "Asiakas pyytää rahoja takaisin; raportti on toimitettu eikä teknistä virhettä ole todettu.",
-          "tarvitsee": "hyvitys_tai_alennus",
-          "laji": "paatos",
-          "lahde": "malli"
-        },
-        {
-          "kysymys": "Mikä on kantamme luokituksen korjaamiseen ja asiakkaan esittämään vahinko-/jatkotoimenpideuhkaan?",
-          "miksi": "Asiakas vaatii luokituksen muuttamista ja viittaa asian viemiseen eteenpäin; tähän ei voi vastata julkisten sivujen perusteella.",
+          "kysymys": "Miten vastaamme viittaukseen asian viemisestä eteenpäin ja väitettyyn mainevahinkoon?",
+          "miksi": "Asiakas esittää oikeudellisen sävyisen uhkauksen, johon ei voi vastata julkisen aineiston perusteella.",
           "tarvitsee": "juridinen_kannanotto",
           "laji": "paatos",
           "lahde": "malli"
         }
       ],
-      "luvut": [
-        {
-          "luku": "90",
-          "ok": true,
-          "missa": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla"
-        }
-      ],
+      "luvut": [],
       "lahetyskelpoinen": false
     },
-    "korjaus": {
-      "hylattyja": 1,
-      "korjattuja": 1
-    },
-    "kesto_ms": 47938
+    "korjaus": null,
+    "kesto_ms": 33975
   },
   {
     "viesti": {
@@ -244,18 +221,18 @@
         "vastattava",
         "osittain"
       ],
-      "odotusPeruste": "Toimitusehdot kattavat oikeuden hyvitykseen tai uudelleentoimitukseen, ja luonnos kysyy asiakkaalta tilaustiedot. Maksun ja tilauksen tarkistaminen järjestelmästä vaatii silti ihmisen."
+      "odotusPeruste": "Toimitusehdot kattavat oikeuden hyvitykseen tai uudelleentoimitukseen, ja luonnos kysyy asiakkaalta tilaustiedot. Se, vaatiiko tilauksen tarkistus ihmisen jo nyt vai vasta seuraavassa viestissä, on aito rajatapaus."
     },
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "tuki",
-      "syy": "Asiakas on maksanut raportin mutta ei ole saanut sitä. Tämä on toimitusongelma ja reklamaatio, jotka kuuluvat oikean osoitteen palveluksi.",
+      "syy": "Asiakas on maksanut raportin mutta ei ole saanut sitä sähköpostiin. Kyse on toimintahäiriöstä tai toimitustavasta, joka kuuluu asiakastukeen.",
       "hakusanat": [
         "raportin toimitus",
-        "maksu",
-        "toimitusongelma",
-        "sähköposti",
-        "asiakastuki"
+        "sähköpostiraportti",
+        "maksu ei tuottanut tulosta",
+        "raportti ei saapunut",
+        "toimintahäiriö"
       ]
     },
     "todisteet": [
@@ -268,14 +245,6 @@
         "laji": "kb"
       },
       {
-        "id": "tietosuoja#kasiteltavat-tiedot-ja-kayttotarkoitukset",
-        "otsikko": "Käsiteltävät tiedot ja käyttötarkoitukset",
-        "url": "https://luottoriskit.fi/fi/privacy-policy/",
-        "teksti": "Käsiteltävät tiedot ja käyttötarkoitukset\n\nKäsittelemme yhteydenottojen tietoja, tilaukseen ja raportin toimittamiseen tarvittavia tietoja sekä palvelun teknisiä käyttö- ja evästetietoja. Tietoja käytetään tilauksen toteuttamiseen, asiakaspalveluun, petosten estämiseen, palvelun kehittämiseen ja lakisääteisten velvoitteiden hoitamiseen.\nMaksu käsitellään Stripen maksupalvelussa. Luottoriskit.fi ei tallenna maksukorttitietoja omiin järjestelmiinsä.\nKun lähetät palautetta sivuston palautelomakkeella, viestin mukana välitetään sähköpostitse vain sen sivun osoite ja tekniset tunnistetiedot, jolla olit palautetta antaessasi, sekä selaimesi versiotieto. Näitä tarvitaan palautteen selvittämiseen. Sähköpostiosoitteen antaminen on vapaaehtoista, ja sitä käytetään vain palautteeseen vastaamiseen. Palauteviestistä tallentuu kopio arkistoomme.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "luottoriski#toimitus-ja-palautuskaytanto",
         "otsikko": "Toimitus- ja palautuskäytäntö",
         "url": "https://luottoriskit.fi/fi/luottoriski/",
@@ -284,10 +253,10 @@
         "laji": "kb"
       },
       {
-        "id": "palveluehdot#toimitus-ja-asiakaspalvelu",
-        "otsikko": "Toimitus ja asiakaspalvelu",
-        "url": "https://luottoriskit.fi/fi/terms/",
-        "teksti": "Toimitus ja asiakaspalvelu\n\nRaportit ovat digitaalisia tuotteita. Toimitus tapahtuu sähköisesti onnistuneen maksun jälkeen. Toimitusaika, peruuttaminen ja mahdolliset hyvitykset kuvataan toimitus- ja palautusehdoissa.\nPalvelua koskevissa kysymyksissä ota yhteyttä osoitteeseen luottoriskit2026@valuatum.com tai puhelimitse 045 123 0308.",
+        "id": "tietosuoja#kasiteltavat-tiedot-ja-kayttotarkoitukset",
+        "otsikko": "Käsiteltävät tiedot ja käyttötarkoitukset",
+        "url": "https://luottoriskit.fi/fi/privacy-policy/",
+        "teksti": "Käsiteltävät tiedot ja käyttötarkoitukset\n\nKäsittelemme yhteydenottojen tietoja, tilaukseen ja raportin toimittamiseen tarvittavia tietoja sekä palvelun teknisiä käyttö- ja evästetietoja. Tietoja käytetään tilauksen toteuttamiseen, asiakaspalveluun, petosten estämiseen, palvelun kehittämiseen ja lakisääteisten velvoitteiden hoitamiseen.\nMaksu käsitellään Stripen maksupalvelussa. Luottoriskit.fi ei tallenna maksukorttitietoja omiin järjestelmiinsä.\nKun lähetät palautetta sivuston palautelomakkeella, viestin mukana välitetään sähköpostitse vain sen sivun osoite ja tekniset tunnistetiedot, jolla olit palautetta antaessasi, sekä selaimesi versiotieto. Näitä tarvitaan palautteen selvittämiseen. Sähköpostiosoitteen antaminen on vapaaehtoista, ja sitä käytetään vain palautteeseen vastaamiseen. Palauteviestistä tallentuu kopio arkistoomme.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -300,34 +269,18 @@
         "laji": "kb"
       },
       {
-        "id": "toimitusehdot#toimitus-ja-palautusehdot",
-        "otsikko": "Toimitus- ja palautusehdot",
-        "url": "https://luottoriskit.fi/fi/toimitus-ja-palautukset/",
-        "teksti": "Toimitus- ja palautusehdot\n\nLuottotietoraportit toimitetaan digitaalisesti ilman toimituskuluja.",
+        "id": "palveluehdot#toimitus-ja-asiakaspalvelu",
+        "otsikko": "Toimitus ja asiakaspalvelu",
+        "url": "https://luottoriskit.fi/fi/terms/",
+        "teksti": "Toimitus ja asiakaspalvelu\n\nRaportit ovat digitaalisia tuotteita. Toimitus tapahtuu sähköisesti onnistuneen maksun jälkeen. Toimitusaika, peruuttaminen ja mahdolliset hyvitykset kuvataan toimitus- ja palautusehdoissa.\nPalvelua koskevissa kysymyksissä ota yhteyttä osoitteeseen luottoriskit2026@valuatum.com tai puhelimitse 045 123 0308.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
       {
-        "id": "palvelu#luottotietoraportin-tarjoajat-suomessa",
-        "otsikko": "Luottotietoraportin tarjoajat Suomessa",
-        "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Luottotietoraportin tarjoajat Suomessa\n\nYrityksen luottotietoraportin ja luottotietojen tarjoajia Suomessa ovat muun muassa Suomen Asiakastieto, Intrum, Coface, Dun & Bradstreet ja Luottoriskit.fi. Alla on suuntaa antava vertailu hinnoittelusta ja keskeisistä eroista.\nTarjoaja\nTuote / malli\nLuokitusasteikko\nYksittäinen osto ilman sopimusta\nJulkinen hintatieto\nLuottoriskit.fi / Valuatum Oy\nLuottotietoraportti, koneoppimismalli (XGBoost, päätöspuupohjainen)\nAAA-C\nKyllä\nalk. 9 € / raportti\nSuomen Asiakastieto / Enento\nRating Alfa -raportti¹\nAAA–C¹\nKyllä¹\n52,00 € / raportti¹\nIntrum\nPikaluottosuositus Plus²\nAAA-C²\nKyllä³\n19 € / raportti³\nCoface\nCoface Score / yritystietopalvelut⁴\n0–10⁴\nPalvelukohtainen⁵\nSopimus- / palvelukohtainen⁵\nDun & Bradstreet\nAAA Rating⁶\nAAA-C⁶\nPalvelukohtainen⁷\nSopimus- / palvelukohtainen⁷\nVertailu perustuu tarjoajien julkisiin verkkosivuihin. Tiedot tarkistettu 6/2026. Hinnat ja ominaisuudet voivat muuttua ja vaihdella sopimuksen mukaan.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "palvelu#lahteet",
-        "otsikko": "Lähteet",
-        "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Lähteet\n\n¹ Asiakastieto: Rating Alfa -raportti.asiakastieto.fi\n² Intrum: Pikaluottosuositus Plus.intrum.fi\n³ Intrum: Luottotietokauppa.luottotietokauppa.fi\n⁴ Coface: asiakkaan riskien arviointi.coface.fi\n⁵ Coface: Urba360.coface.fi\n⁶ Dun & Bradstreet: AAA Rating.dnb.com\n⁷ Dun & Bradstreet: RiskGuardian.dnb.com",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "luottoriski#mita-raportti-sisaltaa",
-        "otsikko": "Mitä raportti sisältää",
-        "url": "https://luottoriskit.fi/fi/luottoriski/",
-        "teksti": "Mitä raportti sisältää\n\nYrityksen luottoluokitus ja luottopisteet\nArvio 2 vuoden konkurssiriskistä\nViitteellinen luottolimiitti\nPerustiedot ja luottohistoria\nTaloudellinen yleiskatsaus ja keskeiset tunnusluvut\nAutomatisoitu analyysi kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta\nTuloslaskelma, tase ja mahdollinen toimialavertailu",
+        "id": "faq#miksi-ilmainen-luottoraja-on-vaihteluvali-eika-tarkka",
+        "otsikko": "Miksi ilmainen luottoraja on vaihteluväli eikä tarkka euromäärä?",
+        "url": "https://luottoriskit.fi/fi/faq/",
+        "teksti": "Miksi ilmainen luottoraja on vaihteluväli eikä tarkka euromäärä?\n\nIlmainen luottoraja näytetään vaihteluvälinä, koska tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin. Vaihteluväli antaa nopean ensiarvion, mutta ei paljasta koko riskimallin tarkkaa tulosta.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -340,11 +293,35 @@
         "laji": "kb"
       },
       {
+        "id": "luottoriski#mita-raportti-sisaltaa",
+        "otsikko": "Mitä raportti sisältää",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Mitä raportti sisältää\n\nYrityksen luottoluokitus ja luottopisteet\nArvio 2 vuoden konkurssiriskistä\nViitteellinen luottolimiitti\nPerustiedot ja luottohistoria\nTaloudellinen yleiskatsaus ja keskeiset tunnusluvut\nAutomatisoitu analyysi kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta\nTuloslaskelma, tase ja mahdollinen toimialavertailu",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "palvelu#luottotietoraportin-tarjoajat-suomessa",
+        "otsikko": "Luottotietoraportin tarjoajat Suomessa",
+        "url": "https://luottoriskit.fi/fi/tietoa/",
+        "teksti": "Luottotietoraportin tarjoajat Suomessa\n\nYrityksen luottotietoraportin ja luottotietojen tarjoajia Suomessa ovat muun muassa Suomen Asiakastieto, Intrum, Coface, Dun & Bradstreet ja Luottoriskit.fi. Alla on suuntaa antava vertailu hinnoittelusta ja keskeisistä eroista.\nTarjoaja\nTuote / malli\nLuokitusasteikko\nYksittäinen osto ilman sopimusta\nJulkinen hintatieto\nLuottoriskit.fi / Valuatum Oy\nLuottotietoraportti, koneoppimismalli (XGBoost, päätöspuupohjainen)\nAAA-C\nKyllä\nalk. 9 € / raportti\nSuomen Asiakastieto / Enento\nRating Alfa -raportti¹\nAAA–C¹\nKyllä¹\n52,00 € / raportti¹\nIntrum\nPikaluottosuositus Plus²\nAAA-C²\nKyllä³\n19 € / raportti³\nCoface\nCoface Score / yritystietopalvelut⁴\n0–10⁴\nPalvelukohtainen⁵\nSopimus- / palvelukohtainen⁵\nDun & Bradstreet\nAAA Rating⁶\nAAA-C⁶\nPalvelukohtainen⁷\nSopimus- / palvelukohtainen⁷\nVertailu perustuu tarjoajien julkisiin verkkosivuihin. Tiedot tarkistettu 6/2026. Hinnat ja ominaisuudet voivat muuttua ja vaihdella sopimuksen mukaan.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "luottoriski#luottotietoraportti-hyva-luokitus",
+        "otsikko": "Luottotietoraportti (hyvä luokitus)",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Luottotietoraportti (hyvä luokitus)\n\nAI-raportti sisältää kaiken yllä listatun, ja lisäksi: AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet.\nSamat luvut, parempi AI-analyysi vakaan yhtiön tilanteesta.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:17)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:17:57.593Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:27)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:27:44.309Z",
         "laji": "elava"
       },
       {
@@ -361,15 +338,15 @@
     "hinnastoSimuloitu": false,
     "malli": {
       "kieli": "fi",
-      "tervehdys": "Hei Marika,",
+      "tervehdys": "Moi Marika,",
       "vaitteet": [
         {
-          "teksti": "Raportti toimitetaan sähköisesti heti onnistuneen maksun jälkeen tilauksessa annettuun sähköpostiosoitteeseen, joten selvitämme ensin, mihin osoitteeseen toimitus on lähtenyt.",
+          "teksti": "Raportti toimitetaan tilauksessa annettuun sähköpostiosoitteeseen onnistuneen maksun jälkeen, joten kannattaa ensin varmistaa, mikä osoite tilaukselle on annettu.",
           "lahde": "toimitusehdot#toimitus",
           "sitaatti": "Raportti generoidaan onnistuneen maksun jälkeen ja toimitetaan tilauksessa annettuun sähköpostiosoitteeseen."
         },
         {
-          "teksti": "Jos raportti ei teknisen virheen tai toimitusongelman vuoksi ole tullut käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen.",
+          "teksti": "Jos raportti ei teknisen virheen tai toimitusongelman vuoksi ole tullut käyttöösi, ehtojemme mukaan olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen.",
           "lahde": "luottoriski#toimitus-ja-palautuskaytanto",
           "sitaatti": "Jos et teknisen virheen tai toimitusongelman vuoksi saa ostamaasi raporttia käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen."
         }
@@ -377,43 +354,55 @@
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Pyydetäänkö asiakkaalta tilauksessa käytetty sähköpostiosoite sekä maksun ajankohta ja summa, jotta tilaus löytyy?",
-          "miksi": "Tilausta ei voi paikantaa ilman näitä tietoja, ja ne ovat asiakkaan itse annettavissa.",
+          "kysymys": "Pyydetäänkö Marikalta tilausnumero, maksupäivä ja tilauksessa käytetty sähköpostiosoite?",
+          "miksi": "Ilman näitä tilausta ei voi yksilöidä, ja tiedot ovat asiakkaan itsensä annettavissa.",
           "tarvitsee": "lisatieto_asiakkaalta"
+        },
+        {
+          "kysymys": "Tarkistetaanko maksu ja toimitusyritys järjestelmästä ennen vastausta?",
+          "miksi": "Luonnos ei voi vahvistaa, onko maksu kirjautunut tai toimitus epäonnistunut.",
+          "tarvitsee": "jarjestelmatieto"
         }
       ],
       "reititys": "asiakastuki"
     },
     "tarkistus": {
-      "vastattavuus": "taysin",
+      "vastattavuus": "osittain",
       "hyvaksytyt": [
         {
-          "teksti": "Raportti toimitetaan sähköisesti heti onnistuneen maksun jälkeen tilauksessa annettuun sähköpostiosoitteeseen, joten selvitämme ensin, mihin osoitteeseen toimitus on lähtenyt.",
+          "teksti": "Raportti toimitetaan tilauksessa annettuun sähköpostiosoitteeseen onnistuneen maksun jälkeen, joten kannattaa ensin varmistaa, mikä osoite tilaukselle on annettu.",
           "lahde": "toimitusehdot#toimitus",
           "sitaatti": "Raportti generoidaan onnistuneen maksun jälkeen ja toimitetaan tilauksessa annettuun sähköpostiosoitteeseen."
         },
         {
-          "teksti": "Jos raportti ei teknisen virheen tai toimitusongelman vuoksi ole tullut käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen.",
+          "teksti": "Jos raportti ei teknisen virheen tai toimitusongelman vuoksi ole tullut käyttöösi, ehtojemme mukaan olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen.",
           "lahde": "luottoriski#toimitus-ja-palautuskaytanto",
           "sitaatti": "Jos et teknisen virheen tai toimitusongelman vuoksi saa ostamaasi raporttia käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen."
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Marika,\n\nRaportti toimitetaan sähköisesti heti onnistuneen maksun jälkeen tilauksessa annettuun sähköpostiosoitteeseen, joten selvitämme ensin, mihin osoitteeseen toimitus on lähtenyt.\nJos raportti ei teknisen virheen tai toimitusongelman vuoksi ole tullut käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Moi Marika,\n\nRaportti toimitetaan tilauksessa annettuun sähköpostiosoitteeseen onnistuneen maksun jälkeen, joten kannattaa ensin varmistaa, mikä osoite tilaukselle on annettu.\nJos raportti ei teknisen virheen tai toimitusongelman vuoksi ole tullut käyttöösi, ehtojemme mukaan olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Pyydetäänkö asiakkaalta tilauksessa käytetty sähköpostiosoite sekä maksun ajankohta ja summa, jotta tilaus löytyy?",
-          "miksi": "Tilausta ei voi paikantaa ilman näitä tietoja, ja ne ovat asiakkaan itse annettavissa.",
+          "kysymys": "Pyydetäänkö Marikalta tilausnumero, maksupäivä ja tilauksessa käytetty sähköpostiosoite?",
+          "miksi": "Ilman näitä tilausta ei voi yksilöidä, ja tiedot ovat asiakkaan itsensä annettavissa.",
           "tarvitsee": "lisatieto_asiakkaalta",
           "laji": "ehdotus",
+          "lahde": "malli"
+        },
+        {
+          "kysymys": "Tarkistetaanko maksu ja toimitusyritys järjestelmästä ennen vastausta?",
+          "miksi": "Luonnos ei voi vahvistaa, onko maksu kirjautunut tai toimitus epäonnistunut.",
+          "tarvitsee": "jarjestelmatieto",
+          "laji": "paatos",
           "lahde": "malli"
         }
       ],
       "luvut": [],
-      "lahetyskelpoinen": true
+      "lahetyskelpoinen": false
     },
     "korjaus": null,
-    "kesto_ms": 17407
+    "kesto_ms": 24864
   },
   {
     "viesti": {
@@ -432,12 +421,12 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "tuki",
-      "syy": "Asiakas kyselee luottorajasuosituksen tulkinnasta ja käyttökelpoisuudesta luottopäätöksessä",
+      "syy": "Asiakkaalla on ymmärrettävä kysymys raportin luottorajasuosituksen tulkinnasta ja käyttömahdollisuuksista",
       "hakusanat": [
         "luottorajasuositus",
-        "luottorajavaihteluväli",
-        "luottopäätös",
-        "rajasuosituksen tulkinta"
+        "luottorajatulkinta",
+        "raportin käyttö",
+        "luottopäätös"
       ]
     },
     "todisteet": [
@@ -474,6 +463,38 @@
         "laji": "kb"
       },
       {
+        "id": "palvelu#lahteet",
+        "otsikko": "Lähteet",
+        "url": "https://luottoriskit.fi/fi/tietoa/",
+        "teksti": "Lähteet\n\n¹ Asiakastieto: Rating Alfa -raportti.asiakastieto.fi\n² Intrum: Pikaluottosuositus Plus.intrum.fi\n³ Intrum: Luottotietokauppa.luottotietokauppa.fi\n⁴ Coface: asiakkaan riskien arviointi.coface.fi\n⁵ Coface: Urba360.coface.fi\n⁶ Dun & Bradstreet: AAA Rating.dnb.com\n⁷ Dun & Bradstreet: RiskGuardian.dnb.com",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "luottoriski#toimitus-ja-palautuskaytanto",
+        "otsikko": "Toimitus- ja palautuskäytäntö",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Toimitus- ja palautuskäytäntö\n\nLuottotietoraportti on digitaalinen tuote, joka toimitetaan sähköisesti heti onnistuneen maksun jälkeen. Tuotteella ei ole fyysistä toimitusta eikä toimituskuluja. Jos et teknisen virheen tai toimitusongelman vuoksi saa ostamaasi raporttia käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen. Kuluttajan peruuttamisoikeus ja palautuspyynnöt käsitellään toimitus- ja palautusehtojenmukaisesti.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "palveluehdot#toimitus-ja-asiakaspalvelu",
+        "otsikko": "Toimitus ja asiakaspalvelu",
+        "url": "https://luottoriskit.fi/fi/terms/",
+        "teksti": "Toimitus ja asiakaspalvelu\n\nRaportit ovat digitaalisia tuotteita. Toimitus tapahtuu sähköisesti onnistuneen maksun jälkeen. Toimitusaika, peruuttaminen ja mahdolliset hyvitykset kuvataan toimitus- ja palautusehdoissa.\nPalvelua koskevissa kysymyksissä ota yhteyttä osoitteeseen luottoriskit2026@valuatum.com tai puhelimitse 045 123 0308.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "tietosuoja#kasiteltavat-tiedot-ja-kayttotarkoitukset",
+        "otsikko": "Käsiteltävät tiedot ja käyttötarkoitukset",
+        "url": "https://luottoriskit.fi/fi/privacy-policy/",
+        "teksti": "Käsiteltävät tiedot ja käyttötarkoitukset\n\nKäsittelemme yhteydenottojen tietoja, tilaukseen ja raportin toimittamiseen tarvittavia tietoja sekä palvelun teknisiä käyttö- ja evästetietoja. Tietoja käytetään tilauksen toteuttamiseen, asiakaspalveluun, petosten estämiseen, palvelun kehittämiseen ja lakisääteisten velvoitteiden hoitamiseen.\nMaksu käsitellään Stripen maksupalvelussa. Luottoriskit.fi ei tallenna maksukorttitietoja omiin järjestelmiinsä.\nKun lähetät palautetta sivuston palautelomakkeella, viestin mukana välitetään sähköpostitse vain sen sivun osoite ja tekniset tunnistetiedot, jolla olit palautetta antaessasi, sekä selaimesi versiotieto. Näitä tarvitaan palautteen selvittämiseen. Sähköpostiosoitteen antaminen on vapaaehtoista, ja sitä käytetään vain palautteeseen vastaamiseen. Palauteviestistä tallentuu kopio arkistoomme.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
         "id": "faq#miten-luottoraja-eroaa-luottoluokituksesta",
         "otsikko": "Miten luottoraja eroaa luottoluokituksesta?",
         "url": "https://luottoriskit.fi/fi/faq/",
@@ -490,43 +511,11 @@
         "laji": "kb"
       },
       {
-        "id": "faq#miten-luottoriskit-fi-n-luottoraja-arvio-lasketaan",
-        "otsikko": "Miten Luottoriskit.fi:n luottoraja-arvio lasketaan?",
-        "url": "https://luottoriskit.fi/fi/faq/",
-        "teksti": "Miten Luottoriskit.fi:n luottoraja-arvio lasketaan?\n\nLuottoraja-arvio perustuu Valuatumin luottoriskimalliin, jossa huomioidaan muun muassa luottopisteet, konkurssiriski, kannattavuus, vakavaraisuus, kassa, taseen rakenne ja toimialariski. Yrityssivulla näytettävä ilmainen arvio on karkeasti pyöristetty vaihteluväli.\nLue lisää luottoriskimallista ja luottorajasuosituksesta.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "palvelu#lahteet",
-        "otsikko": "Lähteet",
-        "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Lähteet\n\n¹ Asiakastieto: Rating Alfa -raportti.asiakastieto.fi\n² Intrum: Pikaluottosuositus Plus.intrum.fi\n³ Intrum: Luottotietokauppa.luottotietokauppa.fi\n⁴ Coface: asiakkaan riskien arviointi.coface.fi\n⁵ Coface: Urba360.coface.fi\n⁶ Dun & Bradstreet: AAA Rating.dnb.com\n⁷ Dun & Bradstreet: RiskGuardian.dnb.com",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
-        "otsikko": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?",
-        "url": "https://luottoriskit.fi/fi/faq/",
-        "teksti": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?\n\nLyhyt vastaus on: koska luokitusasteikot ovat erilaiset.\nSama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat yrityksen konkurssiriskin täsmälleen samaksi.\nTärkeintä ei siis ole kirjainluokitus vaan se, kuinka suuri yrityksen arvioitu konkurssiriski on.\nEsimerkki\nOletetaan, että sekä Valuatum että Asiakastieto arvioivat yrityksen Penan Autokorjaamo Oy (kuvitteellinen yritys) luottoriskin täsmälleen samaksi.\nValuatum Asiakastieto\nArvioitu konkurssitodennäköisyys seuraavan 24 kuukauden aikana\n0,24 %\n0,24 %\nYritys on turvallisempi kuin\n62 % suomalaisista yrityksistä\n62 % suomalaisista yrityksistä\nArvio yrityksen suhteellisesta riskitasosta\nSama\nSama\nKirjainluokitus\nBBB\nAA\nMolemmat palvelut pitävät siis yritystä yhtä luottokelpoisena. Ainoa ero on se, että ne käyttävät erilaista luokitusasteikkoa.\n«Sama riski – eri kirjainluokitus.»\nMistä ero johtuu?\nValuatum ja Asiakastieto käyttävät erilaista tapaa jakaa yritykset eri luokkiin.\nValuatumin luokitusmallissa ylimpiin luokkiin (AAA–A) sijoittuu noin kolmannes yrityksistä. Tämä vastaa melko hyvin kansainvälisten luottoluokituslaitosten, kuten Standard & Poor’sin, käyttämää luokitusjakaumaa.\nSuomen Asiakastiedon luokituksessa puolestaan noin 90 % yrityksistä kuuluu A-luokkiin.\nTämän vuoksi yritys voi saada Valuatumilta luokituksen BBB ja samalla Asiakastiedolta AA, vaikka molemmat arvioivat sen riskin yhtä pieneksi.\nLuokitusjakaumien vertailu\nLuokitusjärjestelmä A-luokkiin sijoittuu\nValuatum\nnoin 33 % yrityksistä\nStandard & Poor’s\nnoin 30–35 % yrityksistä\nSuomen Asiakastieto\nnoin 90 % yrityksistä\nAlla olevat kuvat havainnollistavat luokitusjakaumien eroja.\nValuatumin luottoluokitusjakauma\nLähde: Valuatum\nS&P:n luottoluokitusjakauma\nLähde: Business Insider(alkuperäinen kuva)\nSuomen Asiakastiedon luokitusjakauma\nLähde: Kauppalehti(alkuperäinen kuva)\nMitä Valuatumin luokitus kertoo?\nValuatumin luokitus perustuu yrityksen arvioituun konkurssiriskiin suhteessa kaikkiin suomalaisiin yrityksiin.\nAAA = erittäin pieni konkurssiriski.\nAA = hyvin pieni konkurssiriski.\nA = pieni konkurssiriski.\nBBB = keskimääräistä pienempi konkurssiriski.\nBB, B ja C = asteittain kasvava konkurssiriski.\nKoska ylimpiin luokkiin sijoittuu vain osa yrityksistä, luokitus erottaa tehokkaasti myös ne yritykset, joiden taloudellinen tilanne on hyvä. Näin luokitus tarjoaa enemmän erottelukykyä esimerkiksi luotonannossa, toimittajariskien hallinnassa ja yritysasiakkaiden seurannassa.\nTarvittaessa Valuatumin luokitukset voidaan myös kalibroida asiakkaan omiin riskirajoihin ja päätöksentekokriteereihin.\n«Yhteenveto: Jos kahden luokituspalvelun arvioima konkurssiriski on sama, myös niiden arvio yrityksen luottokelpoisuudesta on käytännössä sama – vaikka kirjainluokitus olisi erilainen.»",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "luottoriski#mita-luottoluokitus-kertoo-ja-miten-se-muodostuu",
-        "otsikko": "Mitä luottoluokitus kertoo ja miten se muodostuu?",
-        "url": "https://luottoriskit.fi/fi/luottoriski/",
-        "teksti": "Mitä luottoluokitus kertoo ja miten se muodostuu?\n\nLuottoluokitus on eteenpäin katsova arvio siitä, kuinka todennäköisesti yritys selviää velvoitteistaan lähitulevaisuudessa. Ensisijainen mittari on luottopisteet asteikolla 0–100. Kirjainluokka AAA–C toimii toissijaisena, nopeasti luettavana yhteenvetona riskitasosta.\nLuottoluokitusmalleissa kaksi tekijää vaikuttavat riskiin yleensä eniten: kannattavuus ja vakavaraisuus. Kannattavuus kertoo, pystyykö yritys tekemään tulosta ja hoitamaan velvoitteensa normaalioloissa. Vakavaraisuus puolestaan kuvaa, kuinka paljon yrityksellä on puskuria heikompia aikoja varten: mitä enemmän omaa pääomaa yrityksellä on suhteessa velkoihin, sitä parempi sen selviytymiskyky on.\nKuva havainnollistaa tätä yhteyttä: mitä kannattavampi ja vakavaraisempi yritys on, sitä vahvempi sen luottoluokitus yleensä on. Yksittäisten yritysten riskitasoon vaikuttavat kuitenkin myös muut tekijät. Katso alta, miksi Valuatumin luokitus on yleensä tarkempi.\nLue kuvan tulkinnasta tarkemmin FAQ:sta.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:17)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:17:57.600Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:27)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:27:44.318Z",
         "laji": "elava"
       },
       {
@@ -546,21 +535,21 @@
       "tervehdys": "Hei Antti,",
       "vaitteet": [
         {
-          "teksti": "Luottoraja on suuntaa-antava euromäärä eikä sitova rahoituspäätös, vaan riskimalliin perustuva apuväline omaan luottopäätökseesi — eli sitä ei ole tarkoitettu käytettäväksi päätöksen ainoana perusteena.",
+          "teksti": "Luottoraja on suuntaa-antava euromäärä, jonka puitteissa lasku- tai luottokauppaa voidaan harkita — se ei ole meitä sitova rahoituspäätös, vaan apuväline omaan luottopäätökseesi.",
           "lahde": "faq#mita-yrityksen-luottoraja-tarkoittaa",
           "sitaatti": "Luottoraja ei ole sitova rahoituspäätös, vaan riskimalliin perustuva apuväline omaan luottopäätökseen."
         },
         {
-          "teksti": "Vaihteluvälinä se näytetään siksi, että tarkka luottorajasuositus perusteluineen kuuluu maksulliseen luottotietoraporttiin; vaihteluväli antaa nopean ensiarvion paljastamatta riskimallin tarkkaa tulosta.",
+          "teksti": "Vaihteluväli näytetään siksi, että tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin; väli antaa nopean ensiarvion.",
           "lahde": "faq#miksi-ilmainen-luottoraja-on-vaihteluvali-eika-tarkka",
-          "sitaatti": "Ilmainen luottoraja näytetään vaihteluvälinä, koska tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin. Vaihteluväli antaa nopean ensiarvion, mutta ei paljasta koko riskimallin tarkkaa tulosta."
+          "sitaatti": "Ilmainen luottoraja näytetään vaihteluvälinä, koska tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin. Vaihteluväli antaa nopean ensiarvion"
         }
       ],
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mainitaanko vastauksessa, että tarkan luottorajasuosituksen saa erikseen hintaan 1 €?",
-          "miksi": "Asiakas ei kysynyt hintaa, mutta tieto voi olla hänelle hyödyllinen jatkoaskeleena.",
+          "kysymys": "Mainitaanko vastauksessa, että luottorajasuositus on saatavilla erikseen 1 €:lla?",
+          "miksi": "Asiakas haluaa tarkan euromäärän, ja hinnasto tukee tätä lisäystä.",
           "tarvitsee": "vapaaehtoinen_lisays"
         }
       ],
@@ -570,22 +559,22 @@
       "vastattavuus": "taysin",
       "hyvaksytyt": [
         {
-          "teksti": "Luottoraja on suuntaa-antava euromäärä eikä sitova rahoituspäätös, vaan riskimalliin perustuva apuväline omaan luottopäätökseesi — eli sitä ei ole tarkoitettu käytettäväksi päätöksen ainoana perusteena.",
+          "teksti": "Luottoraja on suuntaa-antava euromäärä, jonka puitteissa lasku- tai luottokauppaa voidaan harkita — se ei ole meitä sitova rahoituspäätös, vaan apuväline omaan luottopäätökseesi.",
           "lahde": "faq#mita-yrityksen-luottoraja-tarkoittaa",
           "sitaatti": "Luottoraja ei ole sitova rahoituspäätös, vaan riskimalliin perustuva apuväline omaan luottopäätökseen."
         },
         {
-          "teksti": "Vaihteluvälinä se näytetään siksi, että tarkka luottorajasuositus perusteluineen kuuluu maksulliseen luottotietoraporttiin; vaihteluväli antaa nopean ensiarvion paljastamatta riskimallin tarkkaa tulosta.",
+          "teksti": "Vaihteluväli näytetään siksi, että tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin; väli antaa nopean ensiarvion.",
           "lahde": "faq#miksi-ilmainen-luottoraja-on-vaihteluvali-eika-tarkka",
-          "sitaatti": "Ilmainen luottoraja näytetään vaihteluvälinä, koska tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin. Vaihteluväli antaa nopean ensiarvion, mutta ei paljasta koko riskimallin tarkkaa tulosta."
+          "sitaatti": "Ilmainen luottoraja näytetään vaihteluvälinä, koska tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin. Vaihteluväli antaa nopean ensiarvion"
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Antti,\n\nLuottoraja on suuntaa-antava euromäärä eikä sitova rahoituspäätös, vaan riskimalliin perustuva apuväline omaan luottopäätökseesi — eli sitä ei ole tarkoitettu käytettäväksi päätöksen ainoana perusteena.\nVaihteluvälinä se näytetään siksi, että tarkka luottorajasuositus perusteluineen kuuluu maksulliseen luottotietoraporttiin; vaihteluväli antaa nopean ensiarvion paljastamatta riskimallin tarkkaa tulosta.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hei Antti,\n\nLuottoraja on suuntaa-antava euromäärä, jonka puitteissa lasku- tai luottokauppaa voidaan harkita — se ei ole meitä sitova rahoituspäätös, vaan apuväline omaan luottopäätökseesi.\nVaihteluväli näytetään siksi, että tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin; väli antaa nopean ensiarvion.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mainitaanko vastauksessa, että tarkan luottorajasuosituksen saa erikseen hintaan 1 €?",
-          "miksi": "Asiakas ei kysynyt hintaa, mutta tieto voi olla hänelle hyödyllinen jatkoaskeleena.",
+          "kysymys": "Mainitaanko vastauksessa, että luottorajasuositus on saatavilla erikseen 1 €:lla?",
+          "miksi": "Asiakas haluaa tarkan euromäärän, ja hinnasto tukee tätä lisäystä.",
           "tarvitsee": "vapaaehtoinen_lisays",
           "laji": "ehdotus",
           "lahde": "malli"
@@ -595,7 +584,7 @@
       "lahetyskelpoinen": true
     },
     "korjaus": null,
-    "kesto_ms": 20606
+    "kesto_ms": 17070
   },
   {
     "viesti": {
@@ -614,13 +603,12 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "myynti",
-      "syy": "Hinta- ja tilauskysymys luottotietoraporteista",
+      "syy": "Hintatiedustelu ja jatkuvan käytön mahdollisuuksien selvitys - ostopäätöstä harkitseva asiakas",
       "hakusanat": [
-        "raportin hinta",
-        "tilauspalvelu",
-        "jatkuva käyttö",
-        "hinnoittelu",
-        "ostaminen"
+        "hinnat",
+        "tilaus",
+        "raportti",
+        "käyttö"
       ]
     },
     "todisteet": [
@@ -641,18 +629,18 @@
         "laji": "kb"
       },
       {
-        "id": "palvelu#miten-luottoriskit-fi-eroaa-muista",
-        "otsikko": "Miten Luottoriskit.fi eroaa muista",
-        "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Miten Luottoriskit.fi eroaa muista\n\nEdullinen raporttikohtainen hinta: luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua.\nAI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.\nKoneoppimismalli: luottoluokitus perustuu päätöspuupohjaiseen koneoppimismalliin, joka säätää painotuksia yrityksen tilanteen mukaan.\nLue lisää raportin sisällöstä luottotietoraportti-sivulta ja luottoluokituksen muodostumisesta luottoriskimallin kuvauksesta.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "tietosuoja#kasiteltavat-tiedot-ja-kayttotarkoitukset",
         "otsikko": "Käsiteltävät tiedot ja käyttötarkoitukset",
         "url": "https://luottoriskit.fi/fi/privacy-policy/",
         "teksti": "Käsiteltävät tiedot ja käyttötarkoitukset\n\nKäsittelemme yhteydenottojen tietoja, tilaukseen ja raportin toimittamiseen tarvittavia tietoja sekä palvelun teknisiä käyttö- ja evästetietoja. Tietoja käytetään tilauksen toteuttamiseen, asiakaspalveluun, petosten estämiseen, palvelun kehittämiseen ja lakisääteisten velvoitteiden hoitamiseen.\nMaksu käsitellään Stripen maksupalvelussa. Luottoriskit.fi ei tallenna maksukorttitietoja omiin järjestelmiinsä.\nKun lähetät palautetta sivuston palautelomakkeella, viestin mukana välitetään sähköpostitse vain sen sivun osoite ja tekniset tunnistetiedot, jolla olit palautetta antaessasi, sekä selaimesi versiotieto. Näitä tarvitaan palautteen selvittämiseen. Sähköpostiosoitteen antaminen on vapaaehtoista, ja sitä käytetään vain palautteeseen vastaamiseen. Palauteviestistä tallentuu kopio arkistoomme.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "palvelu#miten-luottoriskit-fi-eroaa-muista",
+        "otsikko": "Miten Luottoriskit.fi eroaa muista",
+        "url": "https://luottoriskit.fi/fi/tietoa/",
+        "teksti": "Miten Luottoriskit.fi eroaa muista\n\nEdullinen raporttikohtainen hinta: luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua.\nAI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.\nKoneoppimismalli: luottoluokitus perustuu päätöspuupohjaiseen koneoppimismalliin, joka säätää painotuksia yrityksen tilanteen mukaan.\nLue lisää raportin sisällöstä luottotietoraportti-sivulta ja luottoluokituksen muodostumisesta luottoriskimallin kuvauksesta.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -669,14 +657,6 @@
         "otsikko": "Lähteet",
         "url": "https://luottoriskit.fi/fi/tietoa/",
         "teksti": "Lähteet\n\n¹ Asiakastieto: Rating Alfa -raportti.asiakastieto.fi\n² Intrum: Pikaluottosuositus Plus.intrum.fi\n³ Intrum: Luottotietokauppa.luottotietokauppa.fi\n⁴ Coface: asiakkaan riskien arviointi.coface.fi\n⁵ Coface: Urba360.coface.fi\n⁶ Dun & Bradstreet: AAA Rating.dnb.com\n⁷ Dun & Bradstreet: RiskGuardian.dnb.com",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "palvelu#mika-luottoriskit-fi-on",
-        "otsikko": "Mikä Luottoriskit.fi on",
-        "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Mikä Luottoriskit.fi on\n\nLuottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu.\nPalvelu tarjoaa yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja yli 300 000 suomalaisesta yrityksestä.\nYksittäisen luottotietoraportin hinta on 9 € ja kolmen raportin paketti 15 €.\nLuottoluokitus perustuu koneoppimismalliin (päätöspuupohjainen XGBoost, dynaamiset painotukset).\nValuatum Oy on vuonna 2000 perustettu suomalainen ohjelmistoyhtiö.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -705,11 +685,19 @@
         "laji": "kb"
       },
       {
+        "id": "luottoriski#mita-raportti-sisaltaa",
+        "otsikko": "Mitä raportti sisältää",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Mitä raportti sisältää\n\nYrityksen luottoluokitus ja luottopisteet\nArvio 2 vuoden konkurssiriskistä\nViitteellinen luottolimiitti\nPerustiedot ja luottohistoria\nTaloudellinen yleiskatsaus ja keskeiset tunnusluvut\nAutomatisoitu analyysi kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta\nTuloslaskelma, tase ja mahdollinen toimialavertailu",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:18)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:18:45.180Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:28)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:28:17.912Z",
         "laji": "elava"
       },
       {
@@ -729,46 +717,56 @@
       "tervehdys": "Hei Sanna,",
       "vaitteet": [
         {
-          "teksti": "AI-luottotietoraportti maksaa 10 € kappaleelta.",
+          "teksti": "AI-luottotietoraportti maksaa 10 € raportilta.",
           "lahde": "hinnat",
           "sitaatti": "AI-luottotietoraportti: 10 €"
         },
         {
-          "teksti": "Jatkuvaan käyttöön on kuukausitilaus, jolla raportteja saa rajattoman määrän hintaan 50 € / kk.",
+          "teksti": "Jatkuvaa käyttöä varten on kuukausitilaus, joka sisältää rajattoman määrän raportteja hintaan 50 € / kk.",
           "lahde": "hinnat",
           "sitaatti": "Kuukausitilaus, rajaton määrä raportteja: 50 € / kk"
+        },
+        {
+          "teksti": "Raportti on digitaalinen tuote ja toimitetaan sähköisesti heti onnistuneen maksun jälkeen.",
+          "lahde": "luottoriski#toimitus-ja-palautuskaytanto",
+          "sitaatti": "toimitetaan sähköisesti heti onnistuneen maksun jälkeen"
         }
       ],
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Halutaanko mainita myös AI-raporttien 3 kpl:n paketti (20 €) vaihtoehtona pienelle käyttömäärälle?",
-          "miksi": "Asiakas kertoi tarkistavansa muutaman yrityksen viikossa, jolloin paketti voi olla kuukausitilausta edullisempi.",
+          "kysymys": "Mainitaanko myös 3 kpl -paketit (AI-raportti 20 € / 3 raporttia), jos muutama tarkistus viikossa jää kuukausitilauksen alle?",
+          "miksi": "Asiakas ei kysynyt paketeista, mutta se voi olla hänen käyttömäärällään edullisempi vaihtoehto.",
           "tarvitsee": "vapaaehtoinen_lisays"
         }
       ],
-      "reititys": "Molempiin kysymyksiin on kate voimassa olevista hinnoista; luonnos on lähetettävissä."
+      "reititys": "Valmis lähetettäväksi; molempiin kysymyksiin on vastattu voimassa olevista hinnoista."
     },
     "tarkistus": {
       "vastattavuus": "taysin",
       "hyvaksytyt": [
         {
-          "teksti": "AI-luottotietoraportti maksaa 10 € kappaleelta.",
+          "teksti": "AI-luottotietoraportti maksaa 10 € raportilta.",
           "lahde": "hinnat",
           "sitaatti": "AI-luottotietoraportti: 10 €"
         },
         {
-          "teksti": "Jatkuvaan käyttöön on kuukausitilaus, jolla raportteja saa rajattoman määrän hintaan 50 € / kk.",
+          "teksti": "Jatkuvaa käyttöä varten on kuukausitilaus, joka sisältää rajattoman määrän raportteja hintaan 50 € / kk.",
           "lahde": "hinnat",
           "sitaatti": "Kuukausitilaus, rajaton määrä raportteja: 50 € / kk"
+        },
+        {
+          "teksti": "Raportti on digitaalinen tuote ja toimitetaan sähköisesti heti onnistuneen maksun jälkeen.",
+          "lahde": "luottoriski#toimitus-ja-palautuskaytanto",
+          "sitaatti": "toimitetaan sähköisesti heti onnistuneen maksun jälkeen"
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Sanna,\n\nAI-luottotietoraportti maksaa 10 € kappaleelta.\nJatkuvaan käyttöön on kuukausitilaus, jolla raportteja saa rajattoman määrän hintaan 50 € / kk.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hei Sanna,\n\nAI-luottotietoraportti maksaa 10 € raportilta.\nJatkuvaa käyttöä varten on kuukausitilaus, joka sisältää rajattoman määrän raportteja hintaan 50 € / kk.\nRaportti on digitaalinen tuote ja toimitetaan sähköisesti heti onnistuneen maksun jälkeen.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Halutaanko mainita myös AI-raporttien 3 kpl:n paketti (20 €) vaihtoehtona pienelle käyttömäärälle?",
-          "miksi": "Asiakas kertoi tarkistavansa muutaman yrityksen viikossa, jolloin paketti voi olla kuukausitilausta edullisempi.",
+          "kysymys": "Mainitaanko myös 3 kpl -paketit (AI-raportti 20 € / 3 raporttia), jos muutama tarkistus viikossa jää kuukausitilauksen alle?",
+          "miksi": "Asiakas ei kysynyt paketeista, mutta se voi olla hänen käyttömäärällään edullisempi vaihtoehto.",
           "tarvitsee": "vapaaehtoinen_lisays",
           "laji": "ehdotus",
           "lahde": "malli"
@@ -789,7 +787,7 @@
       "lahetyskelpoinen": true
     },
     "korjaus": null,
-    "kesto_ms": 12880
+    "kesto_ms": 15687
   },
   {
     "viesti": {
@@ -808,14 +806,14 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "myynti",
-      "syy": "Tarjouspyyntö yritysluokituksista, hinnoittelusta, rajapinnasta ja tietosuojasta - nämä kuuluvat asiakaspalvelulle",
+      "syy": "Tarjouspyyntö suuresta volyymista (500 yritystä/kk) ja rajapinnan käytöstä; sisältää kysymyksiä hinnoittelusta, API-saatavuudesta ja tietosuojasta.",
       "hakusanat": [
-        "hinta",
         "rajapinta",
         "API",
-        "tietosuoja",
-        "eurooppa",
-        "integraatio"
+        "hinta",
+        "volyymi",
+        "integraatio",
+        "tietosuoja"
       ]
     },
     "todisteet": [
@@ -884,6 +882,14 @@
         "laji": "kb"
       },
       {
+        "id": "faq#miksi-korkea-omavaraisuusaste-ei-aina-riita-hyvaan",
+        "otsikko": "Miksi korkea omavaraisuusaste ei aina riitä hyvään luokitukseen?",
+        "url": "https://luottoriskit.fi/fi/faq/",
+        "teksti": "Miksi korkea omavaraisuusaste ei aina riitä hyvään luokitukseen?\n\nOmavaraisuusaste kertoo suhteellisesta vakavaraisuudesta, mutta ei yksin kerro, kuinka suuri yrityksen todellinen puskurikyky euroissa on.\nYrityksellä voi olla korkea omavaraisuusaste, mutta jos tase on pieni ja liiketoiminnan volyymi suuri, omistajien riskinkantokyky voi silti olla rajoitettu. Rahoittajan näkökulmasta ratkaisevaa on usein myös se, kuinka paljon omaa pääomaa ja muita turvaavia varoja yrityksellä on absoluuttisesti.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
         "id": "luottoriski#lisaa-kysymyksia-luottoriskista",
         "otsikko": "Lisää kysymyksiä luottoriskistä?",
         "url": "https://luottoriskit.fi/fi/luottoriski/",
@@ -892,19 +898,11 @@
         "laji": "kb"
       },
       {
-        "id": "tietosuoja#kasiteltavat-tiedot-ja-kayttotarkoitukset",
-        "otsikko": "Käsiteltävät tiedot ja käyttötarkoitukset",
-        "url": "https://luottoriskit.fi/fi/privacy-policy/",
-        "teksti": "Käsiteltävät tiedot ja käyttötarkoitukset\n\nKäsittelemme yhteydenottojen tietoja, tilaukseen ja raportin toimittamiseen tarvittavia tietoja sekä palvelun teknisiä käyttö- ja evästetietoja. Tietoja käytetään tilauksen toteuttamiseen, asiakaspalveluun, petosten estämiseen, palvelun kehittämiseen ja lakisääteisten velvoitteiden hoitamiseen.\nMaksu käsitellään Stripen maksupalvelussa. Luottoriskit.fi ei tallenna maksukorttitietoja omiin järjestelmiinsä.\nKun lähetät palautetta sivuston palautelomakkeella, viestin mukana välitetään sähköpostitse vain sen sivun osoite ja tekniset tunnistetiedot, jolla olit palautetta antaessasi, sekä selaimesi versiotieto. Näitä tarvitaan palautteen selvittämiseen. Sähköpostiosoitteen antaminen on vapaaehtoista, ja sitä käytetään vain palautteeseen vastaamiseen. Palauteviestistä tallentuu kopio arkistoomme.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:18)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:18:45.753Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:28)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:28:17.907Z",
         "laji": "elava"
       },
       {
@@ -924,7 +922,7 @@
       "tervehdys": "Hei Tuomas,",
       "vaitteet": [
         {
-          "teksti": "Julkisessa hinnastossamme yksittäinen luottotietoraportti on 9 € ja rajattoman raporttimäärän kuukausitilaus 50 € / kk; 500 raportin kuukausierälle rajapinnan kautta ei ole julkaistua hintaa, joten palaamme siihen erikseen.",
+          "teksti": "Julkisessa hinnastossamme on yksittäisten raporttien lisäksi kuukausitilaus, jossa raporttien määrää ei ole rajattu: 50 € / kk. Erillistä 500 yrityksen kuukausierää tai rajapintakäyttöä hinnasto ei kata, joten palaamme siihen erikseen.",
           "lahde": "hinnat",
           "sitaatti": "Kuukausitilaus, rajaton määrä raportteja: 50 € / kk"
         }
@@ -932,18 +930,18 @@
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mikä hinta annetaan 500 yrityksen kuukausierälle rajapinnan kautta?",
-          "miksi": "Erähinnoittelusta ei ole julkaistua tietoa, ja asiakas kysyi sitä suoraan.",
+          "kysymys": "Mikä on hinta 500 yrityksen kuukausittaiselle erälle rahoitusyhtiöasiakkaalle?",
+          "miksi": "Asiakkaan pääkysymys; volyymihinnoittelua ei ole julkaistu missään lähteessä.",
           "tarvitsee": "liiketoimintalinjaus"
         },
         {
-          "kysymys": "Onko meillä API ja onko siitä dokumentaatiota, jonka voi jakaa asiakkaalle?",
-          "miksi": "Todisteissa ei ole mitään rajapinnasta, ja tämä on asiakkaan toinen pääkysymys.",
+          "kysymys": "Onko meillä rajapinta (API) ja onko siitä dokumentaatiota jaettavaksi?",
+          "miksi": "Asiakas kysyi suoraan, eikä todisteissa mainita rajapintaa lainkaan.",
           "tarvitsee": "liiketoimintalinjaus"
         },
         {
-          "kysymys": "Missä data säilytetään ja voidaanko vahvistaa, että se on EU:ssa?",
-          "miksi": "Tietosuojasivulla kerrotaan säilytysajoista ja palveluntuottajien käytöstä, mutta ei sijaintia.",
+          "kysymys": "Missä data säilytetään ja säilytetäänkö se EU:ssa?",
+          "miksi": "Tietosuojasivu kertoo säilytysajoista ja oikeuksista, mutta ei datan sijainnista.",
           "tarvitsee": "liiketoimintalinjaus"
         },
         {
@@ -952,37 +950,37 @@
           "tarvitsee": "lupaus_tai_aikataulu"
         }
       ],
-      "reititys": "Myynti / tuotevastaava: erähinnoittelu, rajapinta ja datan sijainti."
+      "reititys": "myynti"
     },
     "tarkistus": {
       "vastattavuus": "osittain",
       "hyvaksytyt": [
         {
-          "teksti": "Julkisessa hinnastossamme on myös rajattoman raporttimäärän kuukausitilaus hintaan 50 € / kk.",
+          "teksti": "Julkisessa hinnastossamme on yksittäisten raporttien lisäksi kuukausitilaus, jossa raporttien määrää ei ole rajattu: 50 € / kk.",
           "lahde": "hinnat",
           "sitaatti": "Kuukausitilaus, rajaton määrä raportteja: 50 € / kk"
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Tuomas,\n\nJulkisessa hinnastossamme on myös rajattoman raporttimäärän kuukausitilaus hintaan 50 € / kk.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hei Tuomas,\n\nJulkisessa hinnastossamme on yksittäisten raporttien lisäksi kuukausitilaus, jossa raporttien määrää ei ole rajattu: 50 € / kk.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mikä hinta annetaan 500 yrityksen kuukausierälle rajapinnan kautta?",
-          "miksi": "Erähinnoittelusta ei ole julkaistua tietoa, ja asiakas kysyi sitä suoraan.",
+          "kysymys": "Mikä on hinta 500 yrityksen kuukausittaiselle erälle rahoitusyhtiöasiakkaalle?",
+          "miksi": "Asiakkaan pääkysymys; volyymihinnoittelua ei ole julkaistu missään lähteessä.",
           "tarvitsee": "liiketoimintalinjaus",
           "laji": "paatos",
           "lahde": "malli"
         },
         {
-          "kysymys": "Onko meillä API ja onko siitä dokumentaatiota, jonka voi jakaa asiakkaalle?",
-          "miksi": "Todisteissa ei ole mitään rajapinnasta, ja tämä on asiakkaan toinen pääkysymys.",
+          "kysymys": "Onko meillä rajapinta (API) ja onko siitä dokumentaatiota jaettavaksi?",
+          "miksi": "Asiakas kysyi suoraan, eikä todisteissa mainita rajapintaa lainkaan.",
           "tarvitsee": "liiketoimintalinjaus",
           "laji": "paatos",
           "lahde": "malli"
         },
         {
-          "kysymys": "Missä data säilytetään ja voidaanko vahvistaa, että se on EU:ssa?",
-          "miksi": "Tietosuojasivulla kerrotaan säilytysajoista ja palveluntuottajien käytöstä, mutta ei sijaintia.",
+          "kysymys": "Missä data säilytetään ja säilytetäänkö se EU:ssa?",
+          "miksi": "Tietosuojasivu kertoo säilytysajoista ja oikeuksista, mutta ei datan sijainnista.",
           "tarvitsee": "liiketoimintalinjaus",
           "laji": "paatos",
           "lahde": "malli"
@@ -995,29 +993,8 @@
           "lahde": "malli"
         },
         {
-          "kysymys": "Mikä on hinta 500 luottoluokituksen kuukausierälle rajapinnan kautta — riittääkö kuukausitilaus vai tehdäänkö erillinen tarjous?",
-          "miksi": "Erähinnalle ei ole julkaistua hintaa, ja asiakas pyytää tarjousta.",
-          "tarvitsee": "liiketoimintalinjaus",
-          "laji": "paatos",
-          "lahde": "malli"
-        },
-        {
-          "kysymys": "Onko meillä API ja onko siitä dokumentaatiota, jonka voi lähettää asiakkaalle?",
-          "miksi": "Asiakas kysyi rajapinnasta, eikä todisteissa ole siitä mitään.",
-          "tarvitsee": "liiketoimintalinjaus",
-          "laji": "paatos",
-          "lahde": "malli"
-        },
-        {
-          "kysymys": "Missä data säilytetään ja onko säilytys EU:ssa?",
-          "miksi": "Tietosuojasivu ei kerro säilytyspaikkaa, joten kysymykseen ei voi vastata todisteiden perusteella.",
-          "tarvitsee": "jarjestelmatieto",
-          "laji": "paatos",
-          "lahde": "malli"
-        },
-        {
-          "kysymys": "Luvataanko tarjous tällä viikolla?",
-          "miksi": "Asiakas pyysi aikataulua, jota luonnos ei voi luvata.",
+          "kysymys": "Luvataanko tarjous tämän viikon aikana?",
+          "miksi": "Asiakas pyytää tarjousta tällä viikolla; aikataulua ei voi luvata luonnoksessa.",
           "tarvitsee": "lupaus_tai_aikataulu",
           "laji": "paatos",
           "lahde": "malli"
@@ -1036,7 +1013,7 @@
       "hylattyja": 1,
       "korjattuja": 1
     },
-    "kesto_ms": 46986
+    "kesto_ms": 41156
   },
   {
     "viesti": {
@@ -1055,13 +1032,13 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "myynti",
-      "syy": "Tarjouspyynnöt ja myyntitiedustelut kuuluvat oikean osoitteen piiriin. Kysytään volyymin perusteella alennuksesta ja laskutuskäytännöistä.",
+      "syy": "Tarjouspyyntö ja myyntitiedustelu volyymiasiakkaalta - alennusneuvottelut, hinnoittelu ja laskutusratkaisut",
       "hakusanat": [
         "hinnoittelu",
-        "alennus",
-        "volyymisopimus",
+        "alennukset",
+        "yritysasiakas",
         "laskutus",
-        "yritysasiakas"
+        "tilauskäytäntö"
       ]
     },
     "todisteet": [
@@ -1070,6 +1047,14 @@
         "otsikko": "Mitä yrityksen luottoraja tarkoittaa?",
         "url": "https://luottoriskit.fi/fi/faq/",
         "teksti": "Mitä yrityksen luottoraja tarkoittaa?\n\nYrityksen luottoraja tarkoittaa suuntaa-antavaa euromäärää, jonka puitteissa yritykselle voidaan harkita lasku- tai luottokauppaa ilman poikkeuksellisen suurta luottotappioriskiä. Luottoraja ei ole sitova rahoituspäätös, vaan riskimalliin perustuva apuväline omaan luottopäätökseen.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "palveluehdot#palvelu-ja-tilaus",
+        "otsikko": "Palvelu ja tilaus",
+        "url": "https://luottoriskit.fi/fi/terms/",
+        "teksti": "Palvelu ja tilaus\n\nLuottoriskit.fi tarjoaa yrityskohtaisia luottotietoraportteja ja AI-luottotietoraportteja. Tuotteen sisältö, hinta ja ostolinkki esitetään yrityksen omalla tuotesivulla ennen maksua. Maksu suoritetaan Stripen kautta.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -1114,14 +1099,6 @@
         "laji": "kb"
       },
       {
-        "id": "faq#miksi-luottoluokitus-voi-muuttua-nopeasti-vuodesta-toiseen",
-        "otsikko": "Miksi luottoluokitus voi muuttua nopeasti vuodesta toiseen?",
-        "url": "https://luottoriskit.fi/fi/faq/",
-        "teksti": "Miksi luottoluokitus voi muuttua nopeasti vuodesta toiseen?\n\nLuottoluokitus voi muuttua, jos yrityksen tunnusluvut muuttuvat tai jos toimintaympäristö muuttuu. Esimerkiksi:\nkannattavuus heikkenee tai paranee\noma pääoma kasvaa tai pienenee\nkassa vahvistuu tai heikkenee\ntoimialan riskitaso muuttuu\nliiketoiminnan volyymi kasvaa nopeammin kuin puskurit\nJoillakin toimialoilla myös suhdanteet vaikuttavat voimakkaasti. Tällöin samanlaisillakin yrityskohtaisilla luvuilla voidaan eri vuosina päätyä erilaiseen riskitasoon.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "faq#miten-voin-itse-arvioida-millaiseen-luottoluokitukseen-yritykseni",
         "otsikko": "Miten voin itse arvioida, millaiseen luottoluokitukseen yritykseni yleensä sijoittuu?",
         "url": "https://luottoriskit.fi/fi/faq/#luottoluokituksen-arviointi",
@@ -1130,18 +1107,18 @@
         "laji": "kb"
       },
       {
-        "id": "luottoriski#piilevien-riskien-tunnistaminen",
-        "otsikko": "Piilevien riskien tunnistaminen",
+        "id": "luottoriski#mita-luottoluokitus-kertoo-ja-miten-se-muodostuu",
+        "otsikko": "Mitä luottoluokitus kertoo ja miten se muodostuu?",
         "url": "https://luottoriskit.fi/fi/luottoriski/",
-        "teksti": "Piilevien riskien tunnistaminen\n\nJärjestelmä tunnistaa esimerkiksi tilanteita, joissa taseeseen kertyy epäkurantteja tai epäsuhtaisia eriä, kuten toiminnan volyymiin nähden poikkeuksellisen suuria saamisia, varastoja tai aktivoituja kuluja. Tällaiset ilmiöt voivat jäädä perinteisissä malleissa huomaamatta, koska ne perustuvat rajattuun määrään tunnuslukuja.",
+        "teksti": "Mitä luottoluokitus kertoo ja miten se muodostuu?\n\nLuottoluokitus on eteenpäin katsova arvio siitä, kuinka todennäköisesti yritys selviää velvoitteistaan lähitulevaisuudessa. Ensisijainen mittari on luottopisteet asteikolla 0–100. Kirjainluokka AAA–C toimii toissijaisena, nopeasti luettavana yhteenvetona riskitasosta.\nLuottoluokitusmalleissa kaksi tekijää vaikuttavat riskiin yleensä eniten: kannattavuus ja vakavaraisuus. Kannattavuus kertoo, pystyykö yritys tekemään tulosta ja hoitamaan velvoitteensa normaalioloissa. Vakavaraisuus puolestaan kuvaa, kuinka paljon yrityksellä on puskuria heikompia aikoja varten: mitä enemmän omaa pääomaa yrityksellä on suhteessa velkoihin, sitä parempi sen selviytymiskyky on.\nKuva havainnollistaa tätä yhteyttä: mitä kannattavampi ja vakavaraisempi yritys on, sitä vahvempi sen luottoluokitus yleensä on. Yksittäisten yritysten riskitasoon vaikuttavat kuitenkin myös muut tekijät. Katso alta, miksi Valuatumin luokitus on yleensä tarkempi.\nLue kuvan tulkinnasta tarkemmin FAQ:sta.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
       {
-        "id": "faq#tarkoittaako-heikko-luokitus-etta-yritykseni-on-huonossa",
-        "otsikko": "Tarkoittaako heikko luokitus, että yritykseni on huonossa kunnossa?",
-        "url": "https://luottoriskit.fi/fi/faq/",
-        "teksti": "Tarkoittaako heikko luokitus, että yritykseni on huonossa kunnossa?\n\nEi välttämättä. Heikko tai keskitasoa matalampi luokitus ei automaattisesti tarkoita, että yrityksen liiketoiminta olisi huonoa tai että yritys olisi välittömässä vaarassa.\nSe tarkoittaa yleensä, että tilastollisesti katsottuna yrityksen riskitaso on korkeampi kuin paremmin luokitelluilla yrityksillä. Syynä voi olla esimerkiksi riskinen toimiala, pieni absoluuttinen oma pääoma, rajallinen kassapuskuri tai taseen koko suhteessa liiketoiminnan volyymiin.",
+        "id": "palvelu#mika-luottoriskit-fi-on",
+        "otsikko": "Mikä Luottoriskit.fi on",
+        "url": "https://luottoriskit.fi/fi/tietoa/",
+        "teksti": "Mikä Luottoriskit.fi on\n\nLuottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu.\nPalvelu tarjoaa yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja yli 300 000 suomalaisesta yrityksestä.\nYksittäisen luottotietoraportin hinta on 9 € ja kolmen raportin paketti 15 €.\nLuottoluokitus perustuu koneoppimismalliin (päätöspuupohjainen XGBoost, dynaamiset painotukset).\nValuatum Oy on vuonna 2000 perustettu suomalainen ohjelmistoyhtiö.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -1149,8 +1126,8 @@
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:18)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:18:46.064Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:28)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:28:17.873Z",
         "laji": "elava"
       },
       {
@@ -1170,62 +1147,58 @@
       "tervehdys": "Hei Jarkko,",
       "vaitteet": [
         {
-          "teksti": "Hinnastossa on 20–30 raportin kuukausivolyymiin sopiva kuukausitilaus: rajaton määrä raportteja 50 € / kk.",
+          "teksti": "Mainitulla volyymilla kannattaa huomioida kuukausitilaus, jossa raporttien määrä on rajaton: 50 € / kk.",
           "lahde": "hinnat",
           "sitaatti": "Kuukausitilaus, rajaton määrä raportteja: 50 € / kk"
+        },
+        {
+          "teksti": "Tällä hetkellä maksaminen tapahtuu verkkokaupassa Stripen kautta tuotesivulla esitetyn hinnan mukaan.",
+          "lahde": "palveluehdot#palvelu-ja-tilaus",
+          "sitaatti": "Maksu suoritetaan Stripen kautta."
         }
       ],
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Myönnetäänkö tilitoimistolle pyydetty 40 % alennus tai jokin muu alennus?",
-          "miksi": "Asiakas pyysi nimenomaan 40 % alennusta; hinnastossa ei ole tilitoimisto- tai volyymialennusta eikä luonnos vastaa tähän.",
+          "kysymys": "Myönnetäänkö tilitoimistolle 40 % alennus 20–30 raportin kuukausivolyymilla?",
+          "miksi": "Asiakas pyytää nimenomaista alennusprosenttia; julkisissa lähteissä on vain listahinnat.",
           "tarvitsee": "hyvitys_tai_alennus"
         },
         {
-          "kysymys": "Voidaanko laskutus järjestää kerran kuussa yhdellä laskulla?",
-          "miksi": "Asiakas kysyi laskutusjärjestelyä, eikä laskutusehdoista ole julkaistua tietoa todisteissa.",
+          "kysymys": "Voidaanko ostot laskuttaa kerran kuussa yhdellä laskulla?",
+          "miksi": "Laskutusehdoista ei ole julkaistua tietoa; lähteissä vain Stripe-maksu.",
           "tarvitsee": "liiketoimintalinjaus"
         }
       ],
-      "reititys": "Vaatii ihmisen päätöksen alennuksesta ja laskutusehdoista ennen lähettämistä."
+      "reititys": "Tarvitsee ihmisen päätöksen hinnoittelusta ja laskutuksesta ennen lähetystä."
     },
     "tarkistus": {
       "vastattavuus": "osittain",
       "hyvaksytyt": [
         {
-          "teksti": "Hinnastossa on kuukausitilaus, joka kattaa rajattoman määrän raportteja hintaan 50 € / kk.",
+          "teksti": "Mainitulla volyymilla kannattaa huomioida kuukausitilaus, jossa raporttien määrä on rajaton: 50 € / kk.",
           "lahde": "hinnat",
           "sitaatti": "Kuukausitilaus, rajaton määrä raportteja: 50 € / kk"
+        },
+        {
+          "teksti": "Tällä hetkellä maksaminen tapahtuu verkkokaupassa Stripen kautta tuotesivulla esitetyn hinnan mukaan.",
+          "lahde": "palveluehdot#palvelu-ja-tilaus",
+          "sitaatti": "Maksu suoritetaan Stripen kautta."
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Jarkko,\n\nHinnastossa on kuukausitilaus, joka kattaa rajattoman määrän raportteja hintaan 50 € / kk.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hei Jarkko,\n\nMainitulla volyymilla kannattaa huomioida kuukausitilaus, jossa raporttien määrä on rajaton: 50 € / kk.\nTällä hetkellä maksaminen tapahtuu verkkokaupassa Stripen kautta tuotesivulla esitetyn hinnan mukaan.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Myönnetäänkö tilitoimistolle pyydetty 40 % alennus tai jokin muu alennus?",
-          "miksi": "Asiakas pyysi nimenomaan 40 % alennusta; hinnastossa ei ole tilitoimisto- tai volyymialennusta eikä luonnos vastaa tähän.",
+          "kysymys": "Myönnetäänkö tilitoimistolle 40 % alennus 20–30 raportin kuukausivolyymilla?",
+          "miksi": "Asiakas pyytää nimenomaista alennusprosenttia; julkisissa lähteissä on vain listahinnat.",
           "tarvitsee": "hyvitys_tai_alennus",
           "laji": "paatos",
           "lahde": "malli"
         },
         {
-          "kysymys": "Voidaanko laskutus järjestää kerran kuussa yhdellä laskulla?",
-          "miksi": "Asiakas kysyi laskutusjärjestelyä, eikä laskutusehdoista ole julkaistua tietoa todisteissa.",
-          "tarvitsee": "liiketoimintalinjaus",
-          "laji": "paatos",
-          "lahde": "malli"
-        },
-        {
-          "kysymys": "Myönnetäänkö tilitoimistolle pyydetty 40 % alennus raporttihinnoista?",
-          "miksi": "Asiakas pyytää nimenomaista alennusprosenttia, eikä alennuksista ole julkaistua tietoa.",
-          "tarvitsee": "hyvitys_tai_alennus",
-          "laji": "paatos",
-          "lahde": "malli"
-        },
-        {
-          "kysymys": "Onko kerran kuussa yhdellä laskulla tapahtuva laskutus mahdollista, ja millä ehdoilla?",
-          "miksi": "Laskutusehdoista ei ole julkista tietoa todisteissa.",
+          "kysymys": "Voidaanko ostot laskuttaa kerran kuussa yhdellä laskulla?",
+          "miksi": "Laskutusehdoista ei ole julkaistua tietoa; lähteissä vain Stripe-maksu.",
           "tarvitsee": "liiketoimintalinjaus",
           "laji": "paatos",
           "lahde": "malli"
@@ -1240,11 +1213,8 @@
       ],
       "lahetyskelpoinen": false
     },
-    "korjaus": {
-      "hylattyja": 1,
-      "korjattuja": 1
-    },
-    "kesto_ms": 23414
+    "korjaus": null,
+    "kesto_ms": 18007
   },
   {
     "viesti": {
@@ -1263,13 +1233,12 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "tuki",
-      "syy": "Asiakkaalla on oikeutettu tietosuojakysymys palvelun datasta ja tietojen poistopyyntö",
+      "syy": "Tietosuojaan liittyvä vaatimus poistaa yritystiedot palvelusta",
       "hakusanat": [
         "tietosuoja",
-        "tietojen poisto",
-        "oikaisupyyntö",
-        "tietolähde",
-        "rekisteröidyn oikeudet"
+        "tietojen poistaminen",
+        "rekisteröidyn oikeudet",
+        "tietojen lähde"
       ]
     },
     "todisteet": [
@@ -1357,8 +1326,8 @@
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:19)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:19:32.182Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:28)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:28:57.837Z",
         "laji": "elava"
       },
       {
@@ -1378,72 +1347,60 @@
       "tervehdys": "Hei Laura,",
       "vaitteet": [
         {
-          "teksti": "Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihin, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä, ja käsittelemme pyyntösi näiden mukaisesti.",
-          "lahde": "tietosuoja#sailytys-luovutukset-ja-oikeudet",
-          "sitaatti": "Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihisi, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä."
+          "teksti": "Palvelun rekisterinpitäjä on Valuatum Oy (Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki), ja tietosuoja-asioissa yhteysosoite on luottoriskit2026@valuatum.com.",
+          "lahde": "tietosuoja#rekisterinpitaja-ja-yhteydenotto",
+          "sitaatti": "Valuatum Oy, Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki. Tietosuojaa koskevissa asioissa voit ottaa yhteyttä osoitteeseen luottoriskit2026@valuatum.com."
         },
         {
-          "teksti": "Rekisterinpitäjä on Valuatum Oy (Y-tunnus 1612398-8), ja tietosuoja-asiat käsitellään tässä osoitteessa.",
-          "lahde": "tietosuoja#rekisterinpitaja-ja-yhteydenotto",
-          "sitaatti": "Valuatum Oy, Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki."
+          "teksti": "Henkilötietojen osalta sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet, kuten oikeus saada pääsy tietoihin, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä.",
+          "lahde": "tietosuoja#sailytys-luovutukset-ja-oikeudet",
+          "sitaatti": "Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihisi, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä."
         }
       ],
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mikä on kantamme yrityksen sivun poistamiseen ja miten vastaamme viittaukseen tietosuojavaltuutetulle tehtävästä ilmoituksesta?",
-          "miksi": "Asiakas vaatii sivun poistoa ja esittää oikeudellisen vaatimuksen; todisteissa ei ole kannanottoa poistoon tai käsittelyn perusteeseen.",
-          "tarvitsee": "juridinen_kannanotto"
-        },
-        {
-          "kysymys": "Mistä lähteistä yritysten talous- ja luottotiedot on hankittu, ja mitä tästä voidaan kertoa asiakkaalle?",
-          "miksi": "Asiakas kysyi suoraan tietojen alkuperää, eikä sitä ole todisteissa.",
+          "kysymys": "Mistä yritysten taloustiedot on hankittu — mikä lähde kerrotaan asiakkaalle?",
+          "miksi": "Asiakas kysyi tietojen alkuperää, eikä todisteissa ole tietolähteitä koskevaa julkaistua tietoa.",
           "tarvitsee": "liiketoimintalinjaus"
         },
         {
-          "kysymys": "Pyydetäänkö asiakkaalta yrityksen y-tunnus tai sivun osoite, jotta pyyntö voidaan kohdistaa oikeaan yritykseen?",
-          "miksi": "Viestissä ei ole yksilöivää tietoa käsiteltävästä yrityssivusta.",
-          "tarvitsee": "lisatieto_asiakkaalta"
+          "kysymys": "Mikä on kantamme yrityssivun poistovaatimukseen, kun asiakas uhkaa ilmoituksella tietosuojavaltuutetulle?",
+          "miksi": "Kyse on oikeudellisesta vaatimuksesta ja poistopäätöksestä, jota en voi tehdä luonnoksessa.",
+          "tarvitsee": "juridinen_kannanotto"
         }
       ],
-      "reititys": "Tietosuoja-/juridinen käsittely: vaatimus tietojen poistosta ja uhkaus valvontaviranomaisilmoituksesta."
+      "reititys": "Tietosuoja-/juridinen käsittely ennen lähetystä."
     },
     "tarkistus": {
       "vastattavuus": "osittain",
       "hyvaksytyt": [
         {
-          "teksti": "Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihin, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä, ja käsittelemme pyyntösi näiden mukaisesti.",
-          "lahde": "tietosuoja#sailytys-luovutukset-ja-oikeudet",
-          "sitaatti": "Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihisi, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä."
+          "teksti": "Palvelun rekisterinpitäjä on Valuatum Oy (Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki), ja tietosuoja-asioissa yhteysosoite on luottoriskit2026@valuatum.com.",
+          "lahde": "tietosuoja#rekisterinpitaja-ja-yhteydenotto",
+          "sitaatti": "Valuatum Oy, Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki. Tietosuojaa koskevissa asioissa voit ottaa yhteyttä osoitteeseen luottoriskit2026@valuatum.com."
         },
         {
-          "teksti": "Rekisterinpitäjä on Valuatum Oy (Y-tunnus 1612398-8), ja tietosuoja-asiat käsitellään tässä osoitteessa.",
-          "lahde": "tietosuoja#rekisterinpitaja-ja-yhteydenotto",
-          "sitaatti": "Valuatum Oy, Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki."
+          "teksti": "Henkilötietojen osalta sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet, kuten oikeus saada pääsy tietoihin, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä.",
+          "lahde": "tietosuoja#sailytys-luovutukset-ja-oikeudet",
+          "sitaatti": "Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihisi, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä."
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Laura,\n\nSinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihin, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä, ja käsittelemme pyyntösi näiden mukaisesti.\nRekisterinpitäjä on Valuatum Oy (Y-tunnus 1612398-8), ja tietosuoja-asiat käsitellään tässä osoitteessa.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hei Laura,\n\nPalvelun rekisterinpitäjä on Valuatum Oy (Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki), ja tietosuoja-asioissa yhteysosoite on luottoriskit2026@valuatum.com.\nHenkilötietojen osalta sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet, kuten oikeus saada pääsy tietoihin, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mikä on kantamme yrityksen sivun poistamiseen ja miten vastaamme viittaukseen tietosuojavaltuutetulle tehtävästä ilmoituksesta?",
-          "miksi": "Asiakas vaatii sivun poistoa ja esittää oikeudellisen vaatimuksen; todisteissa ei ole kannanottoa poistoon tai käsittelyn perusteeseen.",
-          "tarvitsee": "juridinen_kannanotto",
-          "laji": "paatos",
-          "lahde": "malli"
-        },
-        {
-          "kysymys": "Mistä lähteistä yritysten talous- ja luottotiedot on hankittu, ja mitä tästä voidaan kertoa asiakkaalle?",
-          "miksi": "Asiakas kysyi suoraan tietojen alkuperää, eikä sitä ole todisteissa.",
+          "kysymys": "Mistä yritysten taloustiedot on hankittu — mikä lähde kerrotaan asiakkaalle?",
+          "miksi": "Asiakas kysyi tietojen alkuperää, eikä todisteissa ole tietolähteitä koskevaa julkaistua tietoa.",
           "tarvitsee": "liiketoimintalinjaus",
           "laji": "paatos",
           "lahde": "malli"
         },
         {
-          "kysymys": "Pyydetäänkö asiakkaalta yrityksen y-tunnus tai sivun osoite, jotta pyyntö voidaan kohdistaa oikeaan yritykseen?",
-          "miksi": "Viestissä ei ole yksilöivää tietoa käsiteltävästä yrityssivusta.",
-          "tarvitsee": "lisatieto_asiakkaalta",
-          "laji": "ehdotus",
+          "kysymys": "Mikä on kantamme yrityssivun poistovaatimukseen, kun asiakas uhkaa ilmoituksella tietosuojavaltuutetulle?",
+          "miksi": "Kyse on oikeudellisesta vaatimuksesta ja poistopäätöksestä, jota en voi tehdä luonnoksessa.",
+          "tarvitsee": "juridinen_kannanotto",
+          "laji": "paatos",
           "lahde": "malli"
         }
       ],
@@ -1457,12 +1414,32 @@
           "luku": "8",
           "ok": true,
           "missa": "tietosuoja#rekisterinpitaja-ja-yhteydenotto"
+        },
+        {
+          "luku": "6",
+          "ok": true,
+          "missa": "tietosuoja#rekisterinpitaja-ja-yhteydenotto"
+        },
+        {
+          "luku": "8",
+          "ok": true,
+          "missa": "tietosuoja#rekisterinpitaja-ja-yhteydenotto"
+        },
+        {
+          "luku": "880",
+          "ok": true,
+          "missa": "tietosuoja#rekisterinpitaja-ja-yhteydenotto"
+        },
+        {
+          "luku": "2026",
+          "ok": true,
+          "missa": "tietosuoja#rekisterinpitaja-ja-yhteydenotto"
         }
       ],
       "lahetyskelpoinen": false
     },
     "korjaus": null,
-    "kesto_ms": 26128
+    "kesto_ms": 23334
   },
   {
     "viesti": {
@@ -1481,11 +1458,11 @@
     "lajittelu": {
       "vastataanko": "ei",
       "luokka": "rekry",
-      "syy": "Työhakemus tai rekrytointiin liittyvä viesti, joka tulee ohjata henkilöstöosastolle",
+      "syy": "työhakemus",
       "hakusanat": [
         "rekrytointi",
-        "työhakemus",
-        "avoin hakemus",
+        "avoin paikka",
+        "hakemus",
         "henkilöstö"
       ]
     },
@@ -1496,7 +1473,7 @@
     "malli": null,
     "tarkistus": null,
     "korjaus": null,
-    "kesto_ms": 1983
+    "kesto_ms": 1553
   },
   {
     "viesti": {
@@ -1515,11 +1492,12 @@
     "lajittelu": {
       "vastataanko": "ei",
       "luokka": "massaposti",
-      "syy": "Automaattinen markkinointiviesti/uutiskirje, joka ei ole osoitettu Luottoriskit.fi:n asiakaspalvelulle vaan on massaposti ulkopuolisen palvelun tuottajalta.",
+      "syy": "Automaattinen markkinointiviesti, ei asiakaskysymys",
       "hakusanat": [
-        "roskapostin-hallinta",
-        "poistaminen-jakelijalta",
-        "suodatus"
+        "markkinointimateriaalit",
+        "roskapostit",
+        "poistaminen",
+        "tilaukset"
       ]
     },
     "todisteet": [],
@@ -1529,7 +1507,7 @@
     "malli": null,
     "tarkistus": null,
     "korjaus": null,
-    "kesto_ms": 2338
+    "kesto_ms": 1655
   },
   {
     "viesti": {
@@ -1548,13 +1526,13 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "myynti",
-      "syy": "Asiakas kysyy raporttityyppien eroista ja hinnoista, sekä harkitsee raportin ostamista.",
+      "syy": "Asiakas kysyy raporttityyppien eroista ja hinnoista sekä haluaa ostaa raportin",
       "hakusanat": [
-        "raportin tyyppi",
+        "raporttityypit",
+        "hinnat",
         "perusraportti",
         "AI-raportti",
-        "raportin hinta",
-        "ostaminen"
+        "asiakkaiden luottotiedot"
       ]
     },
     "todisteet": [
@@ -1567,18 +1545,10 @@
         "laji": "kb"
       },
       {
-        "id": "palvelu#miten-luottoriskit-fi-eroaa-muista",
-        "otsikko": "Miten Luottoriskit.fi eroaa muista",
+        "id": "palvelu#lahteet",
+        "otsikko": "Lähteet",
         "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Miten Luottoriskit.fi eroaa muista\n\nEdullinen raporttikohtainen hinta: luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua.\nAI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.\nKoneoppimismalli: luottoluokitus perustuu päätöspuupohjaiseen koneoppimismalliin, joka säätää painotuksia yrityksen tilanteen mukaan.\nLue lisää raportin sisällöstä luottotietoraportti-sivulta ja luottoluokituksen muodostumisesta luottoriskimallin kuvauksesta.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "luottoriski#mita-raportti-sisaltaa",
-        "otsikko": "Mitä raportti sisältää",
-        "url": "https://luottoriskit.fi/fi/luottoriski/",
-        "teksti": "Mitä raportti sisältää\n\nYrityksen luottoluokitus ja luottopisteet\nArvio 2 vuoden konkurssiriskistä\nViitteellinen luottolimiitti\nPerustiedot ja luottohistoria\nTaloudellinen yleiskatsaus ja keskeiset tunnusluvut\nAutomatisoitu analyysi kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta\nTuloslaskelma, tase ja mahdollinen toimialavertailu",
+        "teksti": "Lähteet\n\n¹ Asiakastieto: Rating Alfa -raportti.asiakastieto.fi\n² Intrum: Pikaluottosuositus Plus.intrum.fi\n³ Intrum: Luottotietokauppa.luottotietokauppa.fi\n⁴ Coface: asiakkaan riskien arviointi.coface.fi\n⁵ Coface: Urba360.coface.fi\n⁶ Dun & Bradstreet: AAA Rating.dnb.com\n⁷ Dun & Bradstreet: RiskGuardian.dnb.com",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -1591,26 +1561,26 @@
         "laji": "kb"
       },
       {
-        "id": "palvelu#lahteet",
-        "otsikko": "Lähteet",
-        "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Lähteet\n\n¹ Asiakastieto: Rating Alfa -raportti.asiakastieto.fi\n² Intrum: Pikaluottosuositus Plus.intrum.fi\n³ Intrum: Luottotietokauppa.luottotietokauppa.fi\n⁴ Coface: asiakkaan riskien arviointi.coface.fi\n⁵ Coface: Urba360.coface.fi\n⁶ Dun & Bradstreet: AAA Rating.dnb.com\n⁷ Dun & Bradstreet: RiskGuardian.dnb.com",
+        "id": "luottoriski#mita-raportti-sisaltaa",
+        "otsikko": "Mitä raportti sisältää",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Mitä raportti sisältää\n\nYrityksen luottoluokitus ja luottopisteet\nArvio 2 vuoden konkurssiriskistä\nViitteellinen luottolimiitti\nPerustiedot ja luottohistoria\nTaloudellinen yleiskatsaus ja keskeiset tunnusluvut\nAutomatisoitu analyysi kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta\nTuloslaskelma, tase ja mahdollinen toimialavertailu",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
       {
-        "id": "palvelu#mika-luottoriskit-fi-on",
-        "otsikko": "Mikä Luottoriskit.fi on",
+        "id": "palvelu#miten-luottoriskit-fi-eroaa-muista",
+        "otsikko": "Miten Luottoriskit.fi eroaa muista",
         "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Mikä Luottoriskit.fi on\n\nLuottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu.\nPalvelu tarjoaa yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja yli 300 000 suomalaisesta yrityksestä.\nYksittäisen luottotietoraportin hinta on 9 € ja kolmen raportin paketti 15 €.\nLuottoluokitus perustuu koneoppimismalliin (päätöspuupohjainen XGBoost, dynaamiset painotukset).\nValuatum Oy on vuonna 2000 perustettu suomalainen ohjelmistoyhtiö.",
+        "teksti": "Miten Luottoriskit.fi eroaa muista\n\nEdullinen raporttikohtainen hinta: luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua.\nAI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.\nKoneoppimismalli: luottoluokitus perustuu päätöspuupohjaiseen koneoppimismalliin, joka säätää painotuksia yrityksen tilanteen mukaan.\nLue lisää raportin sisällöstä luottotietoraportti-sivulta ja luottoluokituksen muodostumisesta luottoriskimallin kuvauksesta.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
       {
-        "id": "palveluehdot#palvelu-ja-tilaus",
-        "otsikko": "Palvelu ja tilaus",
-        "url": "https://luottoriskit.fi/fi/terms/",
-        "teksti": "Palvelu ja tilaus\n\nLuottoriskit.fi tarjoaa yrityskohtaisia luottotietoraportteja ja AI-luottotietoraportteja. Tuotteen sisältö, hinta ja ostolinkki esitetään yrityksen omalla tuotesivulla ennen maksua. Maksu suoritetaan Stripen kautta.",
+        "id": "luottoriski#yrityksen-luottoriski-luottotiedot-ja-luottoluokitus-paatoksesi-tueksi",
+        "otsikko": "Yrityksen luottoriski – luottotiedot ja luottoluokitus päätöksesi tueksi",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Yrityksen luottoriski – luottotiedot ja luottoluokitus päätöksesi tueksi\n\nLuottoriski kuvaa todennäköisyyttä sille, kuinka hyvin yritys selviää maksuvelvoitteistaan. Kun arvioit asiakkaalle annettavaa maksuaikaa tai uuden yhteistyökumppanin luotettavuutta, tarvitset päätöksen tueksi sekä ajantasaiset luottotiedot että ennakoivan luottoluokituksen.\nTämän sivun avulla ymmärrät, mitä luottoriski, luottotiedot ja luottoluokitus kertovat käytännössä – ja miten luottotietoraportti kokoaa tiedot yhteen päätöksentekoa varten.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -1639,11 +1609,19 @@
         "laji": "kb"
       },
       {
+        "id": "luottoriski#luottotietoraportti-hyva-luokitus",
+        "otsikko": "Luottotietoraportti (hyvä luokitus)",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Luottotietoraportti (hyvä luokitus)\n\nAI-raportti sisältää kaiken yllä listatun, ja lisäksi: AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet.\nSamat luvut, parempi AI-analyysi vakaan yhtiön tilanteesta.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:19)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:19:58.708Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:29)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:29:21.555Z",
         "laji": "elava"
       },
       {
@@ -1663,51 +1641,37 @@
       "tervehdys": "Hei Otto,",
       "vaitteet": [
         {
-          "teksti": "Perusraportti maksaa 9 € ja AI-raportti 10 €, ja raportti toimitetaan sähköisesti heti maksun jälkeen.",
-          "lahde": "luottoriski#luottotietoraportti-luottoriskin-arviointi-kaytannossa",
-          "sitaatti": "Perusraportti 9 € tai AI-raportti 10 € — raportti toimitetaan sähköisesti heti maksun jälkeen."
+          "teksti": "Perusraportti sisältää luottoluokituksen, konkurssiriskiarvion, viitteellisen luottolimiitin ja talousluvut; AI-raportissa on lisäksi AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet.",
+          "lahde": "luottoriski#luottotietoraportti-hyva-luokitus",
+          "sitaatti": "AI-raportti sisältää kaiken yllä listatun, ja lisäksi: AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet."
         },
         {
-          "teksti": "Ero on siinä, että AI-raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.",
-          "lahde": "palvelu#miten-luottoriskit-fi-eroaa-muista",
-          "sitaatti": "AI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta."
+          "teksti": "Perusraportti on 9 € ja AI-raportti 10 €, ja raportti toimitetaan sähköisesti heti maksun jälkeen.",
+          "lahde": "luottoriski#luottotietoraportti-luottoriskin-arviointi-kaytannossa",
+          "sitaatti": "Perusraportti 9 € tai AI-raportti 10 € — raportti toimitetaan sähköisesti heti maksun jälkeen."
         }
       ],
       "lopetus": "Ystävällisin terveisin,\nJami",
-      "avoimet": [
-        {
-          "kysymys": "Mainitaanko myös 3 kpl:n paketit (15 € / 20 €), jos asiakkaalla on jatkossa useampia tarkistettavia?",
-          "miksi": "Asiakas kysyi vain yhdestä yrityksestä, joten tämä on vapaaehtoinen lisäys.",
-          "tarvitsee": "vapaaehtoinen_lisays"
-        }
-      ],
-      "reititys": "Valmis luonnos, vastaa molempiin kysymyksiin."
+      "avoimet": [],
+      "reititys": "Valmis lähetettäväksi; molempiin kysymyksiin on katettu vastaus."
     },
     "tarkistus": {
       "vastattavuus": "taysin",
       "hyvaksytyt": [
         {
-          "teksti": "Perusraportti maksaa 9 € ja AI-raportti 10 €, ja raportti toimitetaan sähköisesti heti maksun jälkeen.",
-          "lahde": "luottoriski#luottotietoraportti-luottoriskin-arviointi-kaytannossa",
-          "sitaatti": "Perusraportti 9 € tai AI-raportti 10 € — raportti toimitetaan sähköisesti heti maksun jälkeen."
+          "teksti": "Perusraportti sisältää luottoluokituksen, konkurssiriskiarvion, viitteellisen luottolimiitin ja talousluvut; AI-raportissa on lisäksi AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet.",
+          "lahde": "luottoriski#luottotietoraportti-hyva-luokitus",
+          "sitaatti": "AI-raportti sisältää kaiken yllä listatun, ja lisäksi: AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet."
         },
         {
-          "teksti": "Ero on siinä, että AI-raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.",
-          "lahde": "palvelu#miten-luottoriskit-fi-eroaa-muista",
-          "sitaatti": "AI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta."
+          "teksti": "Perusraportti on 9 € ja AI-raportti 10 €, ja raportti toimitetaan sähköisesti heti maksun jälkeen.",
+          "lahde": "luottoriski#luottotietoraportti-luottoriskin-arviointi-kaytannossa",
+          "sitaatti": "Perusraportti 9 € tai AI-raportti 10 € — raportti toimitetaan sähköisesti heti maksun jälkeen."
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Otto,\n\nPerusraportti maksaa 9 € ja AI-raportti 10 €, ja raportti toimitetaan sähköisesti heti maksun jälkeen.\nEro on siinä, että AI-raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.\n\nYstävällisin terveisin,\nJami",
-      "avoimet": [
-        {
-          "kysymys": "Mainitaanko myös 3 kpl:n paketit (15 € / 20 €), jos asiakkaalla on jatkossa useampia tarkistettavia?",
-          "miksi": "Asiakas kysyi vain yhdestä yrityksestä, joten tämä on vapaaehtoinen lisäys.",
-          "tarvitsee": "vapaaehtoinen_lisays",
-          "laji": "ehdotus",
-          "lahde": "malli"
-        }
-      ],
+      "teksti": "Hei Otto,\n\nPerusraportti sisältää luottoluokituksen, konkurssiriskiarvion, viitteellisen luottolimiitin ja talousluvut; AI-raportissa on lisäksi AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet.\nPerusraportti on 9 € ja AI-raportti 10 €, ja raportti toimitetaan sähköisesti heti maksun jälkeen.\n\nYstävällisin terveisin,\nJami",
+      "avoimet": [],
       "luvut": [
         {
           "luku": "9",
@@ -1723,7 +1687,7 @@
       "lahetyskelpoinen": true
     },
     "korjaus": null,
-    "kesto_ms": 19926
+    "kesto_ms": 13909
   },
   {
     "viesti": {
@@ -1742,13 +1706,13 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "tuki",
-      "syy": "Asiakas kyselee luottoluokituksensa perusteista ja parantamismahdollisuuksista, mikä kuuluu palvelun asiakaspalveluun",
+      "syy": "Asiakas kyselee luottoluokituksensa perusteista ja tulkinnasta, mikä on oikean osoitteen aihepiiri",
       "hakusanat": [
         "luottoluokitus",
-        "luokituksen perusteet",
-        "luokituksen parantaminen",
-        "riskiarvioluku",
-        "yritystiedot"
+        "luottoluokituksen perusteet",
+        "luottoluokituksen parantaminen",
+        "riskiarvio",
+        "luottokelpoisuus"
       ]
     },
     "todisteet": [
@@ -1769,14 +1733,6 @@
         "laji": "kb"
       },
       {
-        "id": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
-        "otsikko": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?",
-        "url": "https://luottoriskit.fi/fi/faq/",
-        "teksti": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?\n\nLyhyt vastaus on: koska luokitusasteikot ovat erilaiset.\nSama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat yrityksen konkurssiriskin täsmälleen samaksi.\nTärkeintä ei siis ole kirjainluokitus vaan se, kuinka suuri yrityksen arvioitu konkurssiriski on.\nEsimerkki\nOletetaan, että sekä Valuatum että Asiakastieto arvioivat yrityksen Penan Autokorjaamo Oy (kuvitteellinen yritys) luottoriskin täsmälleen samaksi.\nValuatum Asiakastieto\nArvioitu konkurssitodennäköisyys seuraavan 24 kuukauden aikana\n0,24 %\n0,24 %\nYritys on turvallisempi kuin\n62 % suomalaisista yrityksistä\n62 % suomalaisista yrityksistä\nArvio yrityksen suhteellisesta riskitasosta\nSama\nSama\nKirjainluokitus\nBBB\nAA\nMolemmat palvelut pitävät siis yritystä yhtä luottokelpoisena. Ainoa ero on se, että ne käyttävät erilaista luokitusasteikkoa.\n«Sama riski – eri kirjainluokitus.»\nMistä ero johtuu?\nValuatum ja Asiakastieto käyttävät erilaista tapaa jakaa yritykset eri luokkiin.\nValuatumin luokitusmallissa ylimpiin luokkiin (AAA–A) sijoittuu noin kolmannes yrityksistä. Tämä vastaa melko hyvin kansainvälisten luottoluokituslaitosten, kuten Standard & Poor’sin, käyttämää luokitusjakaumaa.\nSuomen Asiakastiedon luokituksessa puolestaan noin 90 % yrityksistä kuuluu A-luokkiin.\nTämän vuoksi yritys voi saada Valuatumilta luokituksen BBB ja samalla Asiakastiedolta AA, vaikka molemmat arvioivat sen riskin yhtä pieneksi.\nLuokitusjakaumien vertailu\nLuokitusjärjestelmä A-luokkiin sijoittuu\nValuatum\nnoin 33 % yrityksistä\nStandard & Poor’s\nnoin 30–35 % yrityksistä\nSuomen Asiakastieto\nnoin 90 % yrityksistä\nAlla olevat kuvat havainnollistavat luokitusjakaumien eroja.\nValuatumin luottoluokitusjakauma\nLähde: Valuatum\nS&P:n luottoluokitusjakauma\nLähde: Business Insider(alkuperäinen kuva)\nSuomen Asiakastiedon luokitusjakauma\nLähde: Kauppalehti(alkuperäinen kuva)\nMitä Valuatumin luokitus kertoo?\nValuatumin luokitus perustuu yrityksen arvioituun konkurssiriskiin suhteessa kaikkiin suomalaisiin yrityksiin.\nAAA = erittäin pieni konkurssiriski.\nAA = hyvin pieni konkurssiriski.\nA = pieni konkurssiriski.\nBBB = keskimääräistä pienempi konkurssiriski.\nBB, B ja C = asteittain kasvava konkurssiriski.\nKoska ylimpiin luokkiin sijoittuu vain osa yrityksistä, luokitus erottaa tehokkaasti myös ne yritykset, joiden taloudellinen tilanne on hyvä. Näin luokitus tarjoaa enemmän erottelukykyä esimerkiksi luotonannossa, toimittajariskien hallinnassa ja yritysasiakkaiden seurannassa.\nTarvittaessa Valuatumin luokitukset voidaan myös kalibroida asiakkaan omiin riskirajoihin ja päätöksentekokriteereihin.\n«Yhteenveto: Jos kahden luokituspalvelun arvioima konkurssiriski on sama, myös niiden arvio yrityksen luottokelpoisuudesta on käytännössä sama – vaikka kirjainluokitus olisi erilainen.»",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "faq#miksi-korkea-omavaraisuusaste-ei-aina-riita-hyvaan",
         "otsikko": "Miksi korkea omavaraisuusaste ei aina riitä hyvään luokitukseen?",
         "url": "https://luottoriskit.fi/fi/faq/",
@@ -1793,18 +1749,10 @@
         "laji": "kb"
       },
       {
-        "id": "faq#onko-toimialariski-tarkeampi-kuin-yrityskohtaiset-tekijat",
-        "otsikko": "Onko toimialariski tärkeämpi kuin yrityskohtaiset tekijät?",
+        "id": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
+        "otsikko": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?",
         "url": "https://luottoriskit.fi/fi/faq/",
-        "teksti": "Onko toimialariski tärkeämpi kuin yrityskohtaiset tekijät?\n\nEi yksinään. Yrityskohtaiset tekijät ovat edelleen erittäin tärkeitä ja ratkaisevat paljon. Toimialariski kuitenkin vaikuttaa siihen, kuinka korkea rima hyvälle luokitukselle on.\nToisin sanoen: samalla kannattavuudella ja vakavaraisuudella matalariskisellä toimialalla toimiva yritys voi saada paremman luokituksen kuin korkeariskisellä toimialalla toimiva yritys. Silti jokaisella toimialalla on sekä vahvasti että heikosti luokiteltuja yrityksiä.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "faq#miten-voin-itse-arvioida-millaiseen-luottoluokitukseen-yritykseni",
-        "otsikko": "Miten voin itse arvioida, millaiseen luottoluokitukseen yritykseni yleensä sijoittuu?",
-        "url": "https://luottoriskit.fi/fi/faq/#luottoluokituksen-arviointi",
-        "teksti": "Miten voin itse arvioida, millaiseen luottoluokitukseen yritykseni yleensä sijoittuu?\n\nAlla oleva kuva havainnollistaa, miten suomalaiset yritykset sijoittuvat Valuatumin luokitusmallissa keskeisten tunnuslukujen perusteella. Kuvassa jokainen piste vastaa yhtä yritystä:\nVaakasuunnassa on kannattavuus (kokonaispääoman tuotto)\nPystysuunnassa vakavaraisuus (omavaraisuusaste)\nOikeassa yläkulmassa ovat tyypillisesti kannattavat ja vakavaraiset yritykset, kun taas vasemmassa alakulmassa ovat heikomman kannattavuuden ja vakavaraisuuden yritykset. Pisteen väri kuvaa yrityksen luottoluokkaa: vihreät yritykset ovat matalamman riskin ja punaiset korkeamman riskin yrityksiä.\nTaustalla olevat värialueet kuvaavat sitä, mikä luokitus kyseisillä tunnusluvuilla on tyypillisin.\nJos yrityksen tilanne on muuten tavanomainen (ei poikkeuksellisia riskitekijöitä), kuva antaa hyvän suuntaa-antavan käsityksen siitä, millaiseen luokitukseen yritys yleensä sijoittuu. Mikäli esimerkkiyrityksen luvut ovat muutoin neutraalit, vaaditaan A-alkuiseen luokitukseen (parhaan 20% joukossa suomalaisyrityksistä) 75-100% omavaraisuusaste sekä positiivinen oman pääoman tuottoprosentti.\nKuten kuvasta kuitenkin näkyy, poikkeuksellisia riskitekijöitä löytyy yrityksiltä jonkin verran. Jopa hyvällä eli vihreällä alueella on oransseja ja punaisia pisteitä, puhumattakaan harmaasta alueesta. Lisäksi vihreiden pisteiden alle jää näkymättömiin suuri joukko pisteitä, joten niitä on paljon enemmän kuin kuvasta näkyy.\nVihreällä alueella olevat punaiset pisteet tarkoittavat, että jopa vakavaraisilta (korkea omavaraisuusaste) ja kannattavilta näyttävien yritysten joukosta löytyy sellaisia yrityksiä, joille Valuatumin riskimalli antaa erittäin matalan luottoluokituksen. Puhumme tarkoituksella vakavaraisilta tai kannattaviltanäyttävistä yrityksistä emmekä vakavaraisista tai kannattavista yrityksistä. Näillä yhtiöillä voi periaatteessa olla korkea omavaraisuusaste ja hyvä pääoman tuottoaste, mutta ne eivät silti välttämättä ole aidosti vakavaraisia tai kannattavia, vaan enemmänkin vain näyttävät siltä.\nHyviä esimerkkejä tällaisista suurista yrityksistä ovat Suomessa Uros Oy ja maailmalla Enron. Kumpikin raportoi virallisten lukujen perusteella hyvää omavaraisuusastetta ja hyvää kannattavuutta, mutta jälkikäteen arvioiden kumpikaan näistä asioista ei aidosti pitänyt paikkaansa. Uros Oy peitteli heikkoa kannattavuutta sisäisten saamisten avulla, ja Enronissa pitkien ja epävarmojen sopimusten kirjaamista tuotoiksi sovellettiin melko luovasti.\nNäitä kahta tapausta - ja toisaalta vähintään satoja, ellei jopa tuhansia hieman samantapaisia suomalaisia yrityksiä, jotka näkyvät kuvassa punaisina pisteinä vihreällä alueella - yhdistää se, että niiden taseessa on jotain epäkuranttia. Kannattavuuden ja vakavaraisuuden ongelmat on ikään kuin siivottu pois virallisista luvuista: taseesta olisi pitänyt kirjata alas esimerkiksi epäkurantteja myyntisaamisia, varastoja tai lainasaamisia, tai kulut olisi pitänyt esittää tuloslaskelmassa, kuten aktivoitujen tuotekehitysmenojen tapauksessa. Erät on kuitenkin piilotettu taseeseen.\nEnronilla jo liikevaihto oli suurempi kuin mitä se todellisuudessa oli, ja erotus kirjattiin myyntisaamisiin. Uroksella taseongelma oli lainasaamisissa. Nykyisillä suomalaisyrityksillä, joiden todellinen kannattavuus ja vakavaraisuus ovat paljon heikompia kuin virallisista luvuista voisi päätellä, ongelma voi olla lähes missä tahansa taseen varojen erässä. Yleisimmin se on myyntisaamisissa, lainasaamisissa, varastoissa, aktivoiduissa tuotekehitysmenoissa tai goodwillissa. Jos epäkurantit varallisuuserät kirjattaisiin alas tuloslaskelman kautta, kuten pitäisi tehdä, jos tilintarkastaja olisi valppaana, yhtiöiden kannattavuus ja vakavaraisuus olisivat huomattavasti matalammalla tasolla kuin viralliset luvut osoittavat.\nTekoälyä tällainen toiminta ei kuitenkaan pysty huijaamaan. Se tarkastelee, miten taseen varallisuuserät ovat kehittyneet ja millä tasolla ne ovat liikevaihtoon ja verrokkiyrityksiin verrattuna. Se ikään kuin tekee mielessään alaskirjauksen näihin eriin, ja sen ilmoittama luottoluokitus lasketaan ikään kuin erät olisi jo alaskirjattu. Tämä on käytännössä aina syy siihen, että kuvassa jonkin yrityksen punainen piste on esimerkiksi vihreällä alueella: Valuatumin reittaus antaa yritykselle sille kuuluvan luottoluokituksen eikä hämäänny virallisista luvuista, jotka ovat näissä tapauksissa harhaanjohtavia.",
+        "teksti": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?\n\nLyhyt vastaus on: koska luokitusasteikot ovat erilaiset.\nSama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat yrityksen konkurssiriskin täsmälleen samaksi.\nTärkeintä ei siis ole kirjainluokitus vaan se, kuinka suuri yrityksen arvioitu konkurssiriski on.\nEsimerkki\nOletetaan, että sekä Valuatum että Asiakastieto arvioivat yrityksen Penan Autokorjaamo Oy (kuvitteellinen yritys) luottoriskin täsmälleen samaksi.\nValuatum Asiakastieto\nArvioitu konkurssitodennäköisyys seuraavan 24 kuukauden aikana\n0,24 %\n0,24 %\nYritys on turvallisempi kuin\n62 % suomalaisista yrityksistä\n62 % suomalaisista yrityksistä\nArvio yrityksen suhteellisesta riskitasosta\nSama\nSama\nKirjainluokitus\nBBB\nAA\nMolemmat palvelut pitävät siis yritystä yhtä luottokelpoisena. Ainoa ero on se, että ne käyttävät erilaista luokitusasteikkoa.\n«Sama riski – eri kirjainluokitus.»\nMistä ero johtuu?\nValuatum ja Asiakastieto käyttävät erilaista tapaa jakaa yritykset eri luokkiin.\nValuatumin luokitusmallissa ylimpiin luokkiin (AAA–A) sijoittuu noin kolmannes yrityksistä. Tämä vastaa melko hyvin kansainvälisten luottoluokituslaitosten, kuten Standard & Poor’sin, käyttämää luokitusjakaumaa.\nSuomen Asiakastiedon luokituksessa puolestaan noin 90 % yrityksistä kuuluu A-luokkiin.\nTämän vuoksi yritys voi saada Valuatumilta luokituksen BBB ja samalla Asiakastiedolta AA, vaikka molemmat arvioivat sen riskin yhtä pieneksi.\nLuokitusjakaumien vertailu\nLuokitusjärjestelmä A-luokkiin sijoittuu\nValuatum\nnoin 33 % yrityksistä\nStandard & Poor’s\nnoin 30–35 % yrityksistä\nSuomen Asiakastieto\nnoin 90 % yrityksistä\nAlla olevat kuvat havainnollistavat luokitusjakaumien eroja.\nValuatumin luottoluokitusjakauma\nLähde: Valuatum\nS&P:n luottoluokitusjakauma\nLähde: Business Insider(alkuperäinen kuva)\nSuomen Asiakastiedon luokitusjakauma\nLähde: Kauppalehti(alkuperäinen kuva)\nMitä Valuatumin luokitus kertoo?\nValuatumin luokitus perustuu yrityksen arvioituun konkurssiriskiin suhteessa kaikkiin suomalaisiin yrityksiin.\nAAA = erittäin pieni konkurssiriski.\nAA = hyvin pieni konkurssiriski.\nA = pieni konkurssiriski.\nBBB = keskimääräistä pienempi konkurssiriski.\nBB, B ja C = asteittain kasvava konkurssiriski.\nKoska ylimpiin luokkiin sijoittuu vain osa yrityksistä, luokitus erottaa tehokkaasti myös ne yritykset, joiden taloudellinen tilanne on hyvä. Näin luokitus tarjoaa enemmän erottelukykyä esimerkiksi luotonannossa, toimittajariskien hallinnassa ja yritysasiakkaiden seurannassa.\nTarvittaessa Valuatumin luokitukset voidaan myös kalibroida asiakkaan omiin riskirajoihin ja päätöksentekokriteereihin.\n«Yhteenveto: Jos kahden luokituspalvelun arvioima konkurssiriski on sama, myös niiden arvio yrityksen luottokelpoisuudesta on käytännössä sama – vaikka kirjainluokitus olisi erilainen.»",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -1813,6 +1761,14 @@
         "otsikko": "Miten kassa ja maksuvalmius vaikuttavat luottoluokitukseen?",
         "url": "https://luottoriskit.fi/fi/faq/",
         "teksti": "Miten kassa ja maksuvalmius vaikuttavat luottoluokitukseen?\n\nKassa ja maksuvalmius vaikuttavat siihen, kuinka hyvin yritys kestää arjen häiriöitä, viiveitä ja yllätyksiä. Jos liiketoiminnan volyymi on suuri mutta kassapuskurit pienet, yrityksen kyky selvitä tilapäisistä ongelmista voi olla heikompi.\nMallissa katsotaan muun muassa kassaa suhteessa liikevaihtoon, kuluihin, lyhytaikaisiin velkoihin ja taseen muihin eriin. Vahva maksuvalmius tukee luokitusta, koska se parantaa yrityksen häiriönsietokykyä.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "faq#miten-voin-itse-arvioida-millaiseen-luottoluokitukseen-yritykseni",
+        "otsikko": "Miten voin itse arvioida, millaiseen luottoluokitukseen yritykseni yleensä sijoittuu?",
+        "url": "https://luottoriskit.fi/fi/faq/#luottoluokituksen-arviointi",
+        "teksti": "Miten voin itse arvioida, millaiseen luottoluokitukseen yritykseni yleensä sijoittuu?\n\nAlla oleva kuva havainnollistaa, miten suomalaiset yritykset sijoittuvat Valuatumin luokitusmallissa keskeisten tunnuslukujen perusteella. Kuvassa jokainen piste vastaa yhtä yritystä:\nVaakasuunnassa on kannattavuus (kokonaispääoman tuotto)\nPystysuunnassa vakavaraisuus (omavaraisuusaste)\nOikeassa yläkulmassa ovat tyypillisesti kannattavat ja vakavaraiset yritykset, kun taas vasemmassa alakulmassa ovat heikomman kannattavuuden ja vakavaraisuuden yritykset. Pisteen väri kuvaa yrityksen luottoluokkaa: vihreät yritykset ovat matalamman riskin ja punaiset korkeamman riskin yrityksiä.\nTaustalla olevat värialueet kuvaavat sitä, mikä luokitus kyseisillä tunnusluvuilla on tyypillisin.\nJos yrityksen tilanne on muuten tavanomainen (ei poikkeuksellisia riskitekijöitä), kuva antaa hyvän suuntaa-antavan käsityksen siitä, millaiseen luokitukseen yritys yleensä sijoittuu. Mikäli esimerkkiyrityksen luvut ovat muutoin neutraalit, vaaditaan A-alkuiseen luokitukseen (parhaan 20% joukossa suomalaisyrityksistä) 75-100% omavaraisuusaste sekä positiivinen oman pääoman tuottoprosentti.\nKuten kuvasta kuitenkin näkyy, poikkeuksellisia riskitekijöitä löytyy yrityksiltä jonkin verran. Jopa hyvällä eli vihreällä alueella on oransseja ja punaisia pisteitä, puhumattakaan harmaasta alueesta. Lisäksi vihreiden pisteiden alle jää näkymättömiin suuri joukko pisteitä, joten niitä on paljon enemmän kuin kuvasta näkyy.\nVihreällä alueella olevat punaiset pisteet tarkoittavat, että jopa vakavaraisilta (korkea omavaraisuusaste) ja kannattavilta näyttävien yritysten joukosta löytyy sellaisia yrityksiä, joille Valuatumin riskimalli antaa erittäin matalan luottoluokituksen. Puhumme tarkoituksella vakavaraisilta tai kannattaviltanäyttävistä yrityksistä emmekä vakavaraisista tai kannattavista yrityksistä. Näillä yhtiöillä voi periaatteessa olla korkea omavaraisuusaste ja hyvä pääoman tuottoaste, mutta ne eivät silti välttämättä ole aidosti vakavaraisia tai kannattavia, vaan enemmänkin vain näyttävät siltä.\nHyviä esimerkkejä tällaisista suurista yrityksistä ovat Suomessa Uros Oy ja maailmalla Enron. Kumpikin raportoi virallisten lukujen perusteella hyvää omavaraisuusastetta ja hyvää kannattavuutta, mutta jälkikäteen arvioiden kumpikaan näistä asioista ei aidosti pitänyt paikkaansa. Uros Oy peitteli heikkoa kannattavuutta sisäisten saamisten avulla, ja Enronissa pitkien ja epävarmojen sopimusten kirjaamista tuotoiksi sovellettiin melko luovasti.\nNäitä kahta tapausta - ja toisaalta vähintään satoja, ellei jopa tuhansia hieman samantapaisia suomalaisia yrityksiä, jotka näkyvät kuvassa punaisina pisteinä vihreällä alueella - yhdistää se, että niiden taseessa on jotain epäkuranttia. Kannattavuuden ja vakavaraisuuden ongelmat on ikään kuin siivottu pois virallisista luvuista: taseesta olisi pitänyt kirjata alas esimerkiksi epäkurantteja myyntisaamisia, varastoja tai lainasaamisia, tai kulut olisi pitänyt esittää tuloslaskelmassa, kuten aktivoitujen tuotekehitysmenojen tapauksessa. Erät on kuitenkin piilotettu taseeseen.\nEnronilla jo liikevaihto oli suurempi kuin mitä se todellisuudessa oli, ja erotus kirjattiin myyntisaamisiin. Uroksella taseongelma oli lainasaamisissa. Nykyisillä suomalaisyrityksillä, joiden todellinen kannattavuus ja vakavaraisuus ovat paljon heikompia kuin virallisista luvuista voisi päätellä, ongelma voi olla lähes missä tahansa taseen varojen erässä. Yleisimmin se on myyntisaamisissa, lainasaamisissa, varastoissa, aktivoiduissa tuotekehitysmenoissa tai goodwillissa. Jos epäkurantit varallisuuserät kirjattaisiin alas tuloslaskelman kautta, kuten pitäisi tehdä, jos tilintarkastaja olisi valppaana, yhtiöiden kannattavuus ja vakavaraisuus olisivat huomattavasti matalammalla tasolla kuin viralliset luvut osoittavat.\nTekoälyä tällainen toiminta ei kuitenkaan pysty huijaamaan. Se tarkastelee, miten taseen varallisuuserät ovat kehittyneet ja millä tasolla ne ovat liikevaihtoon ja verrokkiyrityksiin verrattuna. Se ikään kuin tekee mielessään alaskirjauksen näihin eriin, ja sen ilmoittama luottoluokitus lasketaan ikään kuin erät olisi jo alaskirjattu. Tämä on käytännössä aina syy siihen, että kuvassa jonkin yrityksen punainen piste on esimerkiksi vihreällä alueella: Valuatumin reittaus antaa yritykselle sille kuuluvan luottoluokituksen eikä hämäänny virallisista luvuista, jotka ovat näissä tapauksissa harhaanjohtavia.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -1833,11 +1789,19 @@
         "laji": "kb"
       },
       {
+        "id": "faq#voiko-yritys-parantaa-luottoluokitustaan",
+        "otsikko": "Voiko yritys parantaa luottoluokitustaan?",
+        "url": "https://luottoriskit.fi/fi/faq/",
+        "teksti": "Voiko yritys parantaa luottoluokitustaan?\n\nKyllä voi. Luottoluokitusta voi yleensä parantaa vahvistamalla yrityksen riskinkantokykyä. Käytännössä tähän vaikuttavat usein eniten:\noman pääoman vahvistaminen\nkassapuskurien kasvattaminen\nkannattavuuden parantaminen\ntaseen vahvistaminen suhteessa liiketoiminnan volyymiin\nriskienhallinnan ja liiketoiminnan ennustettavuuden parantaminen\nErityisesti korkeariskisillä toimialoilla vahva oma pääoma ja riittävä puskuritaso korostuvat.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:19)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:19:59.891Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:29)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:29:21.534Z",
         "laji": "elava"
       },
       {
@@ -1857,46 +1821,46 @@
       "tervehdys": "Hei Riikka,",
       "vaitteet": [
         {
-          "teksti": "Hyvä tulos ei yksin ratkaise luokitusta: luokitus mittaa ennen kaikkea riskinkantokykyä, ja kannattava yritys voi jäädä vaatimattomaan luokkaan esimerkiksi pienen oman pääoman, ohuen kassapuskurin tai riskisemmän toimialan vuoksi.",
+          "teksti": "Kannattavuus ei yksin ratkaise luokitusta: luokitus mittaa ennen kaikkea riskinkantokykyä, ja hyvänkin tuloksen tekevä yritys voi jäädä vaatimattomaan luokkaan, jos oma pääoma on pieni suhteessa liiketoiminnan volyymiin, kassapuskurit ovat ohuet tai toimiala on keskimääräistä riskisempi.",
           "lahde": "faq#miksi-yritykseni-luottoluokitus-voi-olla-heikko-vaikka",
-          "sitaatti": "Kannattavuus on tärkeä tekijä, mutta se ei yksin ratkaise luottoluokitusta."
+          "sitaatti": "Kannattavuus on tärkeä tekijä, mutta se ei yksin ratkaise luottoluokitusta. Yrityksellä voi olla hyvä tulos, mutta silti luokitus voi jäädä vaatimattomaksi esimerkiksi silloin, jos:\noma pääoma on pieni suhteessa liiketoiminnan volyymiin\nkassapuskurit ovat ohuet\ntoimiala on keskimääräistä riskisempi"
         },
         {
-          "teksti": "Käytännössä luokitusta tukevat vakavaraisuuden ja maksuvalmiuden vahvistaminen: mallissa katsotaan muun muassa kassaa suhteessa liikevaihtoon, kuluihin ja lyhytaikaisiin velkoihin, ja vahva maksuvalmius parantaa häiriönsietokykyä.",
-          "lahde": "faq#miten-kassa-ja-maksuvalmius-vaikuttavat-luottoluokitukseen",
-          "sitaatti": "Vahva maksuvalmius tukee luokitusta, koska se parantaa yrityksen häiriönsietokykyä."
+          "teksti": "Luokitusta voi yleensä parantaa vahvistamalla riskinkantokykyä: oman pääoman vahvistaminen, kassapuskurien kasvattaminen, kannattavuuden parantaminen sekä taseen vahvistaminen suhteessa liiketoiminnan volyymiin.",
+          "lahde": "faq#voiko-yritys-parantaa-luottoluokitustaan",
+          "sitaatti": "Luottoluokitusta voi yleensä parantaa vahvistamalla yrityksen riskinkantokykyä. Käytännössä tähän vaikuttavat usein eniten:\noman pääoman vahvistaminen\nkassapuskurien kasvattaminen\nkannattavuuden parantaminen\ntaseen vahvistaminen suhteessa liiketoiminnan volyymiin"
         }
       ],
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Halutaanko Riikalle kertoa hänen oman yrityksensä luokitukseen konkreettisesti vaikuttaneet tekijät (esim. tase-erät ja tunnusluvut), vai pidetäänkö vastaus yleisellä tasolla?",
-          "miksi": "Hän kysyi nimenomaan oman yrityksensä luokituksesta, ja todisteissa on vain yleinen selitys, ei hänen lukujaan.",
+          "kysymys": "Käydäänkö Ahosen Puutarhan omat luvut läpi ja kerrotaanko, mitkä tekijät juuri heidän luokitustaan painavat?",
+          "miksi": "Asiakas kysyi nimenomaan oman yrityksensä luokituksesta, mutta luonnos vastaa vain yleisellä tasolla. Yrityskohtaista erittelyä ei voi tehdä todisteiden perusteella.",
           "tarvitsee": "asiakkaan_omat_luvut"
         }
       ],
-      "reititys": "asiakastuki"
+      "reititys": "Luottoluokitusanalyysi"
     },
     "tarkistus": {
       "vastattavuus": "taysin",
       "hyvaksytyt": [
         {
-          "teksti": "Hyvä tulos ei yksin ratkaise luokitusta: luokitus mittaa ennen kaikkea riskinkantokykyä, ja kannattava yritys voi jäädä vaatimattomaan luokkaan esimerkiksi pienen oman pääoman, ohuen kassapuskurin tai riskisemmän toimialan vuoksi.",
+          "teksti": "Kannattavuus ei yksin ratkaise luokitusta: luokitus mittaa ennen kaikkea riskinkantokykyä, ja hyvänkin tuloksen tekevä yritys voi jäädä vaatimattomaan luokkaan, jos oma pääoma on pieni suhteessa liiketoiminnan volyymiin, kassapuskurit ovat ohuet tai toimiala on keskimääräistä riskisempi.",
           "lahde": "faq#miksi-yritykseni-luottoluokitus-voi-olla-heikko-vaikka",
-          "sitaatti": "Kannattavuus on tärkeä tekijä, mutta se ei yksin ratkaise luottoluokitusta."
+          "sitaatti": "Kannattavuus on tärkeä tekijä, mutta se ei yksin ratkaise luottoluokitusta. Yrityksellä voi olla hyvä tulos, mutta silti luokitus voi jäädä vaatimattomaksi esimerkiksi silloin, jos:\noma pääoma on pieni suhteessa liiketoiminnan volyymiin\nkassapuskurit ovat ohuet\ntoimiala on keskimääräistä riskisempi"
         },
         {
-          "teksti": "Käytännössä luokitusta tukevat vakavaraisuuden ja maksuvalmiuden vahvistaminen: mallissa katsotaan muun muassa kassaa suhteessa liikevaihtoon, kuluihin ja lyhytaikaisiin velkoihin, ja vahva maksuvalmius parantaa häiriönsietokykyä.",
-          "lahde": "faq#miten-kassa-ja-maksuvalmius-vaikuttavat-luottoluokitukseen",
-          "sitaatti": "Vahva maksuvalmius tukee luokitusta, koska se parantaa yrityksen häiriönsietokykyä."
+          "teksti": "Luokitusta voi yleensä parantaa vahvistamalla riskinkantokykyä: oman pääoman vahvistaminen, kassapuskurien kasvattaminen, kannattavuuden parantaminen sekä taseen vahvistaminen suhteessa liiketoiminnan volyymiin.",
+          "lahde": "faq#voiko-yritys-parantaa-luottoluokitustaan",
+          "sitaatti": "Luottoluokitusta voi yleensä parantaa vahvistamalla yrityksen riskinkantokykyä. Käytännössä tähän vaikuttavat usein eniten:\noman pääoman vahvistaminen\nkassapuskurien kasvattaminen\nkannattavuuden parantaminen\ntaseen vahvistaminen suhteessa liiketoiminnan volyymiin"
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Riikka,\n\nHyvä tulos ei yksin ratkaise luokitusta: luokitus mittaa ennen kaikkea riskinkantokykyä, ja kannattava yritys voi jäädä vaatimattomaan luokkaan esimerkiksi pienen oman pääoman, ohuen kassapuskurin tai riskisemmän toimialan vuoksi.\nKäytännössä luokitusta tukevat vakavaraisuuden ja maksuvalmiuden vahvistaminen: mallissa katsotaan muun muassa kassaa suhteessa liikevaihtoon, kuluihin ja lyhytaikaisiin velkoihin, ja vahva maksuvalmius parantaa häiriönsietokykyä.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hei Riikka,\n\nKannattavuus ei yksin ratkaise luokitusta: luokitus mittaa ennen kaikkea riskinkantokykyä, ja hyvänkin tuloksen tekevä yritys voi jäädä vaatimattomaan luokkaan, jos oma pääoma on pieni suhteessa liiketoiminnan volyymiin, kassapuskurit ovat ohuet tai toimiala on keskimääräistä riskisempi.\nLuokitusta voi yleensä parantaa vahvistamalla riskinkantokykyä: oman pääoman vahvistaminen, kassapuskurien kasvattaminen, kannattavuuden parantaminen sekä taseen vahvistaminen suhteessa liiketoiminnan volyymiin.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Halutaanko Riikalle kertoa hänen oman yrityksensä luokitukseen konkreettisesti vaikuttaneet tekijät (esim. tase-erät ja tunnusluvut), vai pidetäänkö vastaus yleisellä tasolla?",
-          "miksi": "Hän kysyi nimenomaan oman yrityksensä luokituksesta, ja todisteissa on vain yleinen selitys, ei hänen lukujaan.",
+          "kysymys": "Käydäänkö Ahosen Puutarhan omat luvut läpi ja kerrotaanko, mitkä tekijät juuri heidän luokitustaan painavat?",
+          "miksi": "Asiakas kysyi nimenomaan oman yrityksensä luokituksesta, mutta luonnos vastaa vain yleisellä tasolla. Yrityskohtaista erittelyä ei voi tehdä todisteiden perusteella.",
           "tarvitsee": "asiakkaan_omat_luvut",
           "laji": "ehdotus",
           "lahde": "malli"
@@ -1906,7 +1870,7 @@
       "lahetyskelpoinen": true
     },
     "korjaus": null,
-    "kesto_ms": 20918
+    "kesto_ms": 20072
   },
   {
     "viesti": {
@@ -1925,13 +1889,13 @@
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "myynti",
-      "syy": "Ulkomainen yritys tiedustelee palvelun kattavuutta ja datalähteistä, mikä on tyypillinen myyntitiedustelu",
+      "syy": "Myyntitiedustelu ulkomaisen yrityksen kautta palvelun kattavuudesta ja datasta",
       "hakusanat": [
-        "kattavuus",
-        "yritykset",
+        "palvelun kattavuus",
+        "raportin sisältö",
         "data",
-        "datalähde",
-        "palvelun sisältö"
+        "yritystiedot",
+        "myynti"
       ]
     },
     "todisteet": [
@@ -1952,34 +1916,18 @@
         "laji": "kb"
       },
       {
+        "id": "palvelu#luottotietoraportin-tarjoajat-suomessa",
+        "otsikko": "Luottotietoraportin tarjoajat Suomessa",
+        "url": "https://luottoriskit.fi/fi/tietoa/",
+        "teksti": "Luottotietoraportin tarjoajat Suomessa\n\nYrityksen luottotietoraportin ja luottotietojen tarjoajia Suomessa ovat muun muassa Suomen Asiakastieto, Intrum, Coface, Dun & Bradstreet ja Luottoriskit.fi. Alla on suuntaa antava vertailu hinnoittelusta ja keskeisistä eroista.\nTarjoaja\nTuote / malli\nLuokitusasteikko\nYksittäinen osto ilman sopimusta\nJulkinen hintatieto\nLuottoriskit.fi / Valuatum Oy\nLuottotietoraportti, koneoppimismalli (XGBoost, päätöspuupohjainen)\nAAA-C\nKyllä\nalk. 9 € / raportti\nSuomen Asiakastieto / Enento\nRating Alfa -raportti¹\nAAA–C¹\nKyllä¹\n52,00 € / raportti¹\nIntrum\nPikaluottosuositus Plus²\nAAA-C²\nKyllä³\n19 € / raportti³\nCoface\nCoface Score / yritystietopalvelut⁴\n0–10⁴\nPalvelukohtainen⁵\nSopimus- / palvelukohtainen⁵\nDun & Bradstreet\nAAA Rating⁶\nAAA-C⁶\nPalvelukohtainen⁷\nSopimus- / palvelukohtainen⁷\nVertailu perustuu tarjoajien julkisiin verkkosivuihin. Tiedot tarkistettu 6/2026. Hinnat ja ominaisuudet voivat muuttua ja vaihdella sopimuksen mukaan.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
         "id": "palvelu#mika-luottoriskit-fi-on",
         "otsikko": "Mikä Luottoriskit.fi on",
         "url": "https://luottoriskit.fi/fi/tietoa/",
         "teksti": "Mikä Luottoriskit.fi on\n\nLuottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu.\nPalvelu tarjoaa yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja yli 300 000 suomalaisesta yrityksestä.\nYksittäisen luottotietoraportin hinta on 9 € ja kolmen raportin paketti 15 €.\nLuottoluokitus perustuu koneoppimismalliin (päätöspuupohjainen XGBoost, dynaamiset painotukset).\nValuatum Oy on vuonna 2000 perustettu suomalainen ohjelmistoyhtiö.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "palvelu#tietoa-luottoriskit-fi-palvelusta",
-        "otsikko": "Tietoa Luottoriskit.fi-palvelusta",
-        "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Tietoa Luottoriskit.fi-palvelusta\n\nLuottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu, joka tarjoaa suomalaisten yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja. Tältä sivulta löydät keskeiset tiedot palvelusta, hinnoittelusta ja siitä, miten palvelu eroaa muista luottotietopalveluista Suomessa.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "luottoriski#luottotietoraportti-hyva-luokitus",
-        "otsikko": "Luottotietoraportti (hyvä luokitus)",
-        "url": "https://luottoriskit.fi/fi/luottoriski/",
-        "teksti": "Luottotietoraportti (hyvä luokitus)\n\nAI-raportti sisältää kaiken yllä listatun, ja lisäksi: AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet.\nSamat luvut, parempi AI-analyysi vakaan yhtiön tilanteesta.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "tietosuoja#tietosuojakaytanto",
-        "otsikko": "Tietosuojakäytäntö",
-        "url": "https://luottoriskit.fi/fi/privacy-policy/",
-        "teksti": "Tietosuojakäytäntö\n\nLuottoriskit.fi on Valuatum Oy:n palvelu. Tämä sivu kertoo, miten palvelun käytössä syntyviä henkilötietoja käsitellään.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -1992,26 +1940,42 @@
         "laji": "kb"
       },
       {
-        "id": "palvelu#luottotietoraportin-tarjoajat-suomessa",
-        "otsikko": "Luottotietoraportin tarjoajat Suomessa",
+        "id": "luottoriski#luottotietoraportti-hyva-luokitus",
+        "otsikko": "Luottotietoraportti (hyvä luokitus)",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Luottotietoraportti (hyvä luokitus)\n\nAI-raportti sisältää kaiken yllä listatun, ja lisäksi: AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet.\nSamat luvut, parempi AI-analyysi vakaan yhtiön tilanteesta.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "palvelu#tietoa-luottoriskit-fi-palvelusta",
+        "otsikko": "Tietoa Luottoriskit.fi-palvelusta",
         "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Luottotietoraportin tarjoajat Suomessa\n\nYrityksen luottotietoraportin ja luottotietojen tarjoajia Suomessa ovat muun muassa Suomen Asiakastieto, Intrum, Coface, Dun & Bradstreet ja Luottoriskit.fi. Alla on suuntaa antava vertailu hinnoittelusta ja keskeisistä eroista.\nTarjoaja\nTuote / malli\nLuokitusasteikko\nYksittäinen osto ilman sopimusta\nJulkinen hintatieto\nLuottoriskit.fi / Valuatum Oy\nLuottotietoraportti, koneoppimismalli (XGBoost, päätöspuupohjainen)\nAAA-C\nKyllä\nalk. 9 € / raportti\nSuomen Asiakastieto / Enento\nRating Alfa -raportti¹\nAAA–C¹\nKyllä¹\n52,00 € / raportti¹\nIntrum\nPikaluottosuositus Plus²\nAAA-C²\nKyllä³\n19 € / raportti³\nCoface\nCoface Score / yritystietopalvelut⁴\n0–10⁴\nPalvelukohtainen⁵\nSopimus- / palvelukohtainen⁵\nDun & Bradstreet\nAAA Rating⁶\nAAA-C⁶\nPalvelukohtainen⁷\nSopimus- / palvelukohtainen⁷\nVertailu perustuu tarjoajien julkisiin verkkosivuihin. Tiedot tarkistettu 6/2026. Hinnat ja ominaisuudet voivat muuttua ja vaihdella sopimuksen mukaan.",
+        "teksti": "Tietoa Luottoriskit.fi-palvelusta\n\nLuottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu, joka tarjoaa suomalaisten yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja. Tältä sivulta löydät keskeiset tiedot palvelusta, hinnoittelusta ja siitä, miten palvelu eroaa muista luottotietopalveluista Suomessa.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
       {
-        "id": "tietosuoja#sailytys-luovutukset-ja-oikeudet",
-        "otsikko": "Säilytys, luovutukset ja oikeudet",
-        "url": "https://luottoriskit.fi/fi/privacy-policy/",
-        "teksti": "Säilytys, luovutukset ja oikeudet\n\nSäilytämme tietoja vain niin kauan kuin se on tarpeen käyttötarkoituksen, sopimuksen tai lainsäädännön vuoksi. Käytämme palveluntuottajia vain palvelun toteuttamiseen tarvittavassa laajuudessa. Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihisi, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä.",
+        "id": "palveluehdot#toimitus-ja-asiakaspalvelu",
+        "otsikko": "Toimitus ja asiakaspalvelu",
+        "url": "https://luottoriskit.fi/fi/terms/",
+        "teksti": "Toimitus ja asiakaspalvelu\n\nRaportit ovat digitaalisia tuotteita. Toimitus tapahtuu sähköisesti onnistuneen maksun jälkeen. Toimitusaika, peruuttaminen ja mahdolliset hyvitykset kuvataan toimitus- ja palautusehdoissa.\nPalvelua koskevissa kysymyksissä ota yhteyttä osoitteeseen luottoriskit2026@valuatum.com tai puhelimitse 045 123 0308.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
       {
-        "id": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
-        "otsikko": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?",
+        "id": "faq#mitka-tekijat-vaikuttavat-luottoluokitukseen-eniten",
+        "otsikko": "Mitkä tekijät vaikuttavat luottoluokitukseen eniten?",
         "url": "https://luottoriskit.fi/fi/faq/",
-        "teksti": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?\n\nLyhyt vastaus on: koska luokitusasteikot ovat erilaiset.\nSama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat yrityksen konkurssiriskin täsmälleen samaksi.\nTärkeintä ei siis ole kirjainluokitus vaan se, kuinka suuri yrityksen arvioitu konkurssiriski on.\nEsimerkki\nOletetaan, että sekä Valuatum että Asiakastieto arvioivat yrityksen Penan Autokorjaamo Oy (kuvitteellinen yritys) luottoriskin täsmälleen samaksi.\nValuatum Asiakastieto\nArvioitu konkurssitodennäköisyys seuraavan 24 kuukauden aikana\n0,24 %\n0,24 %\nYritys on turvallisempi kuin\n62 % suomalaisista yrityksistä\n62 % suomalaisista yrityksistä\nArvio yrityksen suhteellisesta riskitasosta\nSama\nSama\nKirjainluokitus\nBBB\nAA\nMolemmat palvelut pitävät siis yritystä yhtä luottokelpoisena. Ainoa ero on se, että ne käyttävät erilaista luokitusasteikkoa.\n«Sama riski – eri kirjainluokitus.»\nMistä ero johtuu?\nValuatum ja Asiakastieto käyttävät erilaista tapaa jakaa yritykset eri luokkiin.\nValuatumin luokitusmallissa ylimpiin luokkiin (AAA–A) sijoittuu noin kolmannes yrityksistä. Tämä vastaa melko hyvin kansainvälisten luottoluokituslaitosten, kuten Standard & Poor’sin, käyttämää luokitusjakaumaa.\nSuomen Asiakastiedon luokituksessa puolestaan noin 90 % yrityksistä kuuluu A-luokkiin.\nTämän vuoksi yritys voi saada Valuatumilta luokituksen BBB ja samalla Asiakastiedolta AA, vaikka molemmat arvioivat sen riskin yhtä pieneksi.\nLuokitusjakaumien vertailu\nLuokitusjärjestelmä A-luokkiin sijoittuu\nValuatum\nnoin 33 % yrityksistä\nStandard & Poor’s\nnoin 30–35 % yrityksistä\nSuomen Asiakastieto\nnoin 90 % yrityksistä\nAlla olevat kuvat havainnollistavat luokitusjakaumien eroja.\nValuatumin luottoluokitusjakauma\nLähde: Valuatum\nS&P:n luottoluokitusjakauma\nLähde: Business Insider(alkuperäinen kuva)\nSuomen Asiakastiedon luokitusjakauma\nLähde: Kauppalehti(alkuperäinen kuva)\nMitä Valuatumin luokitus kertoo?\nValuatumin luokitus perustuu yrityksen arvioituun konkurssiriskiin suhteessa kaikkiin suomalaisiin yrityksiin.\nAAA = erittäin pieni konkurssiriski.\nAA = hyvin pieni konkurssiriski.\nA = pieni konkurssiriski.\nBBB = keskimääräistä pienempi konkurssiriski.\nBB, B ja C = asteittain kasvava konkurssiriski.\nKoska ylimpiin luokkiin sijoittuu vain osa yrityksistä, luokitus erottaa tehokkaasti myös ne yritykset, joiden taloudellinen tilanne on hyvä. Näin luokitus tarjoaa enemmän erottelukykyä esimerkiksi luotonannossa, toimittajariskien hallinnassa ja yritysasiakkaiden seurannassa.\nTarvittaessa Valuatumin luokitukset voidaan myös kalibroida asiakkaan omiin riskirajoihin ja päätöksentekokriteereihin.\n«Yhteenveto: Jos kahden luokituspalvelun arvioima konkurssiriski on sama, myös niiden arvio yrityksen luottokelpoisuudesta on käytännössä sama – vaikka kirjainluokitus olisi erilainen.»",
+        "teksti": "Mitkä tekijät vaikuttavat luottoluokitukseen eniten?\n\nTyypillisesti tärkeimpiä tekijöitä ovat:\nVakavaraisuus, erityisesti omavaraisuusaste.\nKannattavuus, kuten pääoman tuotto ja liiketoiminnan tuloksentekokyky.\nMaksuvalmius, esimerkiksi kassan koko suhteessa liiketoiminnan volyymiin ja lyhytaikaisiin velkoihin.\nTaseen varojen rakenne ja poikkeamat, kuten myyntisaamisten, varastojen, lainasaamisten, liikearvon (goodwill) ja aktivoitujen tuotekehitysmenojen määrä sekä niiden kehitys suhteessa liiketoimintaan.\nToimialariski, eli kuinka paljon kyseisen toimialan yrityksiä menee keskimäärin konkurssiin.\nErityisen tärkeää on, että tekoäly tunnistaa tilinpäätöksestä sellaisia poikkeamia, jotka voivat viitata omaisuuserien yliarvostukseen tai heikkenevään taloudelliseen tilanteeseen.\nEsimerkiksi myyntisaamisten, varastojen tai lainasaamisten poikkeuksellisen voimakas kasvu suhteessa liikevaihtoon voi viitata siihen, että taseessa on eriä, joiden todellinen arvo on kirjanpitoarvoa pienempi. Syynä voi olla esimerkiksi vaikeasti perittävät myyntisaamiset, epäkurantiksi muuttunut varasto tai konserni- ja lähipiiriyhtiöille annetut lainat, joiden takaisinmaksu on epävarmaa.\nSamoin aineettomiin hyödykkeisiin kirjatut aktivoidut tuotekehitysmenot tai liikearvo (goodwill) eivät aina vastaa todellista taloudellista arvoaan. Jos yrityksen liiketoiminta heikkenee tai tekee pitkään tappiota, näiden erien arvo voi olla olennaisesti kirjanpitoarvoa pienempi.\nTekoälymalli ei siis arvioi pelkästään yksittäisiä tunnuslukuja, vaan tarkastelee koko tilinpäätöstä ja tunnistaa myös sellaisia rakenteellisia poikkeamia, joiden on historiallisesti havaittu lisäävän konkurssiriskiä.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "tietosuoja#kasiteltavat-tiedot-ja-kayttotarkoitukset",
+        "otsikko": "Käsiteltävät tiedot ja käyttötarkoitukset",
+        "url": "https://luottoriskit.fi/fi/privacy-policy/",
+        "teksti": "Käsiteltävät tiedot ja käyttötarkoitukset\n\nKäsittelemme yhteydenottojen tietoja, tilaukseen ja raportin toimittamiseen tarvittavia tietoja sekä palvelun teknisiä käyttö- ja evästetietoja. Tietoja käytetään tilauksen toteuttamiseen, asiakaspalveluun, petosten estämiseen, palvelun kehittämiseen ja lakisääteisten velvoitteiden hoitamiseen.\nMaksu käsitellään Stripen maksupalvelussa. Luottoriskit.fi ei tallenna maksukorttitietoja omiin järjestelmiinsä.\nKun lähetät palautetta sivuston palautelomakkeella, viestin mukana välitetään sähköpostitse vain sen sivun osoite ja tekniset tunnistetiedot, jolla olit palautetta antaessasi, sekä selaimesi versiotieto. Näitä tarvitaan palautteen selvittämiseen. Sähköpostiosoitteen antaminen on vapaaehtoista, ja sitä käytetään vain palautteeseen vastaamiseen. Palauteviestistä tallentuu kopio arkistoomme.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -2019,8 +1983,8 @@
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:19)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
-        "haettu": "2026-09-03T12:19:59.304Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:29)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nHintakokeita ei ole käynnissä, joten yllä olevat hinnat koskevat kaikkia kävijöitä.",
+        "haettu": "2026-09-03T12:29:21.358Z",
         "laji": "elava"
       },
       {
@@ -2040,46 +2004,46 @@
       "tervehdys": "Hello Anders,",
       "vaitteet": [
         {
-          "teksti": "Our coverage includes credit reports, credit ratings and financial data on over 300,000 Finnish companies.",
+          "teksti": "Our service covers credit reports, credit ratings and financial data for more than 300,000 Finnish companies.",
           "lahde": "palvelu#mika-luottoriskit-fi-on",
           "sitaatti": "Palvelu tarjoaa yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja yli 300 000 suomalaisesta yrityksestä."
         },
         {
-          "teksti": "Reports can be bought individually without a contract, starting at 9 € per report.",
-          "lahde": "palvelu#miten-luottoriskit-fi-eroaa-muista",
-          "sitaatti": "luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua"
+          "teksti": "I don't have a published description of our data sources to share, so I'll come back to you on that separately.",
+          "lahde": "palvelu#mika-luottoriskit-fi-on",
+          "sitaatti": "Luottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu."
         }
       ],
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mitä kerromme asiakkaalle datan lähteistä (mistä rekistereistä ja tietolähteistä raporttien tiedot tulevat)?",
-          "miksi": "Asiakas kysyi tätä suoraan, eikä todisteissa ole tietolähteistä mitään.",
+          "kysymys": "Mitä kerromme asiakkaalle datan alkuperästä (lähteet, päivitystiheys)?",
+          "miksi": "Asiakas kysyi suoraan, mistä data tulee, eikä todisteissa ole tästä mitään.",
           "tarvitsee": "liiketoimintalinjaus"
         }
       ],
-      "reititys": "Vastaus kattaa kattavuuden, mutta datan lähteet vaativat ihmisen kannan ennen lähetystä."
+      "reititys": "asiakastuki"
     },
     "tarkistus": {
       "vastattavuus": "osittain",
       "hyvaksytyt": [
         {
-          "teksti": "Our coverage includes credit reports, credit ratings and financial data on over 300,000 Finnish companies.",
+          "teksti": "Our service covers credit reports, credit ratings and financial data for more than 300,000 Finnish companies.",
           "lahde": "palvelu#mika-luottoriskit-fi-on",
           "sitaatti": "Palvelu tarjoaa yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja yli 300 000 suomalaisesta yrityksestä."
         },
         {
-          "teksti": "Reports can be bought individually without a contract, starting at 9 € per report.",
-          "lahde": "palvelu#miten-luottoriskit-fi-eroaa-muista",
-          "sitaatti": "luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua"
+          "teksti": "I don't have a published description of our data sources to share, so I'll come back to you on that separately.",
+          "lahde": "palvelu#mika-luottoriskit-fi-on",
+          "sitaatti": "Luottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu."
         }
       ],
       "hylatyt": [],
-      "teksti": "Hello Anders,\n\nOur coverage includes credit reports, credit ratings and financial data on over 300,000 Finnish companies.\nReports can be bought individually without a contract, starting at 9 € per report.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hello Anders,\n\nOur service covers credit reports, credit ratings and financial data for more than 300,000 Finnish companies.\nI don't have a published description of our data sources to share, so I'll come back to you on that separately.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mitä kerromme asiakkaalle datan lähteistä (mistä rekistereistä ja tietolähteistä raporttien tiedot tulevat)?",
-          "miksi": "Asiakas kysyi tätä suoraan, eikä todisteissa ole tietolähteistä mitään.",
+          "kysymys": "Mitä kerromme asiakkaalle datan alkuperästä (lähteet, päivitystiheys)?",
+          "miksi": "Asiakas kysyi suoraan, mistä data tulee, eikä todisteissa ole tästä mitään.",
           "tarvitsee": "liiketoimintalinjaus",
           "laji": "paatos",
           "lahde": "malli"
@@ -2090,17 +2054,12 @@
           "luku": "300",
           "ok": true,
           "missa": "palvelu#mika-luottoriskit-fi-on"
-        },
-        {
-          "luku": "9",
-          "ok": true,
-          "missa": "palvelu#miten-luottoriskit-fi-eroaa-muista"
         }
       ],
       "lahetyskelpoinen": false
     },
     "korjaus": null,
-    "kesto_ms": 20918
+    "kesto_ms": 16276
   },
   {
     "viesti": {
@@ -2114,17 +2073,18 @@
       "saapunut": "2026-09-03T09:20:00+03:00",
       "runko": "Hei,\n\npaljonko AI-luottotietoraportti maksaa, ja onko teillä jotain jatkuvaa tilausta jos raportteja tarvitsee useampia kuukaudessa? Tarkistamme uusia asiakkaita muutaman viikossa.\n\nYstävällisin terveisin,\nSanna Heikkilä",
       "odotus": "osittain",
-      "odotusPeruste": "Hinnat ovat elävässä lähteessä (pricing.json), myös kuukausitilaus. Sama viesti muuttuu eskaloitavaksi, jos hintakoe on päällä — ks. demon kytkin."
+      "odotusPeruste": "Aktiivinen hintakoe tekee hinnasta epävarman, joten sitä ei saa kertoa yksikäsitteisenä."
     },
     "lajittelu": {
       "vastataanko": "kylla",
       "luokka": "myynti",
-      "syy": "Myyntitiedustelu raporttien hinnoista ja tilaamismahdollisuuksista",
+      "syy": "myyntitiedustelu raporttien hinnoista ja jatkuvasta käytöstä",
       "hakusanat": [
         "raportin hinta",
         "tilaus",
         "jatkuva käyttö",
-        "hinnoittelu"
+        "asiakasseuranta",
+        "hinnasto"
       ]
     },
     "todisteet": [
@@ -2145,14 +2105,6 @@
         "laji": "kb"
       },
       {
-        "id": "palvelu#miten-luottoriskit-fi-eroaa-muista",
-        "otsikko": "Miten Luottoriskit.fi eroaa muista",
-        "url": "https://luottoriskit.fi/fi/tietoa/",
-        "teksti": "Miten Luottoriskit.fi eroaa muista\n\nEdullinen raporttikohtainen hinta: luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua.\nAI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.\nKoneoppimismalli: luottoluokitus perustuu päätöspuupohjaiseen koneoppimismalliin, joka säätää painotuksia yrityksen tilanteen mukaan.\nLue lisää raportin sisällöstä luottotietoraportti-sivulta ja luottoluokituksen muodostumisesta luottoriskimallin kuvauksesta.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "tietosuoja#kasiteltavat-tiedot-ja-kayttotarkoitukset",
         "otsikko": "Käsiteltävät tiedot ja käyttötarkoitukset",
         "url": "https://luottoriskit.fi/fi/privacy-policy/",
@@ -2161,10 +2113,10 @@
         "laji": "kb"
       },
       {
-        "id": "luottoriski#toimitus-ja-palautuskaytanto",
-        "otsikko": "Toimitus- ja palautuskäytäntö",
-        "url": "https://luottoriskit.fi/fi/luottoriski/",
-        "teksti": "Toimitus- ja palautuskäytäntö\n\nLuottotietoraportti on digitaalinen tuote, joka toimitetaan sähköisesti heti onnistuneen maksun jälkeen. Tuotteella ei ole fyysistä toimitusta eikä toimituskuluja. Jos et teknisen virheen tai toimitusongelman vuoksi saa ostamaasi raporttia käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen. Kuluttajan peruuttamisoikeus ja palautuspyynnöt käsitellään toimitus- ja palautusehtojenmukaisesti.",
+        "id": "palvelu#miten-luottoriskit-fi-eroaa-muista",
+        "otsikko": "Miten Luottoriskit.fi eroaa muista",
+        "url": "https://luottoriskit.fi/fi/tietoa/",
+        "teksti": "Miten Luottoriskit.fi eroaa muista\n\nEdullinen raporttikohtainen hinta: luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua.\nAI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.\nKoneoppimismalli: luottoluokitus perustuu päätöspuupohjaiseen koneoppimismalliin, joka säätää painotuksia yrityksen tilanteen mukaan.\nLue lisää raportin sisällöstä luottotietoraportti-sivulta ja luottoluokituksen muodostumisesta luottoriskimallin kuvauksesta.",
         "haettu": "2026-09-03T10:33:30.019Z",
         "laji": "kb"
       },
@@ -2177,6 +2129,38 @@
         "laji": "kb"
       },
       {
+        "id": "luottoriski#toimitus-ja-palautuskaytanto",
+        "otsikko": "Toimitus- ja palautuskäytäntö",
+        "url": "https://luottoriskit.fi/fi/luottoriski/",
+        "teksti": "Toimitus- ja palautuskäytäntö\n\nLuottotietoraportti on digitaalinen tuote, joka toimitetaan sähköisesti heti onnistuneen maksun jälkeen. Tuotteella ei ole fyysistä toimitusta eikä toimituskuluja. Jos et teknisen virheen tai toimitusongelman vuoksi saa ostamaasi raporttia käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen. Kuluttajan peruuttamisoikeus ja palautuspyynnöt käsitellään toimitus- ja palautusehtojenmukaisesti.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "toimitusehdot#toimitus",
+        "otsikko": "Toimitus",
+        "url": "https://luottoriskit.fi/fi/toimitus-ja-palautukset/",
+        "teksti": "Toimitus\n\nRaportti generoidaan onnistuneen maksun jälkeen ja toimitetaan tilauksessa annettuun sähköpostiosoitteeseen. Jos toimitus epäonnistuu teknisen virheen vuoksi, voit pyytää raportin uudelleentoimitusta tai hyvitystä asiakaspalvelusta.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "palveluehdot#toimitus-ja-asiakaspalvelu",
+        "otsikko": "Toimitus ja asiakaspalvelu",
+        "url": "https://luottoriskit.fi/fi/terms/",
+        "teksti": "Toimitus ja asiakaspalvelu\n\nRaportit ovat digitaalisia tuotteita. Toimitus tapahtuu sähköisesti onnistuneen maksun jälkeen. Toimitusaika, peruuttaminen ja mahdolliset hyvitykset kuvataan toimitus- ja palautusehdoissa.\nPalvelua koskevissa kysymyksissä ota yhteyttä osoitteeseen luottoriskit2026@valuatum.com tai puhelimitse 045 123 0308.",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
+        "id": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
+        "otsikko": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?",
+        "url": "https://luottoriskit.fi/fi/faq/",
+        "teksti": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?\n\nLyhyt vastaus on: koska luokitusasteikot ovat erilaiset.\nSama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat yrityksen konkurssiriskin täsmälleen samaksi.\nTärkeintä ei siis ole kirjainluokitus vaan se, kuinka suuri yrityksen arvioitu konkurssiriski on.\nEsimerkki\nOletetaan, että sekä Valuatum että Asiakastieto arvioivat yrityksen Penan Autokorjaamo Oy (kuvitteellinen yritys) luottoriskin täsmälleen samaksi.\nValuatum Asiakastieto\nArvioitu konkurssitodennäköisyys seuraavan 24 kuukauden aikana\n0,24 %\n0,24 %\nYritys on turvallisempi kuin\n62 % suomalaisista yrityksistä\n62 % suomalaisista yrityksistä\nArvio yrityksen suhteellisesta riskitasosta\nSama\nSama\nKirjainluokitus\nBBB\nAA\nMolemmat palvelut pitävät siis yritystä yhtä luottokelpoisena. Ainoa ero on se, että ne käyttävät erilaista luokitusasteikkoa.\n«Sama riski – eri kirjainluokitus.»\nMistä ero johtuu?\nValuatum ja Asiakastieto käyttävät erilaista tapaa jakaa yritykset eri luokkiin.\nValuatumin luokitusmallissa ylimpiin luokkiin (AAA–A) sijoittuu noin kolmannes yrityksistä. Tämä vastaa melko hyvin kansainvälisten luottoluokituslaitosten, kuten Standard & Poor’sin, käyttämää luokitusjakaumaa.\nSuomen Asiakastiedon luokituksessa puolestaan noin 90 % yrityksistä kuuluu A-luokkiin.\nTämän vuoksi yritys voi saada Valuatumilta luokituksen BBB ja samalla Asiakastiedolta AA, vaikka molemmat arvioivat sen riskin yhtä pieneksi.\nLuokitusjakaumien vertailu\nLuokitusjärjestelmä A-luokkiin sijoittuu\nValuatum\nnoin 33 % yrityksistä\nStandard & Poor’s\nnoin 30–35 % yrityksistä\nSuomen Asiakastieto\nnoin 90 % yrityksistä\nAlla olevat kuvat havainnollistavat luokitusjakaumien eroja.\nValuatumin luottoluokitusjakauma\nLähde: Valuatum\nS&P:n luottoluokitusjakauma\nLähde: Business Insider(alkuperäinen kuva)\nSuomen Asiakastiedon luokitusjakauma\nLähde: Kauppalehti(alkuperäinen kuva)\nMitä Valuatumin luokitus kertoo?\nValuatumin luokitus perustuu yrityksen arvioituun konkurssiriskiin suhteessa kaikkiin suomalaisiin yrityksiin.\nAAA = erittäin pieni konkurssiriski.\nAA = hyvin pieni konkurssiriski.\nA = pieni konkurssiriski.\nBBB = keskimääräistä pienempi konkurssiriski.\nBB, B ja C = asteittain kasvava konkurssiriski.\nKoska ylimpiin luokkiin sijoittuu vain osa yrityksistä, luokitus erottaa tehokkaasti myös ne yritykset, joiden taloudellinen tilanne on hyvä. Näin luokitus tarjoaa enemmän erottelukykyä esimerkiksi luotonannossa, toimittajariskien hallinnassa ja yritysasiakkaiden seurannassa.\nTarvittaessa Valuatumin luokitukset voidaan myös kalibroida asiakkaan omiin riskirajoihin ja päätöksentekokriteereihin.\n«Yhteenveto: Jos kahden luokituspalvelun arvioima konkurssiriski on sama, myös niiden arvio yrityksen luottokelpoisuudesta on käytännössä sama – vaikka kirjainluokitus olisi erilainen.»",
+        "haettu": "2026-09-03T10:33:30.019Z",
+        "laji": "kb"
+      },
+      {
         "id": "palvelu#mika-luottoriskit-fi-on",
         "otsikko": "Mikä Luottoriskit.fi on",
         "url": "https://luottoriskit.fi/fi/tietoa/",
@@ -2185,35 +2169,11 @@
         "laji": "kb"
       },
       {
-        "id": "luottoriski#yrityksen-luottoriski-luottotiedot-ja-luottoluokitus-paatoksesi-tueksi",
-        "otsikko": "Yrityksen luottoriski – luottotiedot ja luottoluokitus päätöksesi tueksi",
-        "url": "https://luottoriskit.fi/fi/luottoriski/",
-        "teksti": "Yrityksen luottoriski – luottotiedot ja luottoluokitus päätöksesi tueksi\n\nLuottoriski kuvaa todennäköisyyttä sille, kuinka hyvin yritys selviää maksuvelvoitteistaan. Kun arvioit asiakkaalle annettavaa maksuaikaa tai uuden yhteistyökumppanin luotettavuutta, tarvitset päätöksen tueksi sekä ajantasaiset luottotiedot että ennakoivan luottoluokituksen.\nTämän sivun avulla ymmärrät, mitä luottoriski, luottotiedot ja luottoluokitus kertovat käytännössä – ja miten luottotietoraportti kokoaa tiedot yhteen päätöksentekoa varten.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "tietosuoja#sailytys-luovutukset-ja-oikeudet",
-        "otsikko": "Säilytys, luovutukset ja oikeudet",
-        "url": "https://luottoriskit.fi/fi/privacy-policy/",
-        "teksti": "Säilytys, luovutukset ja oikeudet\n\nSäilytämme tietoja vain niin kauan kuin se on tarpeen käyttötarkoituksen, sopimuksen tai lainsäädännön vuoksi. Käytämme palveluntuottajia vain palvelun toteuttamiseen tarvittavassa laajuudessa. Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihisi, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
-        "id": "luottoriski#luottotietoraportti-luottoriskin-arviointi-kaytannossa",
-        "otsikko": "Luottotietoraportti – luottoriskin arviointi käytännössä",
-        "url": "https://luottoriskit.fi/fi/luottoriski/",
-        "teksti": "Luottotietoraportti – luottoriskin arviointi käytännössä\n\nLuottotietoraportti kokoaa yrityksen luottotiedot, luottoluokituksen ja talousmittarit selkeäksi kokonaisuudeksi riskiarvion tueksi. Valitse alle raporttityyppi.\nPerusraportti 9 € tai AI-raportti 10 € — raportti toimitetaan sähköisesti heti maksun jälkeen.",
-        "haettu": "2026-09-03T10:33:30.019Z",
-        "laji": "kb"
-      },
-      {
         "id": "hinnat",
         "otsikko": "Luottoriskit.fi — voimassa olevat hinnat (pricing.json)",
         "url": "https://luottoriskit.fi/pricing.json",
-        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:20)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nKÄYNNISSÄ OLEVA HINTAKOE: ai_price_2026_summer.\n- variantti control (20 % kävijöistä): oletushinnat\n- variantti discount (80 % kävijöistä): AI-luottotietoraportti 4 €, Luottotietoraportti (perusraportti) 3 €\n  kampanjateksti: Vielä heinäkuun loppuun: luottotietoraportti 3 €, AI-luottotietoraportti 4 € — jopa 60 % alennus\nAsiakkaan näkemä hinta riippuu siitä mihin varianttiin hänen selaimensa on arvottu.",
-        "haettu": "2026-09-03T12:20:18.967Z",
+        "teksti": "Luottoriskit.fi — voimassa olevat hinnat (haettu 2026-09-03 12:29)\n\nLuottotietoraportti (perusraportti): 9 €\nAI-luottotietoraportti: 10 €\nLuottotietoraportti, 3 kpl: 15 € / 3 raporttia\nAI-luottotietoraportti, 3 kpl: 20 € / 3 raporttia\nKuukausitilaus, rajaton määrä raportteja: 50 € / kk\nLuottorajasuositus erikseen: 1 €\nLuottoluokitus erikseen: 1,5 €\nLuottoraja + luokitus: 2 €\nTilinpäätös: 2 €\nTilinpäätökset, 5 vuotta: 3 €\n\nKÄYNNISSÄ OLEVA HINTAKOE: ai_price_2026_summer.\n- variantti control (20 % kävijöistä): oletushinnat\n- variantti discount (80 % kävijöistä): AI-luottotietoraportti 4 €, Luottotietoraportti (perusraportti) 3 €\n  kampanjateksti: Vielä heinäkuun loppuun: luottotietoraportti 3 €, AI-luottotietoraportti 4 € — jopa 60 % alennus\nAsiakkaan näkemä hinta riippuu siitä mihin varianttiin hänen selaimensa on arvottu.",
+        "haettu": "2026-09-03T12:29:41.065Z",
         "laji": "elava"
       },
       {
@@ -2233,7 +2193,7 @@
       "tervehdys": "Hei Sanna,",
       "vaitteet": [
         {
-          "teksti": "Jatkuvaan käyttöön on kuukausitilaus, joka sisältää rajattoman määrän raportteja hintaan 50 € / kk.",
+          "teksti": "Useampaan raporttiin kuukaudessa on tarjolla kuukausitilaus, jolla raporttien määrä on rajaton: 50 € / kk.",
           "lahde": "hinnat",
           "sitaatti": "Kuukausitilaus, rajaton määrä raportteja: 50 € / kk"
         }
@@ -2241,28 +2201,28 @@
       "lopetus": "Ystävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mikä AI-luottotietoraportin hinta kerrotaan asiakkaalle?",
-          "miksi": "Hinnastossa on käynnissä hintakoe ai_price_2026_summer, jossa AI-raportti on joko 10 € tai 4 € sen mukaan mihin varianttiin asiakas on arvottu. En voi kertoa yhtä hintaa varmana.",
+          "kysymys": "Mikä AI-luottotietoraportin hinta kerrotaan Sannalle?",
+          "miksi": "Hintakoe ai_price_2026_summer on käynnissä: control-variantissa AI-raportti on 10 € ja discount-variantissa 4 €, joten yksikäsitteistä hintaa ei voi vahvistaa.",
           "tarvitsee": "hinta_epavarma"
         }
       ],
-      "reititys": "Ihmiselle: hinnan vahvistus ennen lähetystä."
+      "reititys": "Ihmiselle: hinnoittelusta vastaava vahvistaa AI-raportin hinnan ennen lähetystä."
     },
     "tarkistus": {
       "vastattavuus": "osittain",
       "hyvaksytyt": [
         {
-          "teksti": "Jatkuvaan käyttöön on kuukausitilaus, joka sisältää rajattoman määrän raportteja hintaan 50 € / kk.",
+          "teksti": "Useampaan raporttiin kuukaudessa on tarjolla kuukausitilaus, jolla raporttien määrä on rajaton: 50 € / kk.",
           "lahde": "hinnat",
           "sitaatti": "Kuukausitilaus, rajaton määrä raportteja: 50 € / kk"
         }
       ],
       "hylatyt": [],
-      "teksti": "Hei Sanna,\n\nJatkuvaan käyttöön on kuukausitilaus, joka sisältää rajattoman määrän raportteja hintaan 50 € / kk.\n\nYstävällisin terveisin,\nJami",
+      "teksti": "Hei Sanna,\n\nUseampaan raporttiin kuukaudessa on tarjolla kuukausitilaus, jolla raporttien määrä on rajaton: 50 € / kk.\n\nYstävällisin terveisin,\nJami",
       "avoimet": [
         {
-          "kysymys": "Mikä AI-luottotietoraportin hinta kerrotaan asiakkaalle?",
-          "miksi": "Hinnastossa on käynnissä hintakoe ai_price_2026_summer, jossa AI-raportti on joko 10 € tai 4 € sen mukaan mihin varianttiin asiakas on arvottu. En voi kertoa yhtä hintaa varmana.",
+          "kysymys": "Mikä AI-luottotietoraportin hinta kerrotaan Sannalle?",
+          "miksi": "Hintakoe ai_price_2026_summer on käynnissä: control-variantissa AI-raportti on 10 € ja discount-variantissa 4 €, joten yksikäsitteistä hintaa ei voi vahvistaa.",
           "tarvitsee": "hinta_epavarma",
           "laji": "paatos",
           "lahde": "malli"
@@ -2278,6 +2238,6 @@
       "lahetyskelpoinen": false
     },
     "korjaus": null,
-    "kesto_ms": 13688
+    "kesto_ms": 12425
   }
 ]

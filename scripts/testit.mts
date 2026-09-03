@@ -111,5 +111,14 @@ const h = tarkista({ ...pohja, vaitteet: g.hyvaksytyt, avoimet: [
 ]}, todisteet)
 on('estävä avoin asia estää lähettämisen', !h.lahetyskelpoinen && h.avoimet[0].laji === 'paatos')
 
+console.log('\ntoistojen karsinta avoimista asioista')
+const i2 = tarkista({ ...pohja, vaitteet: [], avoimet: [
+    { kysymys: 'Mikä hinta annetaan 500 yrityksen kuukausierälle rajapinnan kautta?', miksi: '', tarvitsee: 'liiketoimintalinjaus' },
+    { kysymys: 'Mikä on hinta 500 luottoluokituksen kuukausierälle rajapinnan kautta?', miksi: '', tarvitsee: 'liiketoimintalinjaus' },
+    { kysymys: 'Missä data säilytetään, onko se EU:ssa?', miksi: '', tarvitsee: 'liiketoimintalinjaus' },
+]}, todisteet)
+on('sama kysymys eri sanoin karsitaan', i2.avoimet.length === 2)
+on('eri kysymys säilyy', i2.avoimet.some((a) => /EU/.test(a.kysymys)))
+
 console.log(`\n${ajettu - kaatui}/${ajettu} testiä läpi`)
 process.exit(kaatui === 0 ? 0 : 1)

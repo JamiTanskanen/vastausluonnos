@@ -156,15 +156,17 @@ hylätty tulos aivan kuten 100 % vastaaminenkin.
 ### Viimeisin ajo
 
 ```
-Katettuja väitteitä ilman lähdettä:  0/13   (vaatimus 0)
+PORTTI: läpi
+
+Katettuja väitteitä ilman lähdettä:  0      (vaatimus 0)
 Toistoa tai täytettä:                0      (vaatimus 0)
-Sellaisenaan lähetyskelpoisia:       5/13   (vaatimus vähintään 4)
-Epäonnistuneita tapauksia:           0/13
-Käyttö: 27 kutsua, 157 211 tokenia sisään, 14 378 ulos — 1,06 €
+Sellaisenaan lähetyskelpoisia:       4/12   (vaatimus vähintään 4)
+Epäonnistuneita tapauksia:           0/12
+Käyttö: 25 kutsua, 132 546 tokenia sisään, 12 879 ulos — 0,90 €
 ```
 
-Kolmastoista rivi on sama hintakysymys hintakoe päälle kytkettynä: silloin
-oikea lopputulos on eskalointi, ja portti tarkistaa senkin.
+Lisäksi ajetaan sama hintakysymys hintakoe päälle kytkettynä: silloin oikea
+lopputulos on eskalointi, ja portti tarkistaa senkin.
 
 Tähän ei päästy suoraan. Alla se, mitä matkalla hajosi.
 

@@ -105,6 +105,35 @@ export function lupauksia(teksti: string, sitaatti: string): string | null {
     return null
 }
 
+/**
+ * Karsii saman kysymyksen toistot avoimista asioista.
+ *
+ * Ihminen lukee tämän listan ennen lähettämistä, ja kahdeksan kysymystä joista
+ * kolme on samoja eri sanoin on huonompi lista kuin viisi. Vertailu on sama
+ * kuin portissa: harvinaisten sanojen päällekkäisyys, ei merkitystä.
+ */
+function karsiToistot<T extends { kysymys: string }>(asiat: T[]): T[] {
+    const sanat = (t: string) =>
+        new Set(
+            normalisoi(t)
+                .replace(/[^a-zà-öø-ÿ0-9\s]/g, '')
+                .split(/\s+/)
+                .filter((x) => x.length > 4)
+        )
+    const pidetyt: T[] = []
+    for (const asia of asiat) {
+        const x = sanat(asia.kysymys)
+        const onJo = pidetyt.some((p) => {
+            const y = sanat(p.kysymys)
+            if (x.size < 3 || y.size < 3) return false
+            const yhteiset = [...x].filter((s) => y.has(s)).length
+            return yhteiset / Math.min(x.size, y.size) >= 0.6
+        })
+        if (!onJo) pidetyt.push(asia)
+    }
+    return pidetyt
+}
+
 export function tarkista(
     luonnos: MallinLuonnos,
     todisteet: Todiste[]
@@ -173,7 +202,7 @@ export function tarkista(
 
     // Lajin päättää koodi mallin ilmoittaman tarpeen perusteella — ei malli
     // itse. Ks. TARVITSEE-taulukko ja sen perustelu tyypit.ts:ssä.
-    const avoimet: Tarkistettu['avoimet'] = [
+    const avoimet: Tarkistettu['avoimet'] = karsiToistot([
         ...luonnos.avoimet.map((a) => ({
             ...a,
             laji: (estaako(a.tarvitsee) ? 'paatos' : 'ehdotus') as 'paatos' | 'ehdotus',
@@ -186,7 +215,7 @@ export function tarkista(
             laji: 'paatos' as const,
             lahde: 'tarkistus' as const,
         })),
-    ]
+    ])
 
     const teksti = [
         luonnos.tervehdys,
