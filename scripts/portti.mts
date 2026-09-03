@@ -51,6 +51,55 @@ function auditoi(t: LuonnosTulos): string[] {
     return viat
 }
 
+/**
+ * Kaksi laatutarkistusta, jotka syntyivät kuvakaappauksesta.
+ *
+ * Kun 500 yrityksen tarjouspyyntöön ei ollut juuri mitään vastattavaa, malli
+ * täytti luonnoksen faktoilla, joille löytyi kate mutta jotka eivät liittyneet
+ * asiaan ("hintakokeita ei ole käynnissä"), ja toisti saman virkkeen kahdesti
+ * eri lähteellä. Kumpikaan ei jää kiinni sitaattitarkistuksesta, koska
+ * molemmat ovat totta.
+ *
+ * Sääntö promptissa ilman testiä on kommentti, ei ominaisuus — nämä ovat
+ * merkkijonotarkistuksia samalla tavalla kuin itse tarkistuskerros.
+ */
+function samankaltaiset(a: string, b: string): boolean {
+    const sanat = (s: string) =>
+        new Set(
+            s
+                .toLowerCase()
+                .replace(/[^a-zà-öø-ÿ0-9\s]/g, '')
+                .split(/\s+/)
+                .filter((x) => x.length > 4)
+        )
+    const x = sanat(a)
+    const y = sanat(b)
+    if (x.size < 3 || y.size < 3) return false
+    const yhteiset = [...x].filter((s) => y.has(s)).length
+    return yhteiset / Math.min(x.size, y.size) >= 0.7
+}
+
+function laatuviat(t: LuonnosTulos): string[] {
+    const viat: string[] = []
+    const vaitteet = t.tarkistus?.hyvaksytyt ?? []
+
+    for (let i = 0; i < vaitteet.length; i++) {
+        for (let j = i + 1; j < vaitteet.length; j++) {
+            if (samankaltaiset(vaitteet[i].teksti, vaitteet[j].teksti)) {
+                viat.push(`toistaa saman asian: "${vaitteet[j].teksti.slice(0, 45)}…"`)
+            }
+        }
+    }
+
+    // Kun viestiin ei ole vastattavaa, luonnoksen kuuluu olla lyhyt.
+    if (t.viesti.odotus === 'eskaloitava' && vaitteet.length > 3) {
+        viat.push(
+            `${vaitteet.length} väitettä viestiin, johon ei ole vastattavaa — täytettä`
+        )
+    }
+    return viat
+}
+
 function arvioi(t: LuonnosTulos): { lapi: boolean; huomio: string } {
     const odotus = t.viesti.odotus
     const tark = t.tarkistus
@@ -125,11 +174,13 @@ async function aja() {
     let kaatui = 0
     let keksittyja = 0
     let taysia = 0
+    let laatua = 0
 
     for (const t of tulokset) {
         const { lapi, huomio } = arvioi(t)
-        const viat = auditoi(t)
-        keksittyja += viat.length
+        const viat = [...auditoi(t), ...laatuviat(t)]
+        keksittyja += auditoi(t).length
+        laatua += laatuviat(t).length
         if (t.tarkistus?.lahetyskelpoinen) taysia++
         if (!lapi || viat.length) kaatui++
         console.log(

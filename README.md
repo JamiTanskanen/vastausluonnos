@@ -145,22 +145,53 @@ löytynyt lainkaan.
 2. **Se ei myöskään pelkuroi.** Vastattavissa oleviin viesteihin on synnyttävä
    **sellaisenaan lähetyskelpoinen** luonnos.
 
+Lisäksi kaksi laatutarkistusta, jotka eivät jää kiinni sitaattitarkistuksesta,
+koska molemmat väitteet ovat *tosia*: sama asia toistettuna kahdesti, ja
+täytefaktat viestissä johon ei ole vastattavaa.
+
 Toinen kohta tekee testistä oikean testin. Järjestelmä, joka eskaloi kaiken
 ihmiselle, ei keksi koskaan mitään — ja on hyödytön. 100 % eskalointi on
 hylätty tulos aivan kuten 100 % vastaaminenkin.
 
+### Viimeisin ajo: hylätty
+
+```
+Katettuja väitteitä ilman lähdettä:  0/12   (vaatimus 0)   ← läpi
+Sellaisenaan lähetyskelpoisia:       3/12   (vaatimus 4)   ← ei läpi
+```
+
+Ensimmäinen puoli väitteestä pitää. Toinen ei vielä: yksi viesti
+(`miksi-luokitus-heikko`) meni yhdellä ajolla lähetyskelpoiseksi ja toisella
+ihmiselle, vaikka syöte oli sama ja vastaus on kokonaan heidän FAQ:ssaan.
+
+Se on kirjattu tähän eikä korjattu odotusta muuttamalla, koska **arpova
+varovaisuus on tuotteen kannalta pahempi vika kuin johdonmukainen
+varovaisuus** — käyttäjä ei voi oppia luottamaan siihen. Kaksi korjausta on
+tehty (olennaisuussääntö ja tarkempi kriteeri sille, milloin asia vaatii
+ihmisen), mutta niiden vaikutus on vielä mittaamatta: kirjoitushetkellä
+API-avaimen saldo loppui kesken ajon. `npm run vakaus` on se testi, joka
+kertoo auttoivatko ne.
+
 ### Portti kaatoi kolme omaa odotustani
 
-Tämä oli testin hyödyllisin anti, eikä se ollut mukavaa luettavaa:
+Nämä eivät olleet mukavaa luettavaa. Kaksi ensimmäistä ovat korjattuja
+odotuksia; kolmas on suunnitteluvirhe, ja se on niistä se tärkeä:
 
 | Viesti | Odotin | Todellisuus |
 |---|---|---|
-| `raportti-ei-tullut` | vastattava | Vaihtui kahdesti. Lopulta vastattava — mutta vasta kun määrittelin, että **tiedon kysyminen asiakkaalta on osa valmista vastausta**, ei este. |
+| `raportti-ei-tullut` | vastattava | Odotus vaihtui kahdesti ennen kuin sääntö oli selvä: vastaus on valmis, jos sen voi lähettää ilman että kukaan sitoutuu mihinkään. Tiedon kysyminen asiakkaalta on osa valmista vastausta, ei este. |
 | `coverage-en` | vastattava | Väärässä olin minä. Oletin, että "mistä datanne tulee" on julkisilla sivuilla. Ei ole: `/fi/tietoa/`-sivun "Lähteet" on viiteluettelo kilpailijoiden tuotteisiin. Järjestelmä vastasi kattavuuteen ja jätti alkuperän ihmiselle. Se oli oikein. |
 | kolme "täysin vastattavaa" | täysin | Kaikki tulivat takaisin osittaisina, koska malli laski eskaloinniksi myös vapaaehtoiset ehdotukset ("tarjotaanko läpikäyntiä?"). Tästä syntyi ero **päätös** vs. **ehdotus**: vain päätös estää lähettämisen. |
 
-Kolmas rivi on suunnitteluvirhe, jonka vain ajettava testi paljastaa. Ilman
-porttia olisin katsonut hyviä luonnoksia ja ollut tyytyväinen.
+Kolmas rivi on se, jota ei olisi löytänyt lukemalla luonnoksia: ne olivat
+hyviä. Vain ajettava testi, jolla on kaksi puolta, paljastaa että järjestelmä
+oli tekemässä itsestään hyödytöntä olemalla liian kohtelias itselleen.
+
+Kaksi odotusta myös korjaantui minun suuntaani, ja siitä on syytä olla
+rehellinen: fikstuurit ovat spesifikaatio, ja spesifikaatiota muuttamalla saa
+minkä tahansa testin läpi. Siksi vaatimus "sellaisenaan lähetyskelpoisia
+vähintään 4" on pidetty kiinni silloinkin kun se kaatui — ja siksi tässä
+tiedostossa lukee, että portti on tällä hetkellä hylätty.
 
 `npm run vakaus` ajaa saman viestin kolmesti ja tarkistaa, ettei **kanta**
 heittele: sama viesti ei saa mennä kerran lähetettäväksi ja toisella kerralla
