@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import naytoksetJson from '@/data/naytokset/index.json'
 import { FIKSTUURIT } from '@/data/viestit/fikstuurit'
 import { PROFIILIPOHJA } from '@/data/profiili'
@@ -29,6 +29,13 @@ export default function Sivu() {
     const [omaAuki, setOmaAuki] = useState(false)
     const [oma, setOma] = useState({ lahettaja: '', aihe: '', runko: '' })
     const [virhe, setVirhe] = useState<string | null>(null)
+
+    // ?viesti=<id> avaa tietyn viestin suoraan — kätevä demolinkeissä. Luetaan
+    // vasta selaimessa, jottei palvelimen ja selaimen ensirenderöinti eroa.
+    useEffect(() => {
+        const pyydetty = new URLSearchParams(window.location.search).get('viesti')
+        if (pyydetty && FIKSTUURIT.some((v) => v.id === pyydetty)) setValittu(pyydetty)
+    }, [])
 
     const profiili = useMemo(() => kokoa(PROFIILIPOHJA, SIEMENTAPAHTUMAT), [])
     const luvut = useMemo(() => mittarit(SIEMENTAPAHTUMAT), [])
