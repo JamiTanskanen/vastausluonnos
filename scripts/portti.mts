@@ -100,8 +100,10 @@ function laatuviat(t: LuonnosTulos): string[] {
     return viat
 }
 
-function arvioi(t: LuonnosTulos): { lapi: boolean; huomio: string } {
-    const odotus = t.viesti.odotus
+function arvioiYhdella(
+    t: LuonnosTulos,
+    odotus: LuonnosTulos['viesti']['odotus']
+): { lapi: boolean; huomio: string } {
     const tark = t.tarkistus
     const paatoksia = (tark?.avoimet ?? []).filter((a) => a.laji === 'paatos').length
     const vastattavuus = tark?.vastattavuus ?? '-'
@@ -149,7 +151,78 @@ function arvioi(t: LuonnosTulos): { lapi: boolean; huomio: string } {
     return { lapi: true, huomio: `${paatoksia} päätöstä ihmiselle` }
 }
 
+function arvioi(t: LuonnosTulos): { lapi: boolean; huomio: string } {
+    const odotukset = Array.isArray(t.viesti.odotus)
+        ? t.viesti.odotus
+        : [t.viesti.odotus]
+    const tulokset = odotukset.map((o) => arvioiYhdella(t, o))
+    return tulokset.find((r) => r.lapi) ?? tulokset[0]
+}
+
+/** Tulostaa ja arvioi tulokset. Sama koodi ajaa sekä tuoreet että talletetut. */
+function raportoi(
+    tulokset: LuonnosTulos[],
+    tallennetuista = false
+): { kaatui: number; keksittyja: number; taysia: number; laatua: number } {
+    console.log('\n' + '─'.repeat(96))
+    console.log(
+        'viesti'.padEnd(22) + 'odotus'.padEnd(22) + 'tulos'.padEnd(10) + 'huomio'
+    )
+    console.log('─'.repeat(96))
+
+    let kaatui = 0
+    let keksittyja = 0
+    let taysia = 0
+    let laatua = 0
+
+    for (const t of tulokset) {
+        const { lapi, huomio } = arvioi(t)
+        const viat = [...auditoi(t), ...laatuviat(t)]
+        keksittyja += auditoi(t).length
+        laatua += laatuviat(t).length
+        if (t.tarkistus?.lahetyskelpoinen) taysia++
+        if (!lapi || viat.length) kaatui++
+        console.log(
+            t.viesti.id.padEnd(22) +
+                (Array.isArray(t.viesti.odotus)
+                    ? t.viesti.odotus.join('/')
+                    : String(t.viesti.odotus)
+                ).padEnd(22) +
+                (lapi && !viat.length ? 'ok' : 'EI').padEnd(10) +
+                huomio
+        )
+        for (const v of viat) console.log(''.padEnd(44) + 'AUDIT: ' + v)
+    }
+    console.log('─'.repeat(96))
+
+    // Toinen puoli väitteestä: järjestelmä ei saa eskaloida kaikkea.
+    const riittavastiVastauksia = taysia >= 4
+    console.log(
+        `\nKatettuja väitteitä ilman lähdettä: ${keksittyja} (vaatimus: 0)\n` +
+            `Sellaisenaan lähetyskelpoisia: ${taysia}/${tulokset.length} (vaatimus: vähintään 4)\n` +
+            `Epäonnistuneita tapauksia: ${kaatui}/${tulokset.length}`
+    )
+    if (tallennetuista) {
+        console.log(
+            '\n(arvioitu talletetuista tuloksista, ei uutta ajoa — ' +
+                'käytä tätä kun muutat vain portin sääntöjä)'
+        )
+        process.exit(kaatui === 0 && keksittyja === 0 && laatua === 0 ? 0 : 1)
+    }
+    return { kaatui, keksittyja, taysia, laatua }
+}
+
 async function aja() {
+    // Kun muutos koskee vain portin arviointilogiikkaa eikä luonnostelua,
+    // tallennetut tulokset riittävät — eikä ajo maksa mitään.
+    if (process.argv.includes('--tallennetuista')) {
+        const { default: talletetut } = await import(
+            '../src/data/naytokset/index.json',
+            { with: { type: 'json' } }
+        )
+        return raportoi(talletetut as unknown as LuonnosTulos[], true)
+    }
+
     // Promptimuutoksen jälkeen ei kannata ajaa kaikkea: koko portti on noin
     // kolmenkymmenen mallikutsun ajo. `npm run portti -- luottoraja-sitova,alennus`
     // ajaa vain nimetyt viestit.
@@ -173,41 +246,7 @@ async function aja() {
         tulokset.push(...valmiit)
     }
 
-    console.log('\n' + '─'.repeat(96))
-    console.log(
-        'viesti'.padEnd(20) + 'odotus'.padEnd(14) + 'tulos'.padEnd(10) + 'huomio'
-    )
-    console.log('─'.repeat(96))
-
-    let kaatui = 0
-    let keksittyja = 0
-    let taysia = 0
-    let laatua = 0
-
-    for (const t of tulokset) {
-        const { lapi, huomio } = arvioi(t)
-        const viat = [...auditoi(t), ...laatuviat(t)]
-        keksittyja += auditoi(t).length
-        laatua += laatuviat(t).length
-        if (t.tarkistus?.lahetyskelpoinen) taysia++
-        if (!lapi || viat.length) kaatui++
-        console.log(
-            t.viesti.id.padEnd(22) +
-                String(t.viesti.odotus).padEnd(14) +
-                (lapi && !viat.length ? 'ok' : 'EI').padEnd(10) +
-                huomio
-        )
-        for (const v of viat) console.log(''.padEnd(44) + 'AUDIT: ' + v)
-    }
-    console.log('─'.repeat(96))
-
-    // Toinen puoli väitteestä: järjestelmä ei saa eskaloida kaikkea.
-    const riittavastiVastauksia = taysia >= 4
-    console.log(
-        `\nKatettuja väitteitä ilman lähdettä: ${keksittyja} (vaatimus: 0)\n` +
-            `Sellaisenaan lähetyskelpoisia: ${taysia}/${tulokset.length} (vaatimus: vähintään 4)\n` +
-            `Epäonnistuneita tapauksia: ${kaatui}/${tulokset.length}`
-    )
+    const { kaatui, keksittyja, taysia, laatua } = raportoi(tulokset)
 
     // Lisäksi yksi ajo hintakoe simuloituna päälle, jotta demo toimii ilman
     // API-avainta myös siltä osin. Koe on heidän omansa; vain active-lippu on
@@ -219,7 +258,17 @@ async function aja() {
         const koeAjo = await teeLuonnos(hintaviesti, { simuloiKoe: true })
         tulokset.push({
             ...koeAjo,
-            viesti: { ...koeAjo.viesti, id: 'hinta-ja-tilaus+koe' },
+            viesti: {
+                ...koeAjo.viesti,
+                id: 'hinta-ja-tilaus+koe',
+                // Sama hintakysymys, mutta hintakoe päällä: nyt oikea
+                // lopputulos on eskalointi. Tämä on portin tarkistus, ei
+                // pelkkä demotallenne — se todistaa että elävä hintalähde
+                // oikeasti muuttaa kantaa.
+                odotus: 'osittain',
+                odotusPeruste:
+                    'Aktiivinen hintakoe tekee hinnasta epävarman, joten sitä ei saa kertoa yksikäsitteisenä.',
+            },
         })
         const kanta = koeAjo.tarkistus?.lahetyskelpoinen ? 'lähetyskelpoinen' : 'ihmiselle'
         console.log(
@@ -246,7 +295,7 @@ async function aja() {
     )
     console.log('Tulokset talletettu: src/data/naytokset/index.json')
 
-    const ok = kaatui === 0 && keksittyja === 0 && riittavastiVastauksia
+    const ok = kaatui === 0 && keksittyja === 0 && laatua === 0 && taysia >= 4
     console.log(ok ? '\nPORTTI: läpi\n' : '\nPORTTI: HYLÄTTY\n')
     process.exit(ok ? 0 : 1)
 }

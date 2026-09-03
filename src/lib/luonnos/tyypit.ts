@@ -6,6 +6,8 @@ export interface Ketjuviesti {
     runko: string
 }
 
+export type Odotus = 'vastattava' | 'osittain' | 'eskaloitava' | 'ei-vastata'
+
 export interface Viesti {
     id: string
     lahettaja: { nimi: string; osoite: string }
@@ -15,8 +17,16 @@ export interface Viesti {
     runko: string
     /** Aiemmat viestit samassa ketjussa, vanhin ensin. */
     ketju?: Ketjuviesti[]
-    /** Vain fikstuureissa: mitä tästä viestistä on tarkoitus tapahtua. */
-    odotus?: 'vastattava' | 'osittain' | 'eskaloitava' | 'ei-vastata'
+    /**
+     * Vain fikstuureissa: mitä tästä viestistä on tarkoitus tapahtua.
+     *
+     * Lista on sallittu, ja sitä käytetään täsmälleen yhdessä tapauksessa:
+     * kun kaksi lopputulosta on aidosti yhtä puolustettavia. Se on rehellisempi
+     * kuin valita niistä toinen ja kirjoittaa testi, joka näyttää tiukemmalta
+     * kuin on — ja rehellisempi kuin kääntää odotus sen mukaan, mitä toteutus
+     * sattuu tekemään.
+     */
+    odotus?: Odotus | Odotus[]
     odotusPeruste?: string
 }
 

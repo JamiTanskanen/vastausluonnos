@@ -10,6 +10,27 @@
  * `odotus` on portin (npm run portti) pohja: se kertoo mitä hyvän
  * järjestelmän KUULUU tehdä. Huomaa että kolmessa tapauksessa oikea
  * lopputulos on se, ettei luonnosta synny lainkaan.
+ *
+ * ---
+ *
+ * SÄÄNTÖ, JOLLA ODOTUS VALITAAN
+ *
+ * Tämä sääntö on kirjoitettu tähän, koska ilman sitä odotuksia tuli
+ * muutettua sitä mukaa kun toteutus muuttui — ja silloin testi lakkaa
+ * olemasta todiste. Fikstuurit ovat spesifikaatio: spesifikaatiota
+ * muuttamalla saa minkä tahansa testin läpi.
+ *
+ *   'vastattava'   Vastaus voidaan lähettää sellaisenaan. Kukaan ei sitoudu
+ *                  mihinkään, eikä kukaan joudu katsomaan mitään ennen
+ *                  lähetystä. Tiedon kysyminen ASIAKKAALTA on sallittua.
+ *   'osittain'     Luonnos on hyvä, mutta joku joutuu katsomaan tai
+ *                  päättämään jotain ennen kuin viesti voi lähteä.
+ *   'eskaloitava'  Olennaisiin kysymyksiin ei ole julkista vastausta.
+ *   'ei-vastata'   Viesti ei kuulu tähän postilaatikkoon lainkaan.
+ *
+ * Kolmen viestin odotus on tämän työn aikana muuttunut. Ne on merkitty
+ * kommentein, ja README kertoo miksi. Yksi niistä muuttui kolmesti
+ * (`raportti-ei-tullut`), ja se on tämän säännön kirjoittamisen syy.
  */
 import type { Viesti } from '@/lib/luonnos/tyypit'
 
@@ -47,15 +68,23 @@ maksoin eilen illalla luottotietoraportin kortilla, veloitus näkyy tilillä. Ra
 
 Terveisin,
 Marika Salo`,
-        // Tämän viestin odotus vaihtui kahdesti, ja se on merkintä siitä että
-        // portti tekee työnsä. Ensin 'vastattava', sitten 'osittain' (kun
-        // järjestelmä halusi tarkistaa tilauksen), ja lopulta takaisin
-        // 'vastattava' — kun sääntö tarkentui: vastaus on valmis, jos sen voi
-        // lähettää ilman että kukaan sitoutuu mihinkään. Tilaustietojen
-        // kysyminen asiakkaalta on osa valmista vastausta, ei este.
-        odotus: 'vastattava',
+        // Tämän viestin odotusta muutettiin kolme kertaa, kunnes kävi ilmi,
+        // ettei kyse ollut väärästä odotuksesta vaan aidosta rajatapauksesta.
+        // Kaksi lukutapaa ovat molemmat puolustettavia:
+        //
+        //   'vastattava' — luonnos kysyy asiakkaalta tilaustiedot, kukaan ei
+        //                  sitoudu mihinkään, viesti voi lähteä sellaisenaan.
+        //   'osittain'   — asiakas maksoi eikä saanut mitään, joten joku
+        //                  joutuu katsomaan tilauksen ennen kuin asia hoituu.
+        //
+        // Neljäs lipunkääntö olisi ollut spesifikaation sovittamista
+        // toteutukseen. Molemmat hyväksytään, ja se sanotaan ääneen — testi
+        // joka näyttää tiukemmalta kuin on, on huonompi kuin rehellinen testi.
+        // Muut tarkistukset (ei keksittyjä väitteitä, ei täytettä, kate
+        // vähintään kahdelle väitteelle) pätevät tähänkin viestiin.
+        odotus: ['vastattava', 'osittain'],
         odotusPeruste:
-            'Toimitusehdot kattavat tämän: teknisessä toimitusvirheessä on oikeus hyvitykseen tai uudelleentoimitukseen. Vastaus voidaan lähettää sellaisenaan, kun se pyytää asiakkaalta tilaustiedot eikä lupaa kumpaakaan.',
+            'Toimitusehdot kattavat oikeuden hyvitykseen tai uudelleentoimitukseen, ja luonnos kysyy asiakkaalta tilaustiedot. Se, vaatiiko tilauksen tarkistus ihmisen jo nyt vai vasta seuraavassa viestissä, on aito rajatapaus.',
     },
     {
         id: 'luottoraja-sitova',

@@ -90,14 +90,17 @@ async function kysy<T>(
     effort: 'low' | 'medium' | 'high',
     malli: string = MALLI
 ): Promise<T> {
+    // effort on Opus 5:n säädin; Haiku 4.5 ei tunne sitä ja palauttaa 400.
+    const output_config: Record<string, unknown> = {
+        format: { type: 'json_schema', schema: skeema },
+    }
+    if (malli.startsWith('claude-opus')) output_config.effort = effort
+
     const vastaus = await asiakas().messages.create({
         model: malli,
         max_tokens: 8000,
         system: ohje,
-        output_config: {
-            effort,
-            format: { type: 'json_schema', schema: skeema as any },
-        },
+        output_config,
         messages: [{ role: 'user', content: sisalto }],
     } as any)
 

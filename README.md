@@ -153,14 +153,20 @@ Toinen kohta tekee testistä oikean testin. Järjestelmä, joka eskaloi kaiken
 ihmiselle, ei keksi koskaan mitään — ja on hyödytön. 100 % eskalointi on
 hylätty tulos aivan kuten 100 % vastaaminenkin.
 
-### Viimeisin ajo: hylätty
+### Viimeisin ajo
 
 ```
-Katettuja väitteitä ilman lähdettä:  0/12   (vaatimus 0)   ← läpi
-Sellaisenaan lähetyskelpoisia:       3/12   (vaatimus 4)   ← ei läpi
+Katettuja väitteitä ilman lähdettä:  0/13   (vaatimus 0)
+Toistoa tai täytettä:                0      (vaatimus 0)
+Sellaisenaan lähetyskelpoisia:       5/13   (vaatimus vähintään 4)
+Epäonnistuneita tapauksia:           0/13
+Käyttö: 27 kutsua, 157 211 tokenia sisään, 14 378 ulos — 1,06 €
 ```
 
-Ensimmäinen puoli väitteestä pitää. Toinen ei vielä.
+Kolmastoista rivi on sama hintakysymys hintakoe päälle kytkettynä: silloin
+oikea lopputulos on eskalointi, ja portti tarkistaa senkin.
+
+Tähän ei päästy suoraan. Alla se, mitä matkalla hajosi.
 
 ### Heittelevä kanta, ja miksi se korjattiin rakenteesta eikä promptista
 
@@ -188,15 +194,33 @@ kuusi testiä siitä, kenen päätös lähetyskelpoisuus on.
 Vakaustesti vahvisti korjauksen: neljä viestiä, kolme ajoa kukin, kanta pysyi
 joka kerta samana.
 
-### Mitä on vielä mittaamatta
+### Kolme muuta asiaa, jotka portti kaatoi matkalla
 
-Korjauksen jälkeen malli alkoi merkitä estäviksi asioita, jotka ovat oikeasti
-vapaaehtoisia lisäyksiä ("halutaanko mainita myös kuukausitilaus"), ja
-lähetyskelpoisten määrä putosi. Kategorioiden ehdot on sen jälkeen terävöitetty
-— mukaan lukien nyrkkisääntö, että kysymys joka alkaa sanalla "halutaanko" tai
-"kannattaisiko" on lisäys eikä puute — mutta **tämän vaikutus on mittaamatta**,
-koska API-avaimen saldo loppui kesken ajon. Portin numerot yllä ovat viimeisin
-kokonainen ajo, eivät nykyisen version tulos.
+**Liian varovainen.** Rakenteellisen korjauksen jälkeen malli alkoi merkitä
+estäviksi asioita, jotka ovat oikeasti vapaaehtoisia lisäyksiä ("halutaanko
+mainita myös kuukausitilaus"), ja lähetyskelpoisia oli enää 1/12. Ratkaisu oli
+kirjoittaa kategorioiden ehdot tiukoiksi ja lisätä nyrkkisääntö: kysymys joka
+alkaa sanalla "halutaanko" tai "kannattaisiko" on lisäys, ei puute.
+
+**Avoin asia koski koko tapausta, ei luonnosta.** Malli merkitsi estäväksi
+päätöksiä, joita tarvitaan vasta myöhemmin ("hyvitetäänkö vai toimitetaanko
+uudelleen"), vaikka tämä viesti vain kysyy asiakkaalta tilaustiedot.
+
+**Halvempi malli tarvitsi enemmän kontekstia.** Esilajittelu siirrettiin
+Haiku 4.5:lle kustannussyistä, ja se alkoi luulla tukiosoitetta
+laskutusosastoksi ja siirtää asiakkaita muualle — kolmella ajolla kolme kertaa
+samoin, eli vika ei ollut satunnaisuus vaan ohje. Ohje oli kirjoitettu Opusta
+varten, joka päätteli kontekstin itse. Kun ohjeeseen kirjoitettiin auki, mikä
+osoite tämä on ja mitkä asiat sille kuuluvat, luokittelu meni oikein.
+
+**Ja yksi tapaus, jota ei ratkaistu vaan nimettiin.** `raportti-ei-tullut`
+-viestin odotusta muutettiin kolme kertaa. Neljäs kääntö olisi ollut
+spesifikaation sovittamista toteutukseen, joten se on nyt merkitty
+tapaukseksi, jolla on **kaksi hyväksyttävää lopputulosta**, ja perustelu on
+koodissa. Testi, joka näyttää tiukemmalta kuin on, on huonompi kuin rehellinen
+testi. `src/data/viestit/fikstuurit.ts` sisältää nyt myös kirjallisen säännön
+siitä, millä perusteella odotus valitaan — sen kirjoittaminen oli tämän
+tapauksen ansiota.
 
 ### Portti kaatoi kolme omaa odotustani
 
@@ -223,6 +247,10 @@ tiedostossa lukee, että portti on tällä hetkellä hylätty.
 heittele: sama viesti ei saa mennä kerran lähetettäväksi ja toisella kerralla
 ihmiselle. Arpova varovaisuus on pahempi kuin johdonmukainen varovaisuus,
 koska siihen ei voi oppia luottamaan.
+
+`npm run portti -- --tallennetuista` arvioi talletetut tulokset uudelleen
+ilman yhtäkään mallikutsua. Kun muuttaa portin sääntöjä eikä luonnostelua,
+uuden ajon maksaminen on pelkkää tuhlausta.
 
 ---
 
