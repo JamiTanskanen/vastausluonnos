@@ -1,0 +1,386 @@
+[
+  {
+    "id": "faq#miten-voin-itse-arvioida-millaiseen-luottoluokitukseen-yritykseni",
+    "lahde_id": "faq",
+    "otsikko": "Miten voin itse arvioida, millaiseen luottoluokitukseen yritykseni yleensä sijoittuu?",
+    "url": "https://luottoriskit.fi/fi/faq/#luottoluokituksen-arviointi",
+    "teksti": "Miten voin itse arvioida, millaiseen luottoluokitukseen yritykseni yleensä sijoittuu?\n\nAlla oleva kuva havainnollistaa, miten suomalaiset yritykset sijoittuvat Valuatumin luokitusmallissa keskeisten tunnuslukujen perusteella. Kuvassa jokainen piste vastaa yhtä yritystä:\nVaakasuunnassa on kannattavuus (kokonaispääoman tuotto)\nPystysuunnassa vakavaraisuus (omavaraisuusaste)\nOikeassa yläkulmassa ovat tyypillisesti kannattavat ja vakavaraiset yritykset, kun taas vasemmassa alakulmassa ovat heikomman kannattavuuden ja vakavaraisuuden yritykset. Pisteen väri kuvaa yrityksen luottoluokkaa: vihreät yritykset ovat matalamman riskin ja punaiset korkeamman riskin yrityksiä.\nTaustalla olevat värialueet kuvaavat sitä, mikä luokitus kyseisillä tunnusluvuilla on tyypillisin.\nJos yrityksen tilanne on muuten tavanomainen (ei poikkeuksellisia riskitekijöitä), kuva antaa hyvän suuntaa-antavan käsityksen siitä, millaiseen luokitukseen yritys yleensä sijoittuu. Mikäli esimerkkiyrityksen luvut ovat muutoin neutraalit, vaaditaan A-alkuiseen luokitukseen (parhaan 20% joukossa suomalaisyrityksistä) 75-100% omavaraisuusaste sekä positiivinen oman pääoman tuottoprosentti.\nKuten kuvasta kuitenkin näkyy, poikkeuksellisia riskitekijöitä löytyy yrityksiltä jonkin verran. Jopa hyvällä eli vihreällä alueella on oransseja ja punaisia pisteitä, puhumattakaan harmaasta alueesta. Lisäksi vihreiden pisteiden alle jää näkymättömiin suuri joukko pisteitä, joten niitä on paljon enemmän kuin kuvasta näkyy.\nVihreällä alueella olevat punaiset pisteet tarkoittavat, että jopa vakavaraisilta (korkea omavaraisuusaste) ja kannattavilta näyttävien yritysten joukosta löytyy sellaisia yrityksiä, joille Valuatumin riskimalli antaa erittäin matalan luottoluokituksen. Puhumme tarkoituksella vakavaraisilta tai kannattaviltanäyttävistä yrityksistä emmekä vakavaraisista tai kannattavista yrityksistä. Näillä yhtiöillä voi periaatteessa olla korkea omavaraisuusaste ja hyvä pääoman tuottoaste, mutta ne eivät silti välttämättä ole aidosti vakavaraisia tai kannattavia, vaan enemmänkin vain näyttävät siltä.\nHyviä esimerkkejä tällaisista suurista yrityksistä ovat Suomessa Uros Oy ja maailmalla Enron. Kumpikin raportoi virallisten lukujen perusteella hyvää omavaraisuusastetta ja hyvää kannattavuutta, mutta jälkikäteen arvioiden kumpikaan näistä asioista ei aidosti pitänyt paikkaansa. Uros Oy peitteli heikkoa kannattavuutta sisäisten saamisten avulla, ja Enronissa pitkien ja epävarmojen sopimusten kirjaamista tuotoiksi sovellettiin melko luovasti.\nNäitä kahta tapausta - ja toisaalta vähintään satoja, ellei jopa tuhansia hieman samantapaisia suomalaisia yrityksiä, jotka näkyvät kuvassa punaisina pisteinä vihreällä alueella - yhdistää se, että niiden taseessa on jotain epäkuranttia. Kannattavuuden ja vakavaraisuuden ongelmat on ikään kuin siivottu pois virallisista luvuista: taseesta olisi pitänyt kirjata alas esimerkiksi epäkurantteja myyntisaamisia, varastoja tai lainasaamisia, tai kulut olisi pitänyt esittää tuloslaskelmassa, kuten aktivoitujen tuotekehitysmenojen tapauksessa. Erät on kuitenkin piilotettu taseeseen.\nEnronilla jo liikevaihto oli suurempi kuin mitä se todellisuudessa oli, ja erotus kirjattiin myyntisaamisiin. Uroksella taseongelma oli lainasaamisissa. Nykyisillä suomalaisyrityksillä, joiden todellinen kannattavuus ja vakavaraisuus ovat paljon heikompia kuin virallisista luvuista voisi päätellä, ongelma voi olla lähes missä tahansa taseen varojen erässä. Yleisimmin se on myyntisaamisissa, lainasaamisissa, varastoissa, aktivoiduissa tuotekehitysmenoissa tai goodwillissa. Jos epäkurantit varallisuuserät kirjattaisiin alas tuloslaskelman kautta, kuten pitäisi tehdä, jos tilintarkastaja olisi valppaana, yhtiöiden kannattavuus ja vakavaraisuus olisivat huomattavasti matalammalla tasolla kuin viralliset luvut osoittavat.\nTekoälyä tällainen toiminta ei kuitenkaan pysty huijaamaan. Se tarkastelee, miten taseen varallisuuserät ovat kehittyneet ja millä tasolla ne ovat liikevaihtoon ja verrokkiyrityksiin verrattuna. Se ikään kuin tekee mielessään alaskirjauksen näihin eriin, ja sen ilmoittama luottoluokitus lasketaan ikään kuin erät olisi jo alaskirjattu. Tämä on käytännössä aina syy siihen, että kuvassa jonkin yrityksen punainen piste on esimerkiksi vihreällä alueella: Valuatumin reittaus antaa yritykselle sille kuuluvan luottoluokituksen eikä hämäänny virallisista luvuista, jotka ovat näissä tapauksissa harhaanjohtavia.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miksi-valuatumin-luottoluokitus-aaa-c-voi-olla",
+    "lahde_id": "faq",
+    "otsikko": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miksi Valuatumin luottoluokitus (AAA-C) voi olla matalampi kuin esimerkiksi Asiakastiedon luokitus?\n\nLyhyt vastaus on: koska luokitusasteikot ovat erilaiset.\nSama yritys voi saada Valuatumilta luokituksen BBB ja Asiakastiedolta AA, vaikka molemmat arvioisivat yrityksen konkurssiriskin täsmälleen samaksi.\nTärkeintä ei siis ole kirjainluokitus vaan se, kuinka suuri yrityksen arvioitu konkurssiriski on.\nEsimerkki\nOletetaan, että sekä Valuatum että Asiakastieto arvioivat yrityksen Penan Autokorjaamo Oy (kuvitteellinen yritys) luottoriskin täsmälleen samaksi.\nValuatum Asiakastieto\nArvioitu konkurssitodennäköisyys seuraavan 24 kuukauden aikana\n0,24 %\n0,24 %\nYritys on turvallisempi kuin\n62 % suomalaisista yrityksistä\n62 % suomalaisista yrityksistä\nArvio yrityksen suhteellisesta riskitasosta\nSama\nSama\nKirjainluokitus\nBBB\nAA\nMolemmat palvelut pitävät siis yritystä yhtä luottokelpoisena. Ainoa ero on se, että ne käyttävät erilaista luokitusasteikkoa.\n«Sama riski – eri kirjainluokitus.»\nMistä ero johtuu?\nValuatum ja Asiakastieto käyttävät erilaista tapaa jakaa yritykset eri luokkiin.\nValuatumin luokitusmallissa ylimpiin luokkiin (AAA–A) sijoittuu noin kolmannes yrityksistä. Tämä vastaa melko hyvin kansainvälisten luottoluokituslaitosten, kuten Standard & Poor’sin, käyttämää luokitusjakaumaa.\nSuomen Asiakastiedon luokituksessa puolestaan noin 90 % yrityksistä kuuluu A-luokkiin.\nTämän vuoksi yritys voi saada Valuatumilta luokituksen BBB ja samalla Asiakastiedolta AA, vaikka molemmat arvioivat sen riskin yhtä pieneksi.\nLuokitusjakaumien vertailu\nLuokitusjärjestelmä A-luokkiin sijoittuu\nValuatum\nnoin 33 % yrityksistä\nStandard & Poor’s\nnoin 30–35 % yrityksistä\nSuomen Asiakastieto\nnoin 90 % yrityksistä\nAlla olevat kuvat havainnollistavat luokitusjakaumien eroja.\nValuatumin luottoluokitusjakauma\nLähde: Valuatum\nS&P:n luottoluokitusjakauma\nLähde: Business Insider(alkuperäinen kuva)\nSuomen Asiakastiedon luokitusjakauma\nLähde: Kauppalehti(alkuperäinen kuva)\nMitä Valuatumin luokitus kertoo?\nValuatumin luokitus perustuu yrityksen arvioituun konkurssiriskiin suhteessa kaikkiin suomalaisiin yrityksiin.\nAAA = erittäin pieni konkurssiriski.\nAA = hyvin pieni konkurssiriski.\nA = pieni konkurssiriski.\nBBB = keskimääräistä pienempi konkurssiriski.\nBB, B ja C = asteittain kasvava konkurssiriski.\nKoska ylimpiin luokkiin sijoittuu vain osa yrityksistä, luokitus erottaa tehokkaasti myös ne yritykset, joiden taloudellinen tilanne on hyvä. Näin luokitus tarjoaa enemmän erottelukykyä esimerkiksi luotonannossa, toimittajariskien hallinnassa ja yritysasiakkaiden seurannassa.\nTarvittaessa Valuatumin luokitukset voidaan myös kalibroida asiakkaan omiin riskirajoihin ja päätöksentekokriteereihin.\n«Yhteenveto: Jos kahden luokituspalvelun arvioima konkurssiriski on sama, myös niiden arvio yrityksen luottokelpoisuudesta on käytännössä sama – vaikka kirjainluokitus olisi erilainen.»",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miksi-valuatumin-riskiarvio-voi-poiketa-toisen-toimijan",
+    "lahde_id": "faq",
+    "otsikko": "Miksi Valuatumin riskiarvio voi poiketa toisen toimijan arviosta?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miksi Valuatumin riskiarvio voi poiketa toisen toimijan arviosta?\n\nEri mallit voivat arvioida saman yrityksen riskin eri tavalla. Valuatumin luottoluokitus perustuu XGBoost-koneoppimismalliin, kun taas perinteiset mallit perustuvat usein logistiseen regressioon tai muutamaan keskeiseen tunnuslukuun. Näiden mallien ero ei ole vain tekninen, vaan se vaikuttaa suoraan siihen, mitä riskitekijöitä malli tunnistaa ja miten paljon niitä painotetaan.\nLogistisessa regressiossa malli käyttää samoja kertoimia kaikille yrityksille, eikä muuttujien paino vaihtele yrityskohtaisesti samalla tavalla kuin XGBoost-mallissa. XGBoost-malli pystyy huomioimaan yrityskohtaisia tilanteita joustavammin: sama tunnusluku ei vaikuta kaikkiin yrityksiin samalla tavalla, vaan merkitys voi riippua muista yrityksen ominaisuuksista.\nLisäksi XGBoost-malli pystyy hyödyntämään laajempaa muuttujajoukkoa ja tunnistamaan monimutkaisempia riippuvuuksia kuin perinteinen regressiomalli.\nTämän vuoksi Valuatumin malli voi tunnistaa riskin korkeaksi tilanteessa, jossa yksinkertaisempi malli ei näe samaa varoitussignaalia. Esimerkiksi poikkeuksellisen suuret saamiset, heikko kassapuskuri tai muut taseen piilevät riskit voivat nostaa Valuatumin mallissa riskitasoa, vaikka perinteinen malli pitäisi yritystä vielä melko turvallisena. Tällöin kyse ei ole vain eri kirjainluokituksesta, vaan aidosti erilaisesta riskiarviosta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miten-valuatumin-luottoluokitus-lasketaan",
+    "lahde_id": "faq",
+    "otsikko": "Miten Valuatumin luottoluokitus lasketaan?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miten Valuatumin luottoluokitus lasketaan?\n\nValuatumin luottoluokitus perustuu tilastolliseen riskimalliin, joka hyödyntää laajasti suomalaisten yritysten historiallisia tilinpäätös-, maksuhäiriö- ja konkurssitietoja. Malli arvioi, millaisella todennäköisyydellä tietyn profiilin yrityksille syntyy maksuhäiriöitä tai konkurssiriskiä.\nLuokitus ei perustu yksittäiseen tunnuslukuun, vaan kokonaisuuteen. Malli huomioi erityisesti vakavaraisuuden, kannattavuuden, maksuvalmiuden, taseen rakenteen, toimialan riskitason sekä eräitä muita yrityksen riskinkantokykyä kuvaavia tekijöitä.\nLue lisää täältä.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#mitka-tekijat-vaikuttavat-luottoluokitukseen-eniten",
+    "lahde_id": "faq",
+    "otsikko": "Mitkä tekijät vaikuttavat luottoluokitukseen eniten?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Mitkä tekijät vaikuttavat luottoluokitukseen eniten?\n\nTyypillisesti tärkeimpiä tekijöitä ovat:\nVakavaraisuus, erityisesti omavaraisuusaste.\nKannattavuus, kuten pääoman tuotto ja liiketoiminnan tuloksentekokyky.\nMaksuvalmius, esimerkiksi kassan koko suhteessa liiketoiminnan volyymiin ja lyhytaikaisiin velkoihin.\nTaseen varojen rakenne ja poikkeamat, kuten myyntisaamisten, varastojen, lainasaamisten, liikearvon (goodwill) ja aktivoitujen tuotekehitysmenojen määrä sekä niiden kehitys suhteessa liiketoimintaan.\nToimialariski, eli kuinka paljon kyseisen toimialan yrityksiä menee keskimäärin konkurssiin.\nErityisen tärkeää on, että tekoäly tunnistaa tilinpäätöksestä sellaisia poikkeamia, jotka voivat viitata omaisuuserien yliarvostukseen tai heikkenevään taloudelliseen tilanteeseen.\nEsimerkiksi myyntisaamisten, varastojen tai lainasaamisten poikkeuksellisen voimakas kasvu suhteessa liikevaihtoon voi viitata siihen, että taseessa on eriä, joiden todellinen arvo on kirjanpitoarvoa pienempi. Syynä voi olla esimerkiksi vaikeasti perittävät myyntisaamiset, epäkurantiksi muuttunut varasto tai konserni- ja lähipiiriyhtiöille annetut lainat, joiden takaisinmaksu on epävarmaa.\nSamoin aineettomiin hyödykkeisiin kirjatut aktivoidut tuotekehitysmenot tai liikearvo (goodwill) eivät aina vastaa todellista taloudellista arvoaan. Jos yrityksen liiketoiminta heikkenee tai tekee pitkään tappiota, näiden erien arvo voi olla olennaisesti kirjanpitoarvoa pienempi.\nTekoälymalli ei siis arvioi pelkästään yksittäisiä tunnuslukuja, vaan tarkastelee koko tilinpäätöstä ja tunnistaa myös sellaisia rakenteellisia poikkeamia, joiden on historiallisesti havaittu lisäävän konkurssiriskiä.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#onko-toimialariski-tarkeampi-kuin-yrityskohtaiset-tekijat",
+    "lahde_id": "faq",
+    "otsikko": "Onko toimialariski tärkeämpi kuin yrityskohtaiset tekijät?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Onko toimialariski tärkeämpi kuin yrityskohtaiset tekijät?\n\nEi yksinään. Yrityskohtaiset tekijät ovat edelleen erittäin tärkeitä ja ratkaisevat paljon. Toimialariski kuitenkin vaikuttaa siihen, kuinka korkea rima hyvälle luokitukselle on.\nToisin sanoen: samalla kannattavuudella ja vakavaraisuudella matalariskisellä toimialalla toimiva yritys voi saada paremman luokituksen kuin korkeariskisellä toimialalla toimiva yritys. Silti jokaisella toimialalla on sekä vahvasti että heikosti luokiteltuja yrityksiä.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miten-luottoluokitusta-kannattaa-tulkita-kaytannossa",
+    "lahde_id": "faq",
+    "otsikko": "Miten luottoluokitusta kannattaa tulkita käytännössä?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miten luottoluokitusta kannattaa tulkita käytännössä?\n\nLuottoluokitus kannattaa nähdä tiivistettynä riskisignaalina, ei lopullisena tuomiona yrityksen laadusta. Se kertoo, miten yritys sijoittuu tilastollisesti suhteessa muihin yrityksiin ja millainen riskitaso sen tunnuslukuihin, taseeseen ja toimialaan liittyy.\nParhaimmillaan luottoluokitus auttaa yritysjohtoa ymmärtämään:\nmitkä tekijät vahvistavat yrityksen asemaa\nmitkä tekijät rajoittavat rahoitettavuutta\nmitä kehittämällä yrityksen riskiprofiilia voi parantaa",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miten-kassa-ja-maksuvalmius-vaikuttavat-luottoluokitukseen",
+    "lahde_id": "faq",
+    "otsikko": "Miten kassa ja maksuvalmius vaikuttavat luottoluokitukseen?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miten kassa ja maksuvalmius vaikuttavat luottoluokitukseen?\n\nKassa ja maksuvalmius vaikuttavat siihen, kuinka hyvin yritys kestää arjen häiriöitä, viiveitä ja yllätyksiä. Jos liiketoiminnan volyymi on suuri mutta kassapuskurit pienet, yrityksen kyky selvitä tilapäisistä ongelmista voi olla heikompi.\nMallissa katsotaan muun muassa kassaa suhteessa liikevaihtoon, kuluihin, lyhytaikaisiin velkoihin ja taseen muihin eriin. Vahva maksuvalmius tukee luokitusta, koska se parantaa yrityksen häiriönsietokykyä.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miksi-yritykseni-luottoluokitus-voi-olla-heikko-vaikka",
+    "lahde_id": "faq",
+    "otsikko": "Miksi yritykseni luottoluokitus voi olla heikko, vaikka liiketoiminta on kannattavaa?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miksi yritykseni luottoluokitus voi olla heikko, vaikka liiketoiminta on kannattavaa?\n\nKannattavuus on tärkeä tekijä, mutta se ei yksin ratkaise luottoluokitusta. Yrityksellä voi olla hyvä tulos, mutta silti luokitus voi jäädä vaatimattomaksi esimerkiksi silloin, jos:\noma pääoma on pieni suhteessa liiketoiminnan volyymiin\nkassapuskurit ovat ohuet\ntoimiala on keskimääräistä riskisempi\ntase ei anna riittävää suojaa mahdollisten häiriöiden varalle\nLuottoluokitus mittaa ennen kaikkea riskinkantokykyä. Hyväkin liiketoiminta voi olla rahoittajan näkökulmasta haavoittuva, jos yhden huonon vuoden tai yksittäisen projektin epäonnistumisen vaikutus olisi suuri.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miksi-korkea-omavaraisuusaste-ei-aina-riita-hyvaan",
+    "lahde_id": "faq",
+    "otsikko": "Miksi korkea omavaraisuusaste ei aina riitä hyvään luokitukseen?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miksi korkea omavaraisuusaste ei aina riitä hyvään luokitukseen?\n\nOmavaraisuusaste kertoo suhteellisesta vakavaraisuudesta, mutta ei yksin kerro, kuinka suuri yrityksen todellinen puskurikyky euroissa on.\nYrityksellä voi olla korkea omavaraisuusaste, mutta jos tase on pieni ja liiketoiminnan volyymi suuri, omistajien riskinkantokyky voi silti olla rajoitettu. Rahoittajan näkökulmasta ratkaisevaa on usein myös se, kuinka paljon omaa pääomaa ja muita turvaavia varoja yrityksellä on absoluuttisesti.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#voiko-korkea-toimialariski-heikentaa-muuten-hyvan-yrityksen",
+    "lahde_id": "faq",
+    "otsikko": "Voiko korkea toimialariski heikentää muuten hyvän yrityksen luokitusta?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Voiko korkea toimialariski heikentää muuten hyvän yrityksen luokitusta?\n\nKyllä voi. Toimialariski on olennainen osa luottoriskin arviointia, koska eri toimialoilla konkurssien ja maksuhäiriöiden määrä vaihtelee selvästi.\nJos toimiala on keskimääräistä riskisempi, yritykseltä vaaditaan yleensä vahvemmat tunnusluvut päästäkseen samaan luottoluokkaan kuin matalariskisemmällä toimialalla toimiva yritys. Tämä ei tarkoita, että toimiala yksin määrää luokituksen, mutta se nostaa rimaa.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#tarkoittaako-heikko-luokitus-etta-yritykseni-on-huonossa",
+    "lahde_id": "faq",
+    "otsikko": "Tarkoittaako heikko luokitus, että yritykseni on huonossa kunnossa?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Tarkoittaako heikko luokitus, että yritykseni on huonossa kunnossa?\n\nEi välttämättä. Heikko tai keskitasoa matalampi luokitus ei automaattisesti tarkoita, että yrityksen liiketoiminta olisi huonoa tai että yritys olisi välittömässä vaarassa.\nSe tarkoittaa yleensä, että tilastollisesti katsottuna yrityksen riskitaso on korkeampi kuin paremmin luokitelluilla yrityksillä. Syynä voi olla esimerkiksi riskinen toimiala, pieni absoluuttinen oma pääoma, rajallinen kassapuskuri tai taseen koko suhteessa liiketoiminnan volyymiin.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#mita-yrityksen-luottoraja-tarkoittaa",
+    "lahde_id": "faq",
+    "otsikko": "Mitä yrityksen luottoraja tarkoittaa?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Mitä yrityksen luottoraja tarkoittaa?\n\nYrityksen luottoraja tarkoittaa suuntaa-antavaa euromäärää, jonka puitteissa yritykselle voidaan harkita lasku- tai luottokauppaa ilman poikkeuksellisen suurta luottotappioriskiä. Luottoraja ei ole sitova rahoituspäätös, vaan riskimalliin perustuva apuväline omaan luottopäätökseen.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miten-luottoriskit-fi-n-luottoraja-arvio-lasketaan",
+    "lahde_id": "faq",
+    "otsikko": "Miten Luottoriskit.fi:n luottoraja-arvio lasketaan?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miten Luottoriskit.fi:n luottoraja-arvio lasketaan?\n\nLuottoraja-arvio perustuu Valuatumin luottoriskimalliin, jossa huomioidaan muun muassa luottopisteet, konkurssiriski, kannattavuus, vakavaraisuus, kassa, taseen rakenne ja toimialariski. Yrityssivulla näytettävä ilmainen arvio on karkeasti pyöristetty vaihteluväli.\nLue lisää luottoriskimallista ja luottorajasuosituksesta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miksi-ilmainen-luottoraja-on-vaihteluvali-eika-tarkka",
+    "lahde_id": "faq",
+    "otsikko": "Miksi ilmainen luottoraja on vaihteluväli eikä tarkka euromäärä?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miksi ilmainen luottoraja on vaihteluväli eikä tarkka euromäärä?\n\nIlmainen luottoraja näytetään vaihteluvälinä, koska tarkka luottorajasuositus ja sen perustelut kuuluvat maksulliseen luottotietoraporttiin. Vaihteluväli antaa nopean ensiarvion, mutta ei paljasta koko riskimallin tarkkaa tulosta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miten-luottoraja-eroaa-luottoluokituksesta",
+    "lahde_id": "faq",
+    "otsikko": "Miten luottoraja eroaa luottoluokituksesta?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miten luottoraja eroaa luottoluokituksesta?\n\nLuottoluokitus tiivistää yrityksen suhteellisen riskitason esimerkiksi AAA-C-asteikolle. Luottoraja muuttaa riskitason euromääräiseksi suositukseksi, jossa huomioidaan riskin lisäksi yrityksen koko, tase, kassa ja riskinkantokyky.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#miksi-luottoluokitus-voi-muuttua-nopeasti-vuodesta-toiseen",
+    "lahde_id": "faq",
+    "otsikko": "Miksi luottoluokitus voi muuttua nopeasti vuodesta toiseen?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Miksi luottoluokitus voi muuttua nopeasti vuodesta toiseen?\n\nLuottoluokitus voi muuttua, jos yrityksen tunnusluvut muuttuvat tai jos toimintaympäristö muuttuu. Esimerkiksi:\nkannattavuus heikkenee tai paranee\noma pääoma kasvaa tai pienenee\nkassa vahvistuu tai heikkenee\ntoimialan riskitaso muuttuu\nliiketoiminnan volyymi kasvaa nopeammin kuin puskurit\nJoillakin toimialoilla myös suhdanteet vaikuttavat voimakkaasti. Tällöin samanlaisillakin yrityskohtaisilla luvuilla voidaan eri vuosina päätyä erilaiseen riskitasoon.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#voiko-yritys-parantaa-luottoluokitustaan",
+    "lahde_id": "faq",
+    "otsikko": "Voiko yritys parantaa luottoluokitustaan?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Voiko yritys parantaa luottoluokitustaan?\n\nKyllä voi. Luottoluokitusta voi yleensä parantaa vahvistamalla yrityksen riskinkantokykyä. Käytännössä tähän vaikuttavat usein eniten:\noman pääoman vahvistaminen\nkassapuskurien kasvattaminen\nkannattavuuden parantaminen\ntaseen vahvistaminen suhteessa liiketoiminnan volyymiin\nriskienhallinnan ja liiketoiminnan ennustettavuuden parantaminen\nErityisesti korkeariskisillä toimialoilla vahva oma pääoma ja riittävä puskuritaso korostuvat.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#voiko-hyva-yritys-silti-kohdata-vaikeuksia-rahoituksen",
+    "lahde_id": "faq",
+    "otsikko": "Voiko hyvä yritys silti kohdata vaikeuksia rahoituksen saannissa?",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "Voiko hyvä yritys silti kohdata vaikeuksia rahoituksen saannissa?\n\nKyllä. Rahoituksen saatavuuteen vaikuttaa luottoluokituksen lisäksi moni muukin asia, kuten pankkien oma riskipolitiikka, sääntely, vakuusvaatimukset, markkinatilanne ja toimialan yleinen suhdanne.\nSiksi on mahdollista, että hyvin hoidettu yritys kohtaa rahoitusmarkkinassa tiukemmat ehdot kuin sen operatiivinen laatu yksin antaisi odottaa. Luottoluokitus on tärkeä osa arviointia, mutta ei ainoa päätöstekijä.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "faq#faq",
+    "lahde_id": "faq",
+    "otsikko": "FAQ",
+    "url": "https://luottoriskit.fi/fi/faq/",
+    "teksti": "FAQ\n\nLuottoluokitus herättää usein kysymyksiä etenkin silloin, kun yrityksen oma kokemus liiketoiminnan tilanteesta ei tunnu vastaavan annettua riskiluokkaa. Valuatumin luottoluokitus perustuu tilastolliseen analyysiin, jossa huomioidaan yrityksen tunnusluvut, tase, maksuvalmius, toimialan riskitaso ja muut riskinkantokykyyn vaikuttavat tekijät. Tälle sivulle kokosimme yleisimmät kysymykset ja vastaukset siitä, miten luottoluokitus muodostuu ja miksi se voi joskus yllättää.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#yrityksen-luottoriski-luottotiedot-ja-luottoluokitus-paatoksesi-tueksi",
+    "lahde_id": "luottoriski",
+    "otsikko": "Yrityksen luottoriski – luottotiedot ja luottoluokitus päätöksesi tueksi",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Yrityksen luottoriski – luottotiedot ja luottoluokitus päätöksesi tueksi\n\nLuottoriski kuvaa todennäköisyyttä sille, kuinka hyvin yritys selviää maksuvelvoitteistaan. Kun arvioit asiakkaalle annettavaa maksuaikaa tai uuden yhteistyökumppanin luotettavuutta, tarvitset päätöksen tueksi sekä ajantasaiset luottotiedot että ennakoivan luottoluokituksen.\nTämän sivun avulla ymmärrät, mitä luottoriski, luottotiedot ja luottoluokitus kertovat käytännössä – ja miten luottotietoraportti kokoaa tiedot yhteen päätöksentekoa varten.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#mita-luottoluokitus-kertoo-ja-miten-se-muodostuu",
+    "lahde_id": "luottoriski",
+    "otsikko": "Mitä luottoluokitus kertoo ja miten se muodostuu?",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Mitä luottoluokitus kertoo ja miten se muodostuu?\n\nLuottoluokitus on eteenpäin katsova arvio siitä, kuinka todennäköisesti yritys selviää velvoitteistaan lähitulevaisuudessa. Ensisijainen mittari on luottopisteet asteikolla 0–100. Kirjainluokka AAA–C toimii toissijaisena, nopeasti luettavana yhteenvetona riskitasosta.\nLuottoluokitusmalleissa kaksi tekijää vaikuttavat riskiin yleensä eniten: kannattavuus ja vakavaraisuus. Kannattavuus kertoo, pystyykö yritys tekemään tulosta ja hoitamaan velvoitteensa normaalioloissa. Vakavaraisuus puolestaan kuvaa, kuinka paljon yrityksellä on puskuria heikompia aikoja varten: mitä enemmän omaa pääomaa yrityksellä on suhteessa velkoihin, sitä parempi sen selviytymiskyky on.\nKuva havainnollistaa tätä yhteyttä: mitä kannattavampi ja vakavaraisempi yritys on, sitä vahvempi sen luottoluokitus yleensä on. Yksittäisten yritysten riskitasoon vaikuttavat kuitenkin myös muut tekijät. Katso alta, miksi Valuatumin luokitus on yleensä tarkempi.\nLue kuvan tulkinnasta tarkemmin FAQ:sta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#luottotietoraportti-luottoriskin-arviointi-kaytannossa",
+    "lahde_id": "luottoriski",
+    "otsikko": "Luottotietoraportti – luottoriskin arviointi käytännössä",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Luottotietoraportti – luottoriskin arviointi käytännössä\n\nLuottotietoraportti kokoaa yrityksen luottotiedot, luottoluokituksen ja talousmittarit selkeäksi kokonaisuudeksi riskiarvion tueksi. Valitse alle raporttityyppi.\nPerusraportti 9 € tai AI-raportti 10 € — raportti toimitetaan sähköisesti heti maksun jälkeen.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#mita-raportti-sisaltaa",
+    "lahde_id": "luottoriski",
+    "otsikko": "Mitä raportti sisältää",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Mitä raportti sisältää\n\nYrityksen luottoluokitus ja luottopisteet\nArvio 2 vuoden konkurssiriskistä\nViitteellinen luottolimiitti\nPerustiedot ja luottohistoria\nTaloudellinen yleiskatsaus ja keskeiset tunnusluvut\nAutomatisoitu analyysi kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta\nTuloslaskelma, tase ja mahdollinen toimialavertailu",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#luottotietoraportti-hyva-luokitus",
+    "lahde_id": "luottoriski",
+    "otsikko": "Luottotietoraportti (hyvä luokitus)",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Luottotietoraportti (hyvä luokitus)\n\nAI-raportti sisältää kaiken yllä listatun, ja lisäksi: AI-verkkohakunostot, sanallinen riskianalyysi, johtopäätökset ja tunnuslukuliitteet.\nSamat luvut, parempi AI-analyysi vakaan yhtiön tilanteesta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#ai-luottotietoraportti-vakaa-yritys",
+    "lahde_id": "luottoriski",
+    "otsikko": "AI-luottotietoraportti (vakaa yritys)",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "AI-luottotietoraportti (vakaa yritys)\n\nEsimerkki siitä, miten AI nostaa lisäriskejä keskitasoisessa profiilissa.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#ai-luottotietoraportti-kohtalainen-yritys",
+    "lahde_id": "luottoriski",
+    "otsikko": "AI-luottotietoraportti (kohtalainen yritys)",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "AI-luottotietoraportti (kohtalainen yritys)\n\nHeikomman profiilin demo, jossa AI-yhteenveto tukee jatkoarviointia.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#ai-luottotietoraportti-haastava-yritys",
+    "lahde_id": "luottoriski",
+    "otsikko": "AI-luottotietoraportti (haastava yritys)",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "AI-luottotietoraportti (haastava yritys)\n\nHaluatko tarkistaa tietyn yrityksen luottoriskin? Hae yritys nimellä tai Y-tunnuksella, niin pääset suoraan yrityskohtaiseen näkymään.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#toimitus-ja-palautuskaytanto",
+    "lahde_id": "luottoriski",
+    "otsikko": "Toimitus- ja palautuskäytäntö",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Toimitus- ja palautuskäytäntö\n\nLuottotietoraportti on digitaalinen tuote, joka toimitetaan sähköisesti heti onnistuneen maksun jälkeen. Tuotteella ei ole fyysistä toimitusta eikä toimituskuluja. Jos et teknisen virheen tai toimitusongelman vuoksi saa ostamaasi raporttia käyttöösi, olet oikeutettu hyvitykseen tai raportin uudelleentoimitukseen. Kuluttajan peruuttamisoikeus ja palautuspyynnöt käsitellään toimitus- ja palautusehtojenmukaisesti.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#dynaamiset-painotukset",
+    "lahde_id": "luottoriski",
+    "otsikko": "Dynaamiset painotukset",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Dynaamiset painotukset\n\nPerinteisissä malleissa tunnusluvuille annetaan samat painot kaikille yrityksille. Valuatumin koneoppimismalli säätää painotuksia yrityksen tilanteen mukaan. Esimerkiksi maksuvalmius korostuu heikosti kannattavilla ja vähäpääomisilla yrityksillä, mutta on vähemmän kriittinen vakavaraisille ja kannattaville yrityksille.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#enemman-analysoituja-muuttujia",
+    "lahde_id": "luottoriski",
+    "otsikko": "Enemmän analysoituja muuttujia",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Enemmän analysoituja muuttujia\n\nMallimme hyödyntää kymmeniä taloudellisia muuttujia, kun perinteiset logistisen regression mallit käyttävät vain muutamia keskeisiä tunnuslukuja, sillä muuttujien lisääminen kasvattaa ylisovittamisen riskiä ja heikentää ennusteiden luotettavuutta. Päätöspuupohjaiset mallit pystyvät sen sijaan hyödyntämään laajempaa muuttujajoukkoa ilman vastaavaa ongelmaa ja tunnistamaan monimutkaisempia riippuvuuksia.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#piilevien-riskien-tunnistaminen",
+    "lahde_id": "luottoriski",
+    "otsikko": "Piilevien riskien tunnistaminen",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Piilevien riskien tunnistaminen\n\nJärjestelmä tunnistaa esimerkiksi tilanteita, joissa taseeseen kertyy epäkurantteja tai epäsuhtaisia eriä, kuten toiminnan volyymiin nähden poikkeuksellisen suuria saamisia, varastoja tai aktivoituja kuluja. Tällaiset ilmiöt voivat jäädä perinteisissä malleissa huomaamatta, koska ne perustuvat rajattuun määrään tunnuslukuja.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "luottoriski#lisaa-kysymyksia-luottoriskista",
+    "lahde_id": "luottoriski",
+    "otsikko": "Lisää kysymyksiä luottoriskistä?",
+    "url": "https://luottoriskit.fi/fi/luottoriski/",
+    "teksti": "Lisää kysymyksiä luottoriskistä?\n\nTutustu useimmin kysyttyihin kysymyksiin luottoriskista, luottotiedoista ja luottoluokituksesta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "toimitusehdot#toimitus-ja-palautusehdot",
+    "lahde_id": "toimitusehdot",
+    "otsikko": "Toimitus- ja palautusehdot",
+    "url": "https://luottoriskit.fi/fi/toimitus-ja-palautukset/",
+    "teksti": "Toimitus- ja palautusehdot\n\nLuottotietoraportit toimitetaan digitaalisesti ilman toimituskuluja.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "toimitusehdot#toimitus",
+    "lahde_id": "toimitusehdot",
+    "otsikko": "Toimitus",
+    "url": "https://luottoriskit.fi/fi/toimitus-ja-palautukset/",
+    "teksti": "Toimitus\n\nRaportti generoidaan onnistuneen maksun jälkeen ja toimitetaan tilauksessa annettuun sähköpostiosoitteeseen. Jos toimitus epäonnistuu teknisen virheen vuoksi, voit pyytää raportin uudelleentoimitusta tai hyvitystä asiakaspalvelusta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "toimitusehdot#peruuttaminen-ja-hyvitys",
+    "lahde_id": "toimitusehdot",
+    "otsikko": "Peruuttaminen ja hyvitys",
+    "url": "https://luottoriskit.fi/fi/toimitus-ja-palautukset/",
+    "teksti": "Peruuttaminen ja hyvitys\n\nKuluttajalla on lähtökohtaisesti 14 päivän peruuttamisoikeus etämyynnissä. Jos sähköisesti toimitettavan digitaalisen sisällön toimittaminen aloitetaan peruuttamisaikana, peruuttamisoikeus voi päättyä vain kuluttajan nimenomaisella ennakkosuostumuksella, hyväksynnällä ja lain edellyttämällä vahvistuksella. Palautus- ja hyvityspyyntö tehdään 14 päivän kuluessa osoitteeseen luottoriskit2026@valuatum.com.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "toimitusehdot#yhteystiedot",
+    "lahde_id": "toimitusehdot",
+    "otsikko": "Yhteystiedot",
+    "url": "https://luottoriskit.fi/fi/toimitus-ja-palautukset/",
+    "teksti": "Yhteystiedot\n\nValuatum Oy, Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki. Puhelin 045 123 0308.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "palveluehdot#palvelu-ja-tilaus",
+    "lahde_id": "palveluehdot",
+    "otsikko": "Palvelu ja tilaus",
+    "url": "https://luottoriskit.fi/fi/terms/",
+    "teksti": "Palvelu ja tilaus\n\nLuottoriskit.fi tarjoaa yrityskohtaisia luottotietoraportteja ja AI-luottotietoraportteja. Tuotteen sisältö, hinta ja ostolinkki esitetään yrityksen omalla tuotesivulla ennen maksua. Maksu suoritetaan Stripen kautta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "palveluehdot#toimitus-ja-asiakaspalvelu",
+    "lahde_id": "palveluehdot",
+    "otsikko": "Toimitus ja asiakaspalvelu",
+    "url": "https://luottoriskit.fi/fi/terms/",
+    "teksti": "Toimitus ja asiakaspalvelu\n\nRaportit ovat digitaalisia tuotteita. Toimitus tapahtuu sähköisesti onnistuneen maksun jälkeen. Toimitusaika, peruuttaminen ja mahdolliset hyvitykset kuvataan toimitus- ja palautusehdoissa.\nPalvelua koskevissa kysymyksissä ota yhteyttä osoitteeseen luottoriskit2026@valuatum.com tai puhelimitse 045 123 0308.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "tietosuoja#tietosuojakaytanto",
+    "lahde_id": "tietosuoja",
+    "otsikko": "Tietosuojakäytäntö",
+    "url": "https://luottoriskit.fi/fi/privacy-policy/",
+    "teksti": "Tietosuojakäytäntö\n\nLuottoriskit.fi on Valuatum Oy:n palvelu. Tämä sivu kertoo, miten palvelun käytössä syntyviä henkilötietoja käsitellään.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "tietosuoja#rekisterinpitaja-ja-yhteydenotto",
+    "lahde_id": "tietosuoja",
+    "otsikko": "Rekisterinpitäjä ja yhteydenotto",
+    "url": "https://luottoriskit.fi/fi/privacy-policy/",
+    "teksti": "Rekisterinpitäjä ja yhteydenotto\n\nValuatum Oy, Y-tunnus 1612398-8, Linnanrakentajantie 6-8, 00880 Helsinki. Tietosuojaa koskevissa asioissa voit ottaa yhteyttä osoitteeseen luottoriskit2026@valuatum.com.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "tietosuoja#kasiteltavat-tiedot-ja-kayttotarkoitukset",
+    "lahde_id": "tietosuoja",
+    "otsikko": "Käsiteltävät tiedot ja käyttötarkoitukset",
+    "url": "https://luottoriskit.fi/fi/privacy-policy/",
+    "teksti": "Käsiteltävät tiedot ja käyttötarkoitukset\n\nKäsittelemme yhteydenottojen tietoja, tilaukseen ja raportin toimittamiseen tarvittavia tietoja sekä palvelun teknisiä käyttö- ja evästetietoja. Tietoja käytetään tilauksen toteuttamiseen, asiakaspalveluun, petosten estämiseen, palvelun kehittämiseen ja lakisääteisten velvoitteiden hoitamiseen.\nMaksu käsitellään Stripen maksupalvelussa. Luottoriskit.fi ei tallenna maksukorttitietoja omiin järjestelmiinsä.\nKun lähetät palautetta sivuston palautelomakkeella, viestin mukana välitetään sähköpostitse vain sen sivun osoite ja tekniset tunnistetiedot, jolla olit palautetta antaessasi, sekä selaimesi versiotieto. Näitä tarvitaan palautteen selvittämiseen. Sähköpostiosoitteen antaminen on vapaaehtoista, ja sitä käytetään vain palautteeseen vastaamiseen. Palauteviestistä tallentuu kopio arkistoomme.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "tietosuoja#sailytys-luovutukset-ja-oikeudet",
+    "lahde_id": "tietosuoja",
+    "otsikko": "Säilytys, luovutukset ja oikeudet",
+    "url": "https://luottoriskit.fi/fi/privacy-policy/",
+    "teksti": "Säilytys, luovutukset ja oikeudet\n\nSäilytämme tietoja vain niin kauan kuin se on tarpeen käyttötarkoituksen, sopimuksen tai lainsäädännön vuoksi. Käytämme palveluntuottajia vain palvelun toteuttamiseen tarvittavassa laajuudessa. Sinulla on soveltuvan tietosuojalainsäädännön mukaiset oikeudet saada pääsy tietoihisi, pyytää oikaisua tai poistoa sekä vastustaa tai rajoittaa käsittelyä.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "palvelu#lahteet",
+    "lahde_id": "palvelu",
+    "otsikko": "Lähteet",
+    "url": "https://luottoriskit.fi/fi/tietoa/",
+    "teksti": "Lähteet\n\n¹ Asiakastieto: Rating Alfa -raportti.asiakastieto.fi\n² Intrum: Pikaluottosuositus Plus.intrum.fi\n³ Intrum: Luottotietokauppa.luottotietokauppa.fi\n⁴ Coface: asiakkaan riskien arviointi.coface.fi\n⁵ Coface: Urba360.coface.fi\n⁶ Dun & Bradstreet: AAA Rating.dnb.com\n⁷ Dun & Bradstreet: RiskGuardian.dnb.com",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "palvelu#tietoa-luottoriskit-fi-palvelusta",
+    "lahde_id": "palvelu",
+    "otsikko": "Tietoa Luottoriskit.fi-palvelusta",
+    "url": "https://luottoriskit.fi/fi/tietoa/",
+    "teksti": "Tietoa Luottoriskit.fi-palvelusta\n\nLuottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu, joka tarjoaa suomalaisten yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja. Tältä sivulta löydät keskeiset tiedot palvelusta, hinnoittelusta ja siitä, miten palvelu eroaa muista luottotietopalveluista Suomessa.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "palvelu#mika-luottoriskit-fi-on",
+    "lahde_id": "palvelu",
+    "otsikko": "Mikä Luottoriskit.fi on",
+    "url": "https://luottoriskit.fi/fi/tietoa/",
+    "teksti": "Mikä Luottoriskit.fi on\n\nLuottoriskit.fi on Valuatum Oy:n (Y-tunnus 1612398-8) ylläpitämä palvelu.\nPalvelu tarjoaa yritysten luottotietoraportteja, luottoluokituksia ja taloustietoja yli 300 000 suomalaisesta yrityksestä.\nYksittäisen luottotietoraportin hinta on 9 € ja kolmen raportin paketti 15 €.\nLuottoluokitus perustuu koneoppimismalliin (päätöspuupohjainen XGBoost, dynaamiset painotukset).\nValuatum Oy on vuonna 2000 perustettu suomalainen ohjelmistoyhtiö.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "palvelu#luottotietoraportin-tarjoajat-suomessa",
+    "lahde_id": "palvelu",
+    "otsikko": "Luottotietoraportin tarjoajat Suomessa",
+    "url": "https://luottoriskit.fi/fi/tietoa/",
+    "teksti": "Luottotietoraportin tarjoajat Suomessa\n\nYrityksen luottotietoraportin ja luottotietojen tarjoajia Suomessa ovat muun muassa Suomen Asiakastieto, Intrum, Coface, Dun & Bradstreet ja Luottoriskit.fi. Alla on suuntaa antava vertailu hinnoittelusta ja keskeisistä eroista.\nTarjoaja\nTuote / malli\nLuokitusasteikko\nYksittäinen osto ilman sopimusta\nJulkinen hintatieto\nLuottoriskit.fi / Valuatum Oy\nLuottotietoraportti, koneoppimismalli (XGBoost, päätöspuupohjainen)\nAAA-C\nKyllä\nalk. 9 € / raportti\nSuomen Asiakastieto / Enento\nRating Alfa -raportti¹\nAAA–C¹\nKyllä¹\n52,00 € / raportti¹\nIntrum\nPikaluottosuositus Plus²\nAAA-C²\nKyllä³\n19 € / raportti³\nCoface\nCoface Score / yritystietopalvelut⁴\n0–10⁴\nPalvelukohtainen⁵\nSopimus- / palvelukohtainen⁵\nDun & Bradstreet\nAAA Rating⁶\nAAA-C⁶\nPalvelukohtainen⁷\nSopimus- / palvelukohtainen⁷\nVertailu perustuu tarjoajien julkisiin verkkosivuihin. Tiedot tarkistettu 6/2026. Hinnat ja ominaisuudet voivat muuttua ja vaihdella sopimuksen mukaan.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  },
+  {
+    "id": "palvelu#miten-luottoriskit-fi-eroaa-muista",
+    "lahde_id": "palvelu",
+    "otsikko": "Miten Luottoriskit.fi eroaa muista",
+    "url": "https://luottoriskit.fi/fi/tietoa/",
+    "teksti": "Miten Luottoriskit.fi eroaa muista\n\nEdullinen raporttikohtainen hinta: luottotietoraportin saa alkaen 9 € ilman sopimusta tai kuukausimaksua.\nAI-luottotietoraportti: raportti sisältää automatisoidun analyysin kannattavuudesta, vakavaraisuudesta ja maksuvalmiudesta.\nKoneoppimismalli: luottoluokitus perustuu päätöspuupohjaiseen koneoppimismalliin, joka säätää painotuksia yrityksen tilanteen mukaan.\nLue lisää raportin sisällöstä luottotietoraportti-sivulta ja luottoluokituksen muodostumisesta luottoriskimallin kuvauksesta.",
+    "haettu": "2026-09-03T10:33:30.019Z"
+  }
+]

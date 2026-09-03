@@ -1,0 +1,36 @@
+{
+  "name": "vastausluonnos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3300",
+    "build": "next build",
+    "start": "next start -p 3300",
+    "typecheck": "tsc --noEmit",
+    "kb:hae": "tsx scripts/kb-hae.mts",
+    "portti": "tsx scripts/portti.mts",
+    "vakaus": "tsx scripts/vakaus.mts",
+    "gmail": "tsx scripts/gmail.mts",
+    "test": "tsx scripts/testit.mts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.116.0",
+    "@types/nodemailer": "^8.0.1",
+    "mailparser": "^3.9.20",
+    "next": "^15.1.6",
+    "nodemailer": "^9.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "dotenv": "^17.4.2",
+    "imapflow": "^1.0.196",
+    "node-html-parser": "^7.0.1",
+    "tsx": "^4.23.12",
+    "typescript": "^5.7.3"
+  }
+}
