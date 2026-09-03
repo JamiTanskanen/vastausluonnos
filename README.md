@@ -10,6 +10,17 @@ läpi, ei päädy viestiin vaan kysymykseksi ihmiselle.
 Se ei koskaan lähetä mitään. Ainoa kirjoitusoperaatio postilaatikkoon on
 `APPEND \Drafts`.
 
+**Demo: https://vastausluonnos.vercel.app**
+
+Sivu avautuu valmiiksi ajetuilla tuloksilla, joten se toimii ilman yhtäkään
+mallikutsua. "Aja uudelleen" tekee saman livenä.
+
+![Tarjouspyyntö, johon ei ole julkista vastausta: yksi virke luonnosta ja viisi kysymystä ihmiselle](docs/nayta-massaera.png)
+
+*Tuotteen paras hetki: 500 yrityksen tarjouspyyntöön syntyy yksi siteerattu
+virke ja lista kysymyksiä, joista jokainen kertoo mitä se tarvitsee. Mitään ei
+keksitä täytteeksi.*
+
 ```
 npm install
 npm run kb:hae     # hakee tietopohjan heidän julkisilta sivuiltaan
