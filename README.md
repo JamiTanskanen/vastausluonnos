@@ -160,9 +160,9 @@ PORTTI: läpi
 
 Katettuja väitteitä ilman lähdettä:  0      (vaatimus 0)
 Toistoa tai täytettä:                0      (vaatimus 0)
-Sellaisenaan lähetyskelpoisia:       4/12   (vaatimus vähintään 4)
+Sellaisenaan lähetyskelpoisia:       5/12   (vaatimus vähintään 4)
 Epäonnistuneita tapauksia:           0/12
-Käyttö: 25 kutsua, 132 546 tokenia sisään, 12 879 ulos — 0,90 €
+Käyttö: 26 kutsua, 139 994 tokenia sisään, 12 258 ulos — 0,92 €
 ```
 
 Lisäksi ajetaan sama hintakysymys hintakoe päälle kytkettynä: silloin oikea

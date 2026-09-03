@@ -64,6 +64,8 @@ function auditoi(t: LuonnosTulos): string[] {
  * merkkijonotarkistuksia samalla tavalla kuin itse tarkistuskerros.
  */
 function samankaltaiset(a: string, b: string): boolean {
+    // Viiden merkin etuliitteet, samasta syystä kuin karsiToistot-funktiossa:
+    // suomessa sama sana esiintyy harvoin kahdesti samassa muodossa.
     const sanat = (s: string) =>
         new Set(
             s
@@ -71,6 +73,7 @@ function samankaltaiset(a: string, b: string): boolean {
                 .replace(/[^a-zà-öø-ÿ0-9\s]/g, '')
                 .split(/\s+/)
                 .filter((x) => x.length > 4)
+                .map((x) => x.slice(0, 5))
         )
     const x = sanat(a)
     const y = sanat(b)

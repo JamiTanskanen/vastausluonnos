@@ -109,16 +109,21 @@ export function lupauksia(teksti: string, sitaatti: string): string | null {
  * Karsii saman kysymyksen toistot avoimista asioista.
  *
  * Ihminen lukee tämän listan ennen lähettämistä, ja kahdeksan kysymystä joista
- * kolme on samoja eri sanoin on huonompi lista kuin viisi. Vertailu on sama
- * kuin portissa: harvinaisten sanojen päällekkäisyys, ei merkitystä.
+ * kolme on samoja eri sanoin on huonompi lista kuin viisi.
+ *
+ * Sanoja verrataan viiden merkin etuliitteinä, koska ensimmäinen versio
+ * vertaili kokonaisia sanoja eikä huomannut, että "Luvataanko tarjous tällä
+ * viikolla" ja "Luvataanko tarjous tämän viikon aikana" ovat sama kysymys.
+ * Suomessa sama sana esiintyy listalla harvoin kahdesti samassa muodossa.
  */
-function karsiToistot<T extends { kysymys: string }>(asiat: T[]): T[] {
+export function karsiToistot<T extends { kysymys: string }>(asiat: T[]): T[] {
     const sanat = (t: string) =>
         new Set(
             normalisoi(t)
                 .replace(/[^a-zà-öø-ÿ0-9\s]/g, '')
                 .split(/\s+/)
                 .filter((x) => x.length > 4)
+                .map((x) => x.slice(0, 5))
         )
     const pidetyt: T[] = []
     for (const asia of asiat) {
