@@ -18,13 +18,14 @@
  * Se mikä ei läpäise, ei katoa: se muuttuu kysymykseksi ihmiselle. Luonnos
  * kutistuu, avoimet kysymykset kasvavat, eikä mitään keksittyä jää tekstiin.
  */
-import type {
-    MallinLuonnos,
-    Tarkistettu,
-    Todiste,
-    Vaite,
-    Hylatty,
-    Lukutarkistus,
+import {
+    estaako,
+    type MallinLuonnos,
+    type Tarkistettu,
+    type Todiste,
+    type Vaite,
+    type Hylatty,
+    type Lukutarkistus,
 } from '@/lib/luonnos/tyypit'
 
 /** Välilyönnit, rivinvaihdot ja lainausmerkkityypit pois vertailun tieltä. */
@@ -170,11 +171,18 @@ export function tarkista(
         hyvaksytyt.push(vaite)
     }
 
+    // Lajin päättää koodi mallin ilmoittaman tarpeen perusteella — ei malli
+    // itse. Ks. TARVITSEE-taulukko ja sen perustelu tyypit.ts:ssä.
     const avoimet: Tarkistettu['avoimet'] = [
-        ...luonnos.avoimet.map((a) => ({ ...a, lahde: 'malli' as const })),
+        ...luonnos.avoimet.map((a) => ({
+            ...a,
+            laji: (estaako(a.tarvitsee) ? 'paatos' : 'ehdotus') as 'paatos' | 'ehdotus',
+            lahde: 'malli' as const,
+        })),
         ...hylatyt.map((h) => ({
             kysymys: `Poistin virkkeen: "${h.vaite.teksti}"`,
             miksi: `${h.syy}. Jos tämä pitää sanoa, kirjoita se itse tai lisää lähde.`,
+            tarvitsee: 'liiketoimintalinjaus' as const,
             laji: 'paatos' as const,
             lahde: 'tarkistus' as const,
         })),
@@ -191,19 +199,19 @@ export function tarkista(
         .replace(/\n{3,}/g, '\n\n')
         .trim()
 
+    const estavia = avoimet.some((a) => a.laji === 'paatos')
+    const vastattavuus =
+        hyvaksytyt.length === 0 ? 'ei' : estavia ? 'osittain' : 'taysin'
+
     return {
+        vastattavuus,
         hyvaksytyt,
         hylatyt,
         teksti,
         avoimet,
         luvut: lukulista,
-        // Lähetyskelpoinen = ei hylkäyksiä, ei ihmisen päätöstä vaativia
-        // kysymyksiä, ja malli itse katsoo vastanneensa kaikkeen kysyttyyn.
-        // Pelkkä ehdotus ei estä lähettämistä.
-        lahetyskelpoinen:
-            hylatyt.length === 0 &&
-            avoimet.every((a) => a.laji === 'ehdotus') &&
-            luonnos.vastattavuus === 'taysin' &&
-            hyvaksytyt.length > 0,
+        // Lähetyskelpoinen = ei hylkäyksiä eikä ihmisen päätöstä vaativia
+        // kysymyksiä. Pelkkä ehdotus ei estä lähettämistä.
+        lahetyskelpoinen: hylatyt.length === 0 && vastattavuus === 'taysin',
     }
 }

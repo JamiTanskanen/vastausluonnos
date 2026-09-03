@@ -32,26 +32,62 @@ export interface Vaite {
     sitaatti: string
 }
 
+/**
+ * Mitä avoin asia tarvitsee — ja estääkö se lähettämisen.
+ *
+ * Tämä taulukko on korjaus vikaan, jonka vakaustesti löysi. Aluksi malli sai
+ * itse päättää, estääkö avoin asia lähettämisen. Sama viesti meni silloin
+ * kolmella peräkkäisellä ajolla kahdesti lähetettäväksi ja kerran ihmiselle:
+ * kysymys "miksi meidän luokitus on heikko" on rajatapaus, koska siihen on
+ * olemassa hyvä yleinen vastaus mutta ei asiakaskohtaista.
+ *
+ * Arpova varovaisuus on tuotteen kannalta pahempi vika kuin johdonmukainen
+ * varovaisuus: käyttäjä ei voi oppia luottamaan siihen, milloin hänen pitää
+ * lukea luonnos huolella.
+ *
+ * Ratkaisu on sama jako kuin oppimisessa: malli tulkitsee, sovellus päättää.
+ * Malli kertoo vain, mitä asia tarvitsee — kiinteästä listasta. Estääkö se
+ * lähettämisen, on tämän tiedoston päätös eikä mallin mielipide, ja siksi se on
+ * yksikkötestattavissa.
+ */
+export const TARVITSEE = {
+    hyvitys_tai_alennus: { estaa: true, kuvaus: 'Rahaa koskeva päätös' },
+    juridinen_kannanotto: { estaa: true, kuvaus: 'Oikeudellinen kanta' },
+    hinta_epavarma: { estaa: true, kuvaus: 'Hinta ei ole yksikäsitteinen' },
+    lupaus_tai_aikataulu: { estaa: true, kuvaus: 'Sitoumus tulevasta' },
+    jarjestelmatieto: { estaa: true, kuvaus: 'Tilaus- tai maksutieto järjestelmästä' },
+    liiketoimintalinjaus: { estaa: true, kuvaus: 'Julkaisematon politiikka' },
+
+    // Nämä eivät estä: luonnos on valmis ja lähetettävissä ilmankin.
+    asiakkaan_omat_luvut: {
+        estaa: false,
+        kuvaus: 'Yrityskohtainen analyysi — yleinen vastaus riittää',
+    },
+    lisatieto_asiakkaalta: {
+        estaa: false,
+        kuvaus: 'Luonnos kysyy tiedon asiakkaalta itseltään',
+    },
+    vapaaehtoinen_lisays: { estaa: false, kuvaus: 'Idea, ei puute' },
+} as const
+
+export type Tarve = keyof typeof TARVITSEE
+
 export interface Avoin {
     kysymys: string
     miksi: string
-    /**
-     * Kaikki avoimet asiat eivät ole samanarvoisia, ja tämä ero löytyi
-     * porttitestistä: järjestelmä merkitsi kolme täysin vastattua viestiä
-     * "osittaisiksi", koska se oli keksinyt niihin vapaaehtoisia lisäyksiä
-     * ("tarjotaanko asiakkaalle läpikäyntiä?"). Se on ehdotus, ei este.
-     *
-     *   'paatos'   = vaatii ihmisen päätöksen tai pääsyn johonkin (hyvitys,
-     *                alennus, juridiikka, tilaustietojen tarkistus).
-     *                Estää lähettämisen sellaisenaan.
-     *   'ehdotus'  = luonnos on valmis ilman tätäkin; tämä on vain idea.
-     */
-    laji: 'paatos' | 'ehdotus'
+    /** Malli valitsee vain tämän. Seurauksen päättää koodi. */
+    tarvitsee: string
+    /** Koodin johtama: estääkö tämä lähettämisen. */
+    laji?: 'paatos' | 'ehdotus'
+}
+
+/** Malli saa erehtyä listan ulkopuolelle; tuntematon tarve tulkitaan estäväksi. */
+export function estaako(tarve: string): boolean {
+    return TARVITSEE[tarve as Tarve]?.estaa ?? true
 }
 
 export interface MallinLuonnos {
     kieli: string
-    vastattavuus: 'taysin' | 'osittain' | 'ei'
     tervehdys: string
     vaitteet: Vaite[]
     lopetus: string
@@ -72,6 +108,17 @@ export interface Lukutarkistus {
 }
 
 export interface Tarkistettu {
+    /**
+     * Johdettu rakenteesta, ei kysytty mallilta:
+     *   'taysin'   = katettuja väitteitä, ei estäviä avoimia asioita
+     *   'osittain' = katettuja väitteitä JA estäviä avoimia asioita
+     *   'ei'       = ei yhtään katettua väitettä
+     *
+     * Aiemmin tämä oli mallin oma arvio, ja se oli viimeinen kohta, jossa sama
+     * viesti saattoi saada eri kannan eri ajolla. Nyt kanta seuraa siitä, mitä
+     * luonnoksessa oikeasti on.
+     */
+    vastattavuus: 'taysin' | 'osittain' | 'ei'
     hyvaksytyt: Vaite[]
     hylatyt: Hylatty[]
     /** Lopullinen, lähetettävä teksti. Sisältää vain hyväksytyt väitteet. */

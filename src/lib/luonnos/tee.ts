@@ -21,6 +21,7 @@ import { kokoa } from '@/lib/oppiminen/kokoa'
 import { PROFIILIPOHJA } from '@/data/profiili'
 import { SIEMENTAPAHTUMAT } from '@/data/tapahtumat'
 import {
+    LAJITTELUMALLI,
     LAJITTELUOHJE,
     LAJITTELUSKEEMA,
     LUONNOSSKEEMA,
@@ -67,15 +68,30 @@ function asiakas(): Anthropic {
     return new Anthropic()
 }
 
+/** Kertyneet token-määrät ajon ajalta, jotta hinta on mitattu eikä arvattu. */
+export const kaytto = {
+    kutsut: 0,
+    sisaan: 0,
+    ulos: 0,
+    /** Karkea hinta euroina; hinnat per miljoona tokenia. */
+    euroa: 0,
+}
+
+const HINNAT: Record<string, { sisaan: number; ulos: number }> = {
+    'claude-opus-5': { sisaan: 5, ulos: 25 },
+    'claude-haiku-4-5': { sisaan: 1, ulos: 5 },
+}
+
 /** JSON-vastaus mallilta annetulla skeemalla. */
 async function kysy<T>(
     ohje: string,
     sisalto: string,
     skeema: object,
-    effort: 'low' | 'medium' | 'high'
+    effort: 'low' | 'medium' | 'high',
+    malli: string = MALLI
 ): Promise<T> {
     const vastaus = await asiakas().messages.create({
-        model: MALLI,
+        model: malli,
         max_tokens: 8000,
         system: ohje,
         output_config: {
@@ -84,6 +100,14 @@ async function kysy<T>(
         },
         messages: [{ role: 'user', content: sisalto }],
     } as any)
+
+    const k = vastaus.usage
+    const hinta = HINNAT[malli] ?? HINNAT['claude-opus-5']
+    kaytto.kutsut++
+    kaytto.sisaan += k.input_tokens
+    kaytto.ulos += k.output_tokens
+    kaytto.euroa +=
+        (k.input_tokens / 1e6) * hinta.sisaan + (k.output_tokens / 1e6) * hinta.ulos
 
     const teksti = vastaus.content
         .filter((b): b is Anthropic.TextBlock => b.type === 'text')
@@ -109,7 +133,8 @@ export async function teeLuonnos(
         LAJITTELUOHJE,
         viestiTekstiksi(viesti),
         LAJITTELUSKEEMA,
-        'low'
+        'low',
+        LAJITTELUMALLI
     )
 
     if (lajittelu.vastataanko === 'ei') {
@@ -255,15 +280,19 @@ avoimet kysymykset. Älä toista jo hyväksyttyjä väitteitä.`
             ...toinen.hylatyt.map((h) => ({
                 kysymys: `Poistin virkkeen: "${h.vaite.teksti}"`,
                 miksi: `${h.syy}. Korjausyritys ei auttanut.`,
+                tarvitsee: 'liiketoimintalinjaus' as const,
                 laji: 'paatos' as const,
                 lahde: 'tarkistus' as const,
             })),
         ]
+        tulos.vastattavuus =
+            tulos.hyvaksytyt.length === 0
+                ? 'ei'
+                : tulos.avoimet.some((a) => a.laji === 'paatos')
+                  ? 'osittain'
+                  : 'taysin'
         tulos.lahetyskelpoinen =
-            tulos.hylatyt.length === 0 &&
-            tulos.avoimet.every((a) => a.laji === 'ehdotus') &&
-            malli.vastattavuus === 'taysin' &&
-            tulos.hyvaksytyt.length > 0
+            tulos.hylatyt.length === 0 && tulos.vastattavuus === 'taysin'
     }
 
     return {

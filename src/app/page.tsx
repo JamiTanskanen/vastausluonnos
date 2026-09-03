@@ -7,6 +7,7 @@ import { PROFIILIPOHJA } from '@/data/profiili'
 import { SIEMENTAPAHTUMAT } from '@/data/tapahtumat'
 import { kokoa, KYNNYS, mittarit } from '@/lib/oppiminen/kokoa'
 import { SIGNAALIT } from '@/lib/oppiminen/tyypit'
+import { TARVITSEE, type Tarve } from '@/lib/luonnos/tyypit'
 import type { LuonnosTulos } from '@/lib/luonnos/tee'
 
 const NAYTOKSET = naytoksetJson as unknown as LuonnosTulos[]
@@ -256,7 +257,17 @@ export default function Sivu() {
                                             {paatokset.map((a, i) => (
                                                 <li key={i}>
                                                     {a.kysymys}
-                                                    <span className="miksi">{a.miksi}</span>
+                                                    <span className="miksi">
+                                                        {a.miksi}
+                                                        {TARVITSEE[a.tarvitsee as Tarve] && (
+                                                            <>
+                                                                {' '}
+                                                                <span className="merkki">
+                                                                    {TARVITSEE[a.tarvitsee as Tarve].kuvaus}
+                                                                </span>
+                                                            </>
+                                                        )}
+                                                    </span>
                                                 </li>
                                             ))}
                                         </ol>

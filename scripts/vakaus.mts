@@ -17,7 +17,15 @@ config({ path: '.env.local' })
 import { fikstuuri } from '../src/data/viestit/fikstuurit.ts'
 import { teeLuonnos } from '../src/lib/luonnos/tee.ts'
 
-const TESTATTAVAT = ['luottoraja-sitova', 'alennus', 'luokitusero']
+// 'miksi-luokitus-heikko' on tässä siksi, että juuri se heitteli porttiajojen
+// välillä: sama viesti meni kerran lähetettäväksi ja kerran ihmiselle. Se on
+// tämän testin varsinainen kohde, ei koriste.
+const TESTATTAVAT = [
+    'miksi-luokitus-heikko',
+    'luottoraja-sitova',
+    'alennus',
+    'luokitusero',
+]
 const KIERROKSIA = 3
 
 async function aja() {

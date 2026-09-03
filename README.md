@@ -160,17 +160,43 @@ Katettuja väitteitä ilman lähdettä:  0/12   (vaatimus 0)   ← läpi
 Sellaisenaan lähetyskelpoisia:       3/12   (vaatimus 4)   ← ei läpi
 ```
 
-Ensimmäinen puoli väitteestä pitää. Toinen ei vielä: yksi viesti
-(`miksi-luokitus-heikko`) meni yhdellä ajolla lähetyskelpoiseksi ja toisella
-ihmiselle, vaikka syöte oli sama ja vastaus on kokonaan heidän FAQ:ssaan.
+Ensimmäinen puoli väitteestä pitää. Toinen ei vielä.
 
-Se on kirjattu tähän eikä korjattu odotusta muuttamalla, koska **arpova
-varovaisuus on tuotteen kannalta pahempi vika kuin johdonmukainen
-varovaisuus** — käyttäjä ei voi oppia luottamaan siihen. Kaksi korjausta on
-tehty (olennaisuussääntö ja tarkempi kriteeri sille, milloin asia vaatii
-ihmisen), mutta niiden vaikutus on vielä mittaamatta: kirjoitushetkellä
-API-avaimen saldo loppui kesken ajon. `npm run vakaus` on se testi, joka
-kertoo auttoivatko ne.
+### Heittelevä kanta, ja miksi se korjattiin rakenteesta eikä promptista
+
+Yksi viesti (`miksi-luokitus-heikko`) meni samalla syötteellä kolmella ajolla
+kahdesti lähetyskelpoiseksi ja kerran ihmiselle, vaikka vastaus on kokonaan
+heidän FAQ:ssaan. **Arpova varovaisuus on tuotteen kannalta pahempi vika kuin
+johdonmukainen varovaisuus:** käyttäjä ei voi oppia, milloin hänen pitää lukea
+luonnos huolella.
+
+Syy oli se, että malli sai itse päättää, estääkö avoin asia lähettämisen — ja
+kysymys "miksi meidän luokitus on heikko" on rajatapaus, koska siihen on hyvä
+yleinen vastaus mutta ei asiakaskohtaista.
+
+Korjaus on sama jako kuin oppimisessa: **malli tulkitsee, sovellus päättää.**
+Malli kertoo vain, mitä avoin asia *tarvitsee* — kiinteästä listasta
+(`hyvitys_tai_alennus`, `juridinen_kannanotto`, `asiakkaan_omat_luvut`, …) — ja
+`TARVITSEE`-taulukko `src/lib/luonnos/tyypit.ts`:ssä päättää, estääkö se
+lähettämisen. Tuntematon tarve tulkitaan estäväksi.
+
+Samasta syystä myös `vastattavuus` lakkasi olemasta mallin arvio: se johdetaan
+rakenteesta (katetut väitteet + estävät avoimet asiat). Kumpikin muutos siirsi
+päätöksen paikkaan, jossa se on yksikkötestattavissa — `npm test` sisältää nyt
+kuusi testiä siitä, kenen päätös lähetyskelpoisuus on.
+
+Vakaustesti vahvisti korjauksen: neljä viestiä, kolme ajoa kukin, kanta pysyi
+joka kerta samana.
+
+### Mitä on vielä mittaamatta
+
+Korjauksen jälkeen malli alkoi merkitä estäviksi asioita, jotka ovat oikeasti
+vapaaehtoisia lisäyksiä ("halutaanko mainita myös kuukausitilaus"), ja
+lähetyskelpoisten määrä putosi. Kategorioiden ehdot on sen jälkeen terävöitetty
+— mukaan lukien nyrkkisääntö, että kysymys joka alkaa sanalla "halutaanko" tai
+"kannattaisiko" on lisäys eikä puute — mutta **tämän vaikutus on mittaamatta**,
+koska API-avaimen saldo loppui kesken ajon. Portin numerot yllä ovat viimeisin
+kokonainen ajo, eivät nykyisen version tulos.
 
 ### Portti kaatoi kolme omaa odotustani
 
@@ -302,6 +328,10 @@ joka yhdistää postilaatikkonsa.
 - Latenssi on 25–45 s viestiä kohti (kaksi mallikutsua + mahdollinen
   korjauskierros). Käyttöliittymä lataa valmiiksi ajetut tulokset, ja
   "aja uudelleen" tekee sen livenä.
+- Ajo maksaa rahaa, ja se on mitattu eikä arvattu: portti tulostaa lopuksi
+  kutsut, tokenit ja hinnan. Esilajittelu ajetaan Haiku 4.5:llä ja luonnostelu
+  Opus 5:llä — luokittelu on halpa tehtävä, luonnos ei. `npm run portti -- id1,id2`
+  ajaa vain nimetyt viestit, mikä on promptia viilatessa se ainoa järkevä tapa.
 
 ## Mitä tekisin seuraavaksi
 

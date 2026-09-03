@@ -10,6 +10,7 @@ import {
     lupauksia,
     tarkista,
 } from '../src/lib/tarkistus/tarkista.ts'
+import { estaako } from '../src/lib/luonnos/tyypit.ts'
 import type { MallinLuonnos, Todiste } from '../src/lib/luonnos/tyypit.ts'
 
 let ajettu = 0
@@ -51,7 +52,7 @@ const todisteet: Todiste[] = [
     { id: 'ketju', otsikko: 'Asiakkaan viesti', url: '', teksti: 'Maksoin raportista 12 euroa viime viikolla.', haettu: '2026-09-03', laji: 'ketju' },
 ]
 const pohja: MallinLuonnos = {
-    kieli: 'fi', vastattavuus: 'taysin', tervehdys: 'Hei,', lopetus: 'Ystävällisin terveisin,', vaitteet: [], avoimet: [],
+    kieli: 'fi', tervehdys: 'Hei,', lopetus: 'Ystävällisin terveisin,', vaitteet: [], avoimet: [],
 }
 
 const a = tarkista({ ...pohja, vaitteet: [
@@ -88,6 +89,27 @@ const f = tarkista({ ...pohja, vaitteet: [
     { teksti: 'Vastaus löytyy ehdoista.', lahde: 'ehdot#ei-ole', sitaatti: 'jotain mitä ei ole olemassakaan' },
 ]}, todisteet)
 on('tuntematon lähde hylätään', f.hylatyt.length === 1 && /ei ollut/.test(f.hylatyt[0].syy))
+
+console.log('\nestaako — kenen päätös lähetyskelpoisuus on')
+on('hyvitys estää', estaako('hyvitys_tai_alennus'))
+on('juridiikka estää', estaako('juridinen_kannanotto'))
+on('epävarma hinta estää', estaako('hinta_epavarma'))
+on('yrityskohtaiset luvut EIVÄT estä', !estaako('asiakkaan_omat_luvut'))
+on('asiakkaalta kysyminen EI estä', !estaako('lisatieto_asiakkaalta'))
+on('vapaaehtoinen lisäys EI estä', !estaako('vapaaehtoinen_lisays'))
+on('tuntematon tarve tulkitaan estäväksi', estaako('jokin_ihan_muu'))
+
+const g = tarkista({ ...pohja, vaitteet: [
+    { teksti: 'Kuluttajalla on lähtökohtaisesti 14 päivän peruuttamisoikeus etämyynnissä.', lahde: 'toimitusehdot#peruuttaminen', sitaatti: '14 päivän peruuttamisoikeus etämyynnissä' },
+], avoimet: [
+    { kysymys: 'Katsotaanko hänen omat lukunsa?', miksi: '', tarvitsee: 'asiakkaan_omat_luvut' },
+]}, todisteet)
+on('ei-estävä avoin asia ei estä lähettämistä', g.lahetyskelpoinen && g.avoimet[0].laji === 'ehdotus')
+
+const h = tarkista({ ...pohja, vaitteet: g.hyvaksytyt, avoimet: [
+    { kysymys: 'Hyvitetäänkö?', miksi: '', tarvitsee: 'hyvitys_tai_alennus' },
+]}, todisteet)
+on('estävä avoin asia estää lähettämisen', !h.lahetyskelpoinen && h.avoimet[0].laji === 'paatos')
 
 console.log(`\n${ajettu - kaatui}/${ajettu} testiä läpi`)
 process.exit(kaatui === 0 ? 0 : 1)

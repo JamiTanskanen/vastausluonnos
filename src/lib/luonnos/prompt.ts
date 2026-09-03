@@ -2,8 +2,20 @@ import type { Profiili } from '@/lib/oppiminen/tyypit'
 import type { Todiste, Viesti } from './tyypit'
 import { voimassaOlevatSaannot } from '@/lib/oppiminen/kokoa'
 
-/** Malli, jota käytetään sekä lajitteluun että luonnosteluun. */
+/**
+ * Luonnostelu on se kohta, jossa mallin laatu näkyy asiakkaalle asti.
+ */
 export const MALLI = 'claude-opus-5'
+
+/**
+ * Esilajittelu on luokittelutehtävä: kannattaako vastata, ja millä hakusanoilla
+ * haetaan. Se ajetaan joka viestille, myös roskapostille, joten se on
+ * volyymiltaan kalliimpi ja vaativuudeltaan halvempi kuin luonnostelu.
+ *
+ * Jos hakusanat heikkenevät, se näkyy portissa saman tien: haku on ainoa reitti
+ * todisteisiin, ja ilman todisteita ei synny väitteitä.
+ */
+export const LAJITTELUMALLI = 'claude-haiku-4-5'
 
 export const LAJITTELUOHJE = `Olet sähköpostilaatikon esilajittelija yrityksen JULKISESSA asiakastukiosoitteessa.
 
@@ -76,43 +88,54 @@ vastaamatta ja lisää se kohtaan "avoimet". Lyhyt luonnos, jossa on kolme
 tarkkaa kysymystä, säästää enemmän aikaa kuin pitkä luonnos, joka pitää
 kirjoittaa uusiksi.
 
-Jokaisella avoimella asialla on laji, ja ero on tärkeä:
+Avoin asia on kirjattava VAIN jos jompikumpi pätee:
 
-  - "paatos"  = et voi edetä ilman ihmistä. Hyvitys, alennus, aikataulu,
-                juridinen kannanotto, tai tieto johon sinulla ei ole pääsyä
-                (tilaus, maksu, asiakkaan omat luvut). Tämä estää lähettämisen.
-  - "ehdotus" = luonnos on valmis ilmankin. Ideoita ja lisäyksiä, joita ihminen
-                voi halutessaan tehdä. Tämä ei estä lähettämistä.
+  a) asiakas kysyi jotain, mihin luonnos ei vastaa, tai
+  b) luonnos sitoisi jonkun johonkin tai antaisi väärän kuvan ilman ihmistä.
 
-Testaa jokainen avoin asia tällä kysymyksellä:
+Jos luonnos vastaa kysyttyyn ja on lähetettävissä, älä keksi siihen puutteita.
+"Voisi kertoa vielä enemmän" ei ole puute.
 
-    Jos tämä luonnos lähtisi juuri nyt sellaisenaan, olisiko se väärin?
+Jokaisesta avoimesta asiasta kerrot vain yhden asian: MITÄ SE TARVITSEE.
+Valitse täsmälleen yksi, äläkä keksi omia. Ehdot ovat tiukat:
 
-Väärin = joku sitoutuu johonkin, asiakas saa virheellisen kuvan, tai vastaus
-ohittaa kysymyksen jonka hän esitti. Jos vastaus on ei — luonnos on kunnossa,
-vain vähemmän kattava kuin voisi olla — asia on EHDOTUS.
+  hyvitys_tai_alennus    asiakas pyytää rahaa takaisin tai alennusta
+  juridinen_kannanotto   asiakas esittää oikeudellisen vaatimuksen tai uhkauksen
+                         — EI silloin, kun julkinen sivu jo vastaa kysymykseen
+                         omalla tasollaan. Jos FAQ sanoo "ei ole sitova", se on
+                         vastaus; älä vaadi juristia vahvistamaan sitä.
+  hinta_epavarma         hinta ei ole yksikäsitteinen (hintakoe päällä)
+  lupaus_tai_aikataulu   asiakas pyytää lupausta siitä mitä tapahtuu ja milloin
+  jarjestelmatieto       tarvitset tilaus-, maksu- tai tilitiedon
+  liiketoimintalinjaus   asiakas KYSYI jotain, jonka vastaus on julkaisematon
+                         politiikka (erähinta, laskutusehdot, sopimusehdot)
+                         — EI silloin, kun hän ei kysynyt sitä
 
-Yleisellä tasolla vastaaminen ei ole puute, jos asiakas sai kysymykseensä
-kelvollisen vastauksen. "Voisimme katsoa juuri hänen lukunsa" on ehdotus.
-"En tiedä maksoiko hän 4 vai 10 euroa" on päätös.
+  asiakkaan_omat_luvut   yrityskohtainen erittely, johon on yleinen vastaus
+  lisatieto_asiakkaalta  tieto, jonka luonnos kysyy asiakkaalta itseltään
+  vapaaehtoinen_lisays   kaikki muu
 
-Älä toista samaa kysymystä kahdesti eri sanoin.
+Nyrkkisääntö, joka ratkaisee useimmat rajatapaukset:
 
-# Vastattavuus
+  Jos kysymyksesi alkaa sanalla "halutaanko", "mainitaanko", "kerrotaanko" tai
+  "kannattaisiko", kyse on lisäyksestä, ei puutteesta → vapaaehtoinen_lisays.
 
-"vastattavuus" koskee VAIN niitä kysymyksiä, jotka asiakas oikeasti esitti.
-Se ei koske asioita, jotka sinulle tulivat mieleen.
+  Jos kysymyksesi on "myönnetäänkö", "hyvitetäänkö", "luvataanko", "poistetaanko"
+  tai "mikä on kantamme" → se on päätös, ja sen on estettävä lähettäminen.
 
-  - "taysin"   = jokaiseen asiakkaan esittämään kysymykseen löytyi kate
-                 todisteista. Tämä on oikea arvo myös silloin, kun luonnos
-                 pyytää asiakkaalta lisätietoa (esim. tilausnumeroa) — tiedon
-                 kysyminen asiakkaalta on osa valmista vastausta, ei puute.
-  - "osittain" = osaan löytyi kate, osa vaatii ihmisen päätöksen tai pääsyn.
-  - "ei"       = mikään olennainen ei ole vastattavissa todisteiden nojalla.
+ÄLÄ päätä, estääkö asia lähettämisen. Sitä ei kysytä sinulta. Ohjelma päättää
+sen tästä listasta, ja se on tarkoituksellista: samasta viestistä on tultava
+sama kanta joka kerta.
 
-Ole tässä rehellinen molempiin suuntiin. Liiallinen varovaisuus on yhtä
-hyödytöntä kuin liiallinen varmuus: jos merkitset kaiken osittaiseksi, ihminen
-joutuu lukemaan kaiken itse, ja koko työstä ei jää mitään käteen.
+# Kuka päättää onko vastaus valmis
+
+Et sinä. Ohjelma päättää sen siitä, mitä luonnoksessa on: katetut väitteet ja
+avoimien asioiden tarpeet. Sinun työsi on kirjoittaa niin hyvä ja niin
+rehellinen luonnos kuin todisteilla voi, ja merkitä avoimet asiat oikein.
+
+Ole rehellinen molempiin suuntiin. Liiallinen varovaisuus on yhtä hyödytöntä
+kuin liiallinen varmuus: jos merkitset kaiken ihmiselle kuuluvaksi, hän joutuu
+lukemaan kaiken itse, eikä koko työstä jää mitään käteen.
 
 # Sävy
 
@@ -155,7 +178,6 @@ export const LUONNOSSKEEMA = {
     type: 'object',
     properties: {
         kieli: { type: 'string', description: 'fi tai en, sama kuin asiakkaan' },
-        vastattavuus: { type: 'string', enum: ['taysin', 'osittain', 'ei'] },
         tervehdys: { type: 'string' },
         vaitteet: {
             type: 'array',
@@ -182,20 +204,28 @@ export const LUONNOSSKEEMA = {
                 properties: {
                     kysymys: { type: 'string' },
                     miksi: { type: 'string' },
-                    laji: {
+                    tarvitsee: {
                         type: 'string',
-                        enum: ['paatos', 'ehdotus'],
-                        description:
-                            'paatos = estää lähettämisen, ehdotus = vapaaehtoinen',
+                        enum: [
+                            'hyvitys_tai_alennus',
+                            'juridinen_kannanotto',
+                            'hinta_epavarma',
+                            'lupaus_tai_aikataulu',
+                            'jarjestelmatieto',
+                            'liiketoimintalinjaus',
+                            'asiakkaan_omat_luvut',
+                            'lisatieto_asiakkaalta',
+                            'vapaaehtoinen_lisays',
+                        ],
                     },
                 },
-                required: ['kysymys', 'miksi', 'laji'],
+                required: ['kysymys', 'miksi', 'tarvitsee'],
                 additionalProperties: false,
             },
         },
         reititys: { type: 'string' },
     },
-    required: ['kieli', 'vastattavuus', 'tervehdys', 'vaitteet', 'lopetus', 'avoimet'],
+    required: ['kieli', 'tervehdys', 'vaitteet', 'lopetus', 'avoimet'],
     additionalProperties: false,
 } as const
 

@@ -21,7 +21,7 @@ config({ path: '.env.local' })
 
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { FIKSTUURIT } from '../src/data/viestit/fikstuurit.ts'
-import { teeLuonnos, type LuonnosTulos } from '../src/lib/luonnos/tee.ts'
+import { kaytto, teeLuonnos, type LuonnosTulos } from '../src/lib/luonnos/tee.ts'
 import { sitaattiLoytyy } from '../src/lib/tarkistus/tarkista.ts'
 
 const RINNAKKAIN = 3
@@ -104,7 +104,7 @@ function arvioi(t: LuonnosTulos): { lapi: boolean; huomio: string } {
     const odotus = t.viesti.odotus
     const tark = t.tarkistus
     const paatoksia = (tark?.avoimet ?? []).filter((a) => a.laji === 'paatos').length
-    const vastattavuus = t.malli?.vastattavuus ?? '-'
+    const vastattavuus = tark?.vastattavuus ?? '-'
 
     if (odotus === 'ei-vastata') {
         return t.lajittelu.vastataanko === 'ei'
@@ -150,11 +150,19 @@ function arvioi(t: LuonnosTulos): { lapi: boolean; huomio: string } {
 }
 
 async function aja() {
-    console.log(`\nPORTTI — ${FIKSTUURIT.length} viestiä\n`)
+    // Promptimuutoksen jälkeen ei kannata ajaa kaikkea: koko portti on noin
+    // kolmenkymmenen mallikutsun ajo. `npm run portti -- luottoraja-sitova,alennus`
+    // ajaa vain nimetyt viestit.
+    const rajaus = process.argv[2]?.split(',').filter(Boolean)
+    const ajettavat = rajaus?.length
+        ? FIKSTUURIT.filter((v) => rajaus.includes(v.id))
+        : FIKSTUURIT
+
+    console.log(`\nPORTTI — ${ajettavat.length} viestiä\n`)
     const tulokset: LuonnosTulos[] = []
 
-    for (let i = 0; i < FIKSTUURIT.length; i += RINNAKKAIN) {
-        const era = FIKSTUURIT.slice(i, i + RINNAKKAIN)
+    for (let i = 0; i < ajettavat.length; i += RINNAKKAIN) {
+        const era = ajettavat.slice(i, i + RINNAKKAIN)
         const valmiit = await Promise.all(
             era.map(async (v) => {
                 const t = await teeLuonnos(v)
@@ -204,7 +212,9 @@ async function aja() {
     // Lisäksi yksi ajo hintakoe simuloituna päälle, jotta demo toimii ilman
     // API-avainta myös siltä osin. Koe on heidän omansa; vain active-lippu on
     // käännetty. Ks. src/lib/kb/hinnat.ts.
-    const hintaviesti = FIKSTUURIT.find((v) => v.id === 'hinta-ja-tilaus')
+    const hintaviesti = rajaus?.length
+        ? undefined
+        : FIKSTUURIT.find((v) => v.id === 'hinta-ja-tilaus')
     if (hintaviesti) {
         const koeAjo = await teeLuonnos(hintaviesti, { simuloiKoe: true })
         tulokset.push({
@@ -218,12 +228,23 @@ async function aja() {
         )
     }
 
+    // Osittainen ajo ei saa pyyhkiä muiden viestien tallennettuja tuloksia.
+    if (rajaus?.length) {
+        const vanhat = tulokset.map((t) => t.viesti.id)
+        console.log(`\n(osittainen ajo: ${vanhat.join(', ')} — tuloksia ei talletettu)`)
+        process.exit(kaatui === 0 && keksittyja === 0 && laatua === 0 ? 0 : 1)
+    }
+
     mkdirSync(new URL('../src/data/naytokset/', import.meta.url), { recursive: true })
     writeFileSync(
         new URL('../src/data/naytokset/index.json', import.meta.url),
         JSON.stringify(tulokset, null, 2) + '\n'
     )
-    console.log('\nTulokset talletettu: src/data/naytokset/index.json')
+    console.log(
+        `\nKäyttö: ${kaytto.kutsut} kutsua, ${kaytto.sisaan} tokenia sisään, ` +
+            `${kaytto.ulos} ulos — noin ${kaytto.euroa.toFixed(2)} €`
+    )
+    console.log('Tulokset talletettu: src/data/naytokset/index.json')
 
     const ok = kaatui === 0 && keksittyja === 0 && riittavastiVastauksia
     console.log(ok ? '\nPORTTI: läpi\n' : '\nPORTTI: HYLÄTTY\n')
