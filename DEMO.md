@@ -3,15 +3,20 @@
 Järjestys on tärkeä: aloita siitä mitä se kieltäytyy tekemästä, älä siitä mitä
 se osaa. Onnistunut vastaus ei erotu, kieltäytyminen erottuu.
 
+Demo: https://vastausluonnos.vercel.app — toimii ilman API-kutsuja, koska
+valmiiksi ajetut tulokset ovat mukana.
+
 **0:00 — Kehys, yksi lause.**
 "Tämä valmistelee vastausluonnoksia julkiseen tukipostilaatikkoon. Se ei lähetä
 mitään, ja se saa sanoa vain sellaista, minkä voi osoittaa teidän omalta
 sivultanne."
 
 **0:20 — Avaa `Tarjouspyyntö: 500 yritystä + rajapinta`.**
-Luonnosta ei ole. Sen sijaan kahdeksan kysymystä ihmiselle: erähinta, rajapinta,
-konesalin sijainti. "Näihin ei ole julkista vastausta, joten se ei keksi
-sellaista. Tämä on tuotteen paras hetki, ei sen huonoin."
+Luonnosta on yksi virke — se ainoa asia, joka on julkisesti tiedossa. Loput on
+kysymyksiä ihmiselle: erähinta, rajapinta, konesalin sijainti, ja jokaisen
+perässä lukee mitä se tarvitsee ("julkaisematon politiikka", "sitoumus
+tulevasta"). "Näihin ei ole julkista vastausta, joten se ei keksi sellaista.
+Tämä on tuotteen paras hetki, ei sen huonoin."
 
 **0:50 — Avaa `Luokitus on väärä – pyydän rahat takaisin`.**
 Luonnos selittää asteikkojen eron ja siteeraa teidän FAQ:tanne. Se ei myönnä
@@ -32,7 +37,9 @@ vastata väärin 80 %:lle kysyjistä. Siksi hinta ei ole tietopohjassa, vaan
 haetaan joka luonnokselle erikseen."
 
 **2:20 — Terminaali: `npm run portti`.**
-Kaksi lukua: keksittyjä väitteitä 0, sellaisenaan lähetyskelpoisia N/12.
+Kaksi lukua: keksittyjä väitteitä 0, sellaisenaan lähetyskelpoisia 5/12.
+(Ajo kestää pari minuuttia ja maksaa noin euron, joten näytä mieluummin
+edellisen ajon tuloste kuin odota livenä.)
 "Toinen luku on tässä yhtä tärkeä kuin ensimmäinen. Järjestelmä, joka eskaloi
 kaiken, ei keksi koskaan mitään — ja on hyödytön."
 
